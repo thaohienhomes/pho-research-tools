@@ -1,0 +1,15 @@
+{
+  "name": "pho-research-tools",
+  "description": "Phở Research Tools: verified citations for AI assistants",
+  "owner": {
+    "name": "Phở",
+    "email": "support@pho.chat"
+  },
+  "plugins": [
+    {
+      "name": "verified-citations",
+      "source": "./",
+      "description": "Verify every reference before it is shown: real papers only, wrong details corrected, retractions flagged."
+    }
+  ]
+}

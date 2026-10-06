@@ -1,0 +1,18 @@
+{
+  "name": "verified-citations",
+  "displayName": "Verified Citations",
+  "version": "1.0.0",
+  "description": "Finds real papers, verifies every reference against Crossref, PubMed and OpenAlex before it is shown, formats the bibliography from the database record, and flags anything fabricated, wrong or retracted.",
+  "author": {
+    "name": "Phở",
+    "email": "support@pho.chat",
+    "url": "https://pho.chat/tools/"
+  },
+  "homepage": "https://pho.chat/tools/mcp/",
+  "license": "MIT",
+  "keywords": ["citations", "references", "hallucination", "crossref", "pubmed", "systematic-review", "prisma"],
+  "documentationUrl": "https://pho.chat/tools/mcp/",
+  "supportUrl": "https://pho.chat/legal",
+  "privacyPolicyUrl": "https://pho.chat/legal/privacy",
+  "termsOfServiceUrl": "https://pho.chat/legal/terms"
+}
