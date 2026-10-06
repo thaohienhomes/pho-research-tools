@@ -59,9 +59,15 @@ the free checker at https://pho.chat/tools/citation-checker/.
 .claude-plugin/marketplace.json   one-plugin marketplace (source "./")
 .mcp.json                         the remote MCP server
 skills/verified-citations/SKILL.md
+server.json                       MCP Registry entry (published by .github/workflows)
+glama.json                        Glama maintainer claim
 ```
 
 Check it with `claude plugin validate --strict .` from this folder.
+
+## Privacy
+
+What the connector receives and keeps: https://pho.chat/tools/privacy/
 
 ## License
 

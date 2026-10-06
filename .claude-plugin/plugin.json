@@ -13,6 +13,6 @@
   "keywords": ["citations", "references", "hallucination", "crossref", "pubmed", "systematic-review", "prisma"],
   "documentationUrl": "https://pho.chat/tools/mcp/",
   "supportUrl": "https://pho.chat/legal",
-  "privacyPolicyUrl": "https://pho.chat/legal/privacy",
+  "privacyPolicyUrl": "https://pho.chat/tools/privacy/",
   "termsOfServiceUrl": "https://pho.chat/legal/terms"
 }

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.thaohienhomes/pho-research-tools",
+  "title": "Phở Research Tools",
+  "description": "Checks AI-written references against Crossref, PubMed and OpenAlex. Formats citations, PRISMA.",
+  "version": "1.0.0",
+  "websiteUrl": "https://pho.chat/tools/mcp/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.pho.chat/mcp"
+    }
+  ]
+}
