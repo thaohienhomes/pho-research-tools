@@ -1,0 +1,897 @@
+[
+  {
+    "id": "correct-01",
+    "category": "correct",
+    "style": "van_doi",
+    "input": "Drysdale SB, Cathie K, Flamein F, Knuf M, Collins AM, Hill HC, et al. Nirsevimab for Prevention of Hospitalizations Due to RSV in Infants. N Engl J Med. 2023;389(26):2425-2435. doi:10.1056/NEJMoa2309189",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1056/nejmoa2309189",
+      "pmid": "38157500"
+    }
+  },
+  {
+    "id": "correct-02",
+    "category": "correct",
+    "style": "apa_nodoi",
+    "input": "Stewart, J., Oware, K., Donnell, D., Violette, L. R., Odoyo, J., Soge, O. O., Scoville, C. W., & Omollo, V. (2023). Doxycycline Prophylaxis to Prevent Sexually Transmitted Infections in Women. The New England journal of medicine, 389(25), 2331–2340.",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1056/nejmoa2304007",
+      "pmid": "38118022"
+    }
+  },
+  {
+    "id": "correct-03",
+    "category": "correct",
+    "style": "van_nodoi",
+    "input": "Jabbour S, Fouhey D, Shepard S, Valley TS, Kazerooni EA, Banovic N, et al. Measuring the Impact of AI in the Diagnosis of Hospitalized Patients: A Randomized Clinical Vignette Survey Study. JAMA. 2023;330(23):2275-2284.",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1001/jama.2023.22295",
+      "pmid": "38112814"
+    }
+  },
+  {
+    "id": "correct-04",
+    "category": "correct",
+    "style": "mla",
+    "input": "Tuttle, Katherine R, et al. \"Efficacy and safety of aldosterone synthase inhibition with and without empagliflozin for chronic kidney disease: a randomised, controlled, phase 2 trial.\" Lancet (London, England), vol. 403, no. 10424, 2023, pp. 379-390.",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1016/s0140-6736(23)02408-x",
+      "pmid": "38109916"
+    }
+  },
+  {
+    "id": "correct-05",
+    "category": "correct",
+    "style": "apa_doi",
+    "input": "Iyer, R., Park, D., Kim, J., Newman, C., Young, A., & Sumarsono, A. (2023). Effect of chair placement on physicians' behavior and patients' satisfaction: randomized deception trial. BMJ (Clinical research ed.), 383, e076309. https://doi.org/10.1136/bmj-2023-076309",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1136/bmj-2023-076309",
+      "pmid": "38101923"
+    }
+  },
+  {
+    "id": "correct-06",
+    "category": "correct",
+    "style": "ieee",
+    "input": "E. Wilson et al., \"Efficacy and Safety of an mRNA-Based RSV PreF Vaccine in Older Adults,\" The New England journal of medicine, vol. 389, no. 24, pp. 2233-2244, 2023.",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1056/nejmoa2307079",
+      "pmid": "38091530"
+    }
+  },
+  {
+    "id": "correct-07",
+    "category": "correct",
+    "style": "bib",
+    "input": "@article{sonneveld2023,\n  title = {Daratumumab, Bortezomib, Lenalidomide, and Dexamethasone for Multiple Myeloma},\n  author = {Sonneveld, Pieter and Dimopoulos, Meletios A and Boccadoro, Mario and Quach, Hang and Ho, P Joy and Beksac, Meral},\n  journal = {The New England journal of medicine},\n  year = {2023},\n  volume = {390},\n  number = {4},\n  pages = {301--313},\n  doi = {10.1056/NEJMoa2312054}\n}",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1056/nejmoa2312054",
+      "pmid": "38084760"
+    }
+  },
+  {
+    "id": "correct-08",
+    "category": "correct",
+    "style": "ris",
+    "input": "TY  - JOUR\nAU  - Tiebie, E G\nAU  - Baerends, E P\nAU  - Boeije, T\nAU  - Frankenmolen, P G\nAU  - Lameijer, H\nAU  - van den Berg, W\nTI  - Efficacy of cola ingestion for oesophageal food bolus impaction: open label, multicentre, randomised controlled trial\nJO  - BMJ (Clinical research ed.)\nPY  - 2023\nVL  - 383\nSP  - e077294\nDO  - 10.1136/bmj-2023-077294\nER  - ",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1136/bmj-2023-077294",
+      "pmid": "38081653"
+    }
+  },
+  {
+    "id": "correct-09",
+    "category": "correct",
+    "style": "van_nodoi",
+    "input": "Liang Z, Fan F, Liu B, Li K, Chen H, Jia J, et al. Association Between Serum Folate Concentrations and 10-Year Stroke Risk in a Prospective Community Cohort: Mediation and Interaction Analyses. Nutrients. 2025;17(1):159.",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.3390/nu17010159",
+      "pmid": "39796592"
+    }
+  },
+  {
+    "id": "correct-10",
+    "category": "correct",
+    "style": "apa_nodoi",
+    "input": "Li, D., Dawson, J., & Gunton, J. E. (2025). Therapeutic Potential of Ketogenic Interventions for Autosomal-Dominant Polycystic Kidney Disease: A Systematic Review. Nutrients, 17(1), 145.",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.3390/nu17010145",
+      "pmid": "39796576"
+    }
+  },
+  {
+    "id": "correct-11",
+    "category": "correct",
+    "style": "doi_only",
+    "input": "10.3390/nu17010114",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.3390/nu17010114",
+      "pmid": "39796546"
+    }
+  },
+  {
+    "id": "correct-12",
+    "category": "correct",
+    "style": "van_pmid",
+    "input": "Barni S, Pessina B, Fioretti L, Scarallo L, Di Siena A, Bramuzzo M, et al. Food Protein-Induced Allergic Proctocolitis: Real-World Experience from an Italian Cohort. Nutrients. 2025;17(1):98. PMID: 39796533.",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.3390/nu17010098",
+      "pmid": "39796533"
+    }
+  },
+  {
+    "id": "correct-13",
+    "category": "correct",
+    "style": "van_doi",
+    "input": "Favara G, Maugeri A, Barchitta M, Lanza E, Magnano San Lio R, Agodi A. Maternal Lifestyle Factors Affecting Breast Milk Composition and Infant Health: A Systematic Review. Nutrients. 2025;17(1):62. doi:10.3390/nu17010062",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.3390/nu17010062",
+      "pmid": "39796495"
+    }
+  },
+  {
+    "id": "correct-14",
+    "category": "correct",
+    "style": "apa_nodoi",
+    "input": "Wu, M., & Ma, S. (2019). Robust genetic interaction analysis. Briefings in bioinformatics, 20(2), 624–637.",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1093/bib/bby033",
+      "pmid": "29897421"
+    }
+  },
+  {
+    "id": "correct-15",
+    "category": "correct",
+    "style": "van_nodoi",
+    "input": "Simoneau J, Dumontier S, Gosselin R, Scott MS. Current RNA-seq methodology reporting limits reproducibility. Brief Bioinform. 2021;22(1):140-145.",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1093/bib/bbz124",
+      "pmid": "31813948"
+    }
+  },
+  {
+    "id": "correct-16",
+    "category": "correct",
+    "style": "mla",
+    "input": "Jia, Anqiang, et al. \"Venn diagrams in bioinformatics.\" Briefings in bioinformatics, vol. 22, no. 5, 2021.",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1093/bib/bbab108",
+      "pmid": "33839742"
+    }
+  },
+  {
+    "id": "correct-17",
+    "category": "correct",
+    "style": "apa_doi",
+    "input": "Ding, W., Nakai, K., & Gong, H. (2022). Protein design via deep learning. Briefings in bioinformatics, 23(3). https://doi.org/10.1093/bib/bbac102",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1093/bib/bbac102",
+      "pmid": "35348602"
+    }
+  },
+  {
+    "id": "correct-18",
+    "category": "correct",
+    "style": "ieee",
+    "input": "G. Giudice, \"Proteomics and phosphoproteomics in precision medicine: applications and challenges,\" Briefings in Bioinformatics, vol. 20, no. 3, pp. 767-777, 2019.",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1093/bib/bbx141",
+      "pmid": null
+    }
+  },
+  {
+    "id": "correct-19",
+    "category": "correct",
+    "style": "bib",
+    "input": "@article{cavill2016,\n  title = {Transcriptomic and metabolomic data integration},\n  author = {Cavill, R and Jennen, D and Kleinjans, J and Briedé, JJ},\n  journal = {Briefings in Bioinformatics},\n  year = {2016},\n  volume = {17},\n  number = {5},\n  pages = {891--901},\n  doi = {10.1093/bib/bbv090}\n}",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1093/bib/bbv090",
+      "pmid": null
+    }
+  },
+  {
+    "id": "correct-20",
+    "category": "correct",
+    "style": "ris",
+    "input": "TY  - JOUR\nAU  - LeCun, Yann\nAU  - Bengio, Yoshua\nAU  - Hinton, Geoffrey\nTI  - Deep learning\nJO  - Nature\nPY  - 2015\nVL  - 521\nIS  - 7553\nSP  - 436\nEP  - 444\nDO  - 10.1038/nature14539\nER  - ",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1038/nature14539",
+      "pmid": null
+    }
+  },
+  {
+    "id": "correct-21",
+    "category": "correct",
+    "style": "van_nodoi",
+    "input": "Page MJ, McKenzie JE, Bossuyt PM. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ. 2021;372:n71.",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1136/bmj.n71",
+      "pmid": null
+    }
+  },
+  {
+    "id": "correct-22",
+    "category": "correct",
+    "style": "apa_nodoi",
+    "input": "Ioannidis, J. P. A. (2005). Why most published research findings are false. PLoS Medicine, 2(8), e124.",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1371/journal.pmed.0020124",
+      "pmid": null
+    }
+  },
+  {
+    "id": "correct-23",
+    "category": "correct",
+    "style": "doi_only",
+    "input": "10.1038/s41586-021-03819-2",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1038/s41586-021-03819-2",
+      "pmid": null
+    }
+  },
+  {
+    "id": "correct-24",
+    "category": "correct",
+    "style": "apa_nodoi",
+    "input": "Open Science Collaboration (2015). Estimating the reproducibility of psychological science. Science, 349(6251), aac4716.",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1126/science.aac4716",
+      "pmid": null
+    }
+  },
+  {
+    "id": "correct-25",
+    "category": "correct",
+    "style": "van_doi",
+    "input": "Silver D, Huang A, Maddison CJ. Mastering the game of Go with deep neural networks and tree search. Nature. 2016;529(7587):484-489. doi:10.1038/nature16961",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1038/nature16961",
+      "pmid": null
+    }
+  },
+  {
+    "id": "correct-26",
+    "category": "correct",
+    "style": "apa_nodoi",
+    "input": "Kahneman, D., & Tversky, A. (1979). Prospect theory: an analysis of decision under risk. Econometrica, 47(2), 263–291.",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.2307/1914185",
+      "pmid": null
+    }
+  },
+  {
+    "id": "correct-27",
+    "category": "correct",
+    "style": "van_nodoi",
+    "input": "Watson JD, Crick FHC. Molecular structure of nucleic acids: a structure for deoxyribose nucleic acid. Nature. 1953;171(4356):737-738.",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1038/171737a0",
+      "pmid": null
+    }
+  },
+  {
+    "id": "correct-28",
+    "category": "correct",
+    "style": "mla",
+    "input": "Hirsch, J E. \"An index to quantify an individual's scientific research output.\" Proceedings of the National Academy of Sciences of the United States of America, vol. 102, no. 46, 2005, pp. 16569-16572.",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1073/pnas.0507655102",
+      "pmid": null
+    }
+  },
+  {
+    "id": "correct-29",
+    "category": "correct",
+    "style": "apa_doi",
+    "input": "Cohen, J. (1960). A coefficient of agreement for nominal scales. Educational and Psychological Measurement, 20(1), 37–46. https://doi.org/10.1177/001316446002000104",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1177/001316446002000104",
+      "pmid": null
+    }
+  },
+  {
+    "id": "correct-30",
+    "category": "correct",
+    "style": "ieee",
+    "input": "K. He et al., \"Deep residual learning for image recognition,\" 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 770-778, 2016.",
+    "expect": {
+      "status": [
+        "verified"
+      ]
+    },
+    "source": {
+      "doi": "10.1109/cvpr.2016.90",
+      "pmid": null
+    }
+  },
+  {
+    "id": "injected-01",
+    "category": "injected",
+    "style": "van_nodoi",
+    "input": "Gao Y, Chen W, Pan Y, Jing J, Wang C, Johnston SC, et al. Dual Antiplatelet Treatment up to 72 Hours after Ischemic Stroke. N Engl J Med. 2020;389(26):2413-2424.",
+    "expect": {
+      "status": [
+        "verified_with_corrections"
+      ],
+      "mismatch": "year",
+      "injected": "2020"
+    },
+    "source": {
+      "doi": "10.1056/nejmoa2309137",
+      "pmid": "38157499"
+    }
+  },
+  {
+    "id": "injected-02",
+    "category": "injected",
+    "style": "apa_nodoi",
+    "input": "Tsai, C. J., Yang, J. T., Shaverdian, N., Patel, J., Shepherd, A. F., Eng, J., Guttmann, D., & Yeh, R. (2019). Standard-of-care systemic therapy with or without stereotactic body radiotherapy in patients with oligoprogressive breast cancer or non-small-cell lung cancer (Consolidative Use of Radiotherapy to Block [CURB] oligoprogression): an open-label, randomised, controlled, phase 2 study. Lancet (London, England), 403(10422), 171–182.",
+    "expect": {
+      "status": [
+        "verified_with_corrections"
+      ],
+      "mismatch": "year",
+      "injected": "2019"
+    },
+    "source": {
+      "doi": "10.1016/s0140-6736(23)01857-3",
+      "pmid": "38104577"
+    }
+  },
+  {
+    "id": "injected-03",
+    "category": "injected",
+    "style": "van_nodoi",
+    "input": "Kaufman I, Sawchak S, Correll CU, Kakar R, Breier A, Zhu H, et al. Efficacy and safety of the muscarinic receptor agonist KarXT (xanomeline-trospium) in schizophrenia (EMERGENT-2) in the USA: results from a randomised, double-blind, placebo-controlled, flexible-dose phase 3 trial. Lancet. 2023;403(10422):160-170.",
+    "expect": {
+      "status": [
+        "verified_with_corrections"
+      ],
+      "mismatch": "authors",
+      "injected": "Kaufman"
+    },
+    "source": {
+      "doi": "10.1016/s0140-6736(23)02190-6",
+      "pmid": "38104575"
+    }
+  },
+  {
+    "id": "injected-04",
+    "category": "injected",
+    "style": "van_nodoi",
+    "input": "Chaillet N, Mâsse B, Grobman WA, Shorten A, Gauthier R, Rozenberg P, et al. Perinatal morbidity among women with a previous caesarean delivery (PRISMA trial): a cluster-randomised trial. JAMA. 2023;403(10421):44-54.",
+    "expect": {
+      "status": [
+        "verified_with_corrections"
+      ],
+      "mismatch": "journal",
+      "injected": "JAMA"
+    },
+    "source": {
+      "doi": "10.1016/s0140-6736(23)01855-x",
+      "pmid": "38096892"
+    }
+  },
+  {
+    "id": "injected-05",
+    "category": "injected",
+    "style": "van_nodoi",
+    "input": "Boggess KA, Valint A, Refuerzo JS, Zork N, Battarbee AN, Eichelberger K, et al. Metformin Plus Insulin for Preexisting Diabetes or Gestational Diabetes in Early Pregnancy: The MOMPOD Randomized Clinical Trial. JAMA. 2023;330(22):2082-2090.",
+    "expect": {
+      "status": [
+        "verified_with_corrections"
+      ],
+      "mismatch": "pages",
+      "injected": "2082-2090"
+    },
+    "source": {
+      "doi": "10.1001/jama.2023.22949",
+      "pmid": "38085312"
+    }
+  },
+  {
+    "id": "injected-06",
+    "category": "injected",
+    "style": "apa_nodoi",
+    "input": "Ahmed, I., Hudson, J., Innes, K., Hernández, R., Gillies, K., Bruce, R., Bell, V., & Avenell, A. (2018). Effectiveness of conservative management versus laparoscopic cholecystectomy in the prevention of recurrent symptoms and complications in adults with uncomplicated symptomatic gallstone disease (C-GALL trial): pragmatic, multicentre randomised controlled trial. BMJ (Clinical research ed.), 383, e075383.",
+    "expect": {
+      "status": [
+        "verified_with_corrections"
+      ],
+      "mismatch": "year",
+      "injected": "2018"
+    },
+    "source": {
+      "doi": "10.1136/bmj-2023-075383",
+      "pmid": "38084426"
+    }
+  },
+  {
+    "id": "injected-07",
+    "category": "injected",
+    "style": "apa_nodoi",
+    "input": "Rahimi, Y., & Acosta, S. (2025). Diet and Lifestyle Factors and Incident Acute Mesenteric Ischemia-A Prospective Cohort Study. Nutrients, 17(1), 147.",
+    "expect": {
+      "status": [
+        "verified_with_corrections"
+      ],
+      "mismatch": "authors",
+      "injected": "Rahimi"
+    },
+    "source": {
+      "doi": "10.3390/nu17010147",
+      "pmid": "39796580"
+    }
+  },
+  {
+    "id": "injected-08",
+    "category": "injected",
+    "style": "van_nodoi",
+    "input": "Shine BK, Son M, Moon SY, Han SH. Metabolic Dysfunction-Associated Steatotic Liver Disease and the Risk of Chronic Periodontitis: A Nationwide Cohort Study. Nutrients. 2021;17(1):125.",
+    "expect": {
+      "status": [
+        "verified_with_corrections"
+      ],
+      "mismatch": "year",
+      "injected": "2021"
+    },
+    "source": {
+      "doi": "10.3390/nu17010125",
+      "pmid": "39796559"
+    }
+  },
+  {
+    "id": "injected-09",
+    "category": "injected",
+    "style": "apa_nodoi",
+    "input": "Simón-Frapolli, V. J., López-Montalbán, Á., Vegas-Aguilar, I. M., Generoso-Piñar, M., Fernández-Jiménez, R., Cornejo-Pareja, I. M., Sánchez-García, A. M., & Martínez-López, P. (2025). Relationship Between Vitamin D Levels with In-Hospital Complications and Morphofunctional Recovery in a Cohort of Patients After Severe COVID-19 Across Different Obesity Phenotypes. Clinical Nutrition, 17(1), 110.",
+    "expect": {
+      "status": [
+        "verified_with_corrections"
+      ],
+      "mismatch": "journal",
+      "injected": "Clinical Nutrition"
+    },
+    "source": {
+      "doi": "10.3390/nu17010110",
+      "pmid": "39796549"
+    }
+  },
+  {
+    "id": "injected-10",
+    "category": "injected",
+    "style": "mla",
+    "input": "Gonzalez, Álvaro, et al. \"Effects of Maca (Walp.) on Physical Performance in Animals and Humans: A Systematic Review and Meta-Analysis.\" Nutrients, vol. 17, no. 1, 2025, pp. 107.",
+    "expect": {
+      "status": [
+        "verified_with_corrections"
+      ],
+      "mismatch": "authors",
+      "injected": "Gonzalez"
+    },
+    "source": {
+      "doi": "10.3390/nu17010107",
+      "pmid": "39796542"
+    }
+  },
+  {
+    "id": "injected-11",
+    "category": "injected",
+    "style": "van_doi",
+    "input": "Barry DJ, Wu SSX, Cooke MB. The Relationship Between Gut Microbiota, Muscle Mass and Physical Function in Older Individuals: A Systematic Review. Nutrients. 2019;17(1):81. doi:10.3390/nu17010081",
+    "expect": {
+      "status": [
+        "verified_with_corrections"
+      ],
+      "mismatch": "year",
+      "injected": "2019"
+    },
+    "source": {
+      "doi": "10.3390/nu17010081",
+      "pmid": "39796514"
+    }
+  },
+  {
+    "id": "injected-12",
+    "category": "injected",
+    "style": "van_nodoi",
+    "input": "Feng H, Jin P, Wu H. Disease prediction by cell-free DNA methylation. Brief Bioinform. 2019;20(2):485-497.",
+    "expect": {
+      "status": [
+        "verified_with_corrections"
+      ],
+      "mismatch": "pages",
+      "injected": "485-497"
+    },
+    "source": {
+      "doi": "10.1093/bib/bby029",
+      "pmid": "29672679"
+    }
+  },
+  {
+    "id": "injected-13",
+    "category": "injected",
+    "style": "apa_nodoi",
+    "input": "Zhang, P., Georgiou, C. A., & Brusic, V. (2018). Elemental metabolomics. Bioinformatics, 19(3), 524–536.",
+    "expect": {
+      "status": [
+        "verified_with_corrections"
+      ],
+      "mismatch": "journal",
+      "injected": "Bioinformatics"
+    },
+    "source": {
+      "doi": "10.1093/bib/bbw131",
+      "pmid": "28077402"
+    }
+  },
+  {
+    "id": "injected-14",
+    "category": "injected",
+    "style": "van_nodoi",
+    "input": "Park Y, Han S, Choi S, Hwang D. Inference of dynamic networks using time-course data. Brief Bioinform. 2014;15(2):212-228.",
+    "expect": {
+      "status": [
+        "verified_with_corrections"
+      ],
+      "mismatch": "authors",
+      "injected": "Park"
+    },
+    "source": {
+      "doi": "10.1093/bib/bbt028",
+      "pmid": null
+    }
+  },
+  {
+    "id": "injected-15",
+    "category": "injected",
+    "style": "apa_doi",
+    "input": "Liu, B., Li, J., & Cairns, M. J. (2014). Identifying miRNAs, targets and functions. Briefings in Bioinformatics, 15(1), 10–19. https://doi.org/10.1093/bib/bbs075",
+    "expect": {
+      "status": [
+        "verified_with_corrections"
+      ],
+      "mismatch": "pages",
+      "injected": "10-19"
+    },
+    "source": {
+      "doi": "10.1093/bib/bbs075",
+      "pmid": null
+    }
+  },
+  {
+    "id": "fabricated-01",
+    "category": "fabricated",
+    "style": "text",
+    "input": "Nguyen TH, Whitfield JA, Patel R. Efficacy of alternate-day fasting on HbA1c in adults with prediabetes in rural Vietnam: a multicenter randomized controlled trial. Diabetes Care. 2021;44(7):1532-1540.",
+    "expect": {
+      "status": [
+        "likely_fabricated"
+      ]
+    },
+    "note": "none"
+  },
+  {
+    "id": "fabricated-02",
+    "category": "fabricated",
+    "style": "text",
+    "input": "Thompson, R. L., & Garcia-Ibarra, M. (2019). Preoperative gut microbiota diversity predicts postoperative delirium in elderly patients undergoing hip fracture surgery: A prospective cohort study. Journal of the American Geriatrics Society, 67(4), 812–820.",
+    "expect": {
+      "status": [
+        "likely_fabricated"
+      ]
+    },
+    "note": "none"
+  },
+  {
+    "id": "fabricated-03",
+    "category": "fabricated",
+    "style": "text",
+    "input": "Chen L, Wang Y, Zhao H, et al. A gradient-boosted model using routine triage laboratory values to predict 28-day sepsis mortality in Chinese emergency departments. Lancet Digit Health. 2022;4(9):e655-e664. doi:10.1016/S2589-7500(22)00119-7",
+    "expect": {
+      "status": [
+        "likely_fabricated"
+      ]
+    },
+    "note": "fake-doi"
+  },
+  {
+    "id": "fabricated-04",
+    "category": "fabricated",
+    "style": "text",
+    "input": "Okafor CN, Reyes-Montoya D. Vitamin D3 supplementation and depressive symptoms in Nigerian adolescents: a systematic review and dose-response meta-analysis of randomised trials. JAMA Pediatr. 2020;174(11):1045-1054. doi:10.1001/jamapediatrics.2020.2251",
+    "expect": {
+      "status": [
+        "likely_fabricated"
+      ]
+    },
+    "note": "fake-doi"
+  },
+  {
+    "id": "fabricated-05",
+    "category": "fabricated",
+    "style": "text",
+    "input": "Martinez-Lopez, A., Kim, S. H., & Brown, T. (2018). Nightly TikTok use and actigraphy-measured sleep fragmentation among first-year nursing students in Malaysia and Thailand. BMC Public Health, 18, 1123. https://doi.org/10.1186/s12889-018-6021-4",
+    "expect": {
+      "status": [
+        "likely_fabricated"
+      ]
+    },
+    "note": "fake-doi"
+  },
+  {
+    "id": "fabricated-06",
+    "category": "fabricated",
+    "style": "text",
+    "input": "Harrison P, Liu X. Executive function decline 24 months after mild SARS-CoV-2 infection in previously healthy military recruits: a longitudinal cohort. Nat Med. 2023;29(5):1121-1129.",
+    "expect": {
+      "status": [
+        "likely_fabricated"
+      ]
+    },
+    "note": "none"
+  },
+  {
+    "id": "fabricated-07",
+    "category": "fabricated",
+    "style": "text",
+    "input": "Anderson, Kevin M., et al. \"Offline Deep Reinforcement Learning for Closed-Loop Basal Insulin Titration in Adolescents with Type 1 Diabetes.\" Nature Biomedical Engineering, vol. 6, no. 3, 2022, pp. 245-256.",
+    "expect": {
+      "status": [
+        "likely_fabricated"
+      ]
+    },
+    "note": "none"
+  },
+  {
+    "id": "fabricated-08",
+    "category": "fabricated",
+    "style": "bib",
+    "input": "@article{zhang2020speech,\n  title = {Transformer-based acoustic and lexical fusion for early detection of Alzheimer's disease from smartphone voice diaries},\n  author = {Zhang, Wei and Kowalski, Anna},\n  journal = {IEEE Journal of Biomedical and Health Informatics},\n  volume = {24},\n  number = {10},\n  pages = {2890--2899},\n  year = {2020}\n}",
+    "expect": {
+      "status": [
+        "likely_fabricated"
+      ]
+    },
+    "note": "none"
+  },
+  {
+    "id": "fabricated-09",
+    "category": "fabricated",
+    "style": "text",
+    "input": "Rossi G, Bianchi F, Romano L. Espresso consumption and incident atrial fibrillation in postmenopausal women: the Lombardy Nurses Cohort. Eur Heart J. 2017;38(32):2511-2518.",
+    "expect": {
+      "status": [
+        "likely_fabricated"
+      ]
+    },
+    "note": "none"
+  },
+  {
+    "id": "fabricated-10",
+    "category": "fabricated",
+    "style": "text",
+    "input": "Williams JR, Okonkwo E. Telemedicine-delivered cognitive behavioural therapy for insomnia among farmers in rural Wales: a pragmatic cluster-randomised trial. Br J Gen Pract. 2021;71(708):e512-e520. doi:10.3399/bjgp21X999999",
+    "expect": {
+      "status": [
+        "likely_fabricated"
+      ]
+    },
+    "note": "fake-doi"
+  },
+  {
+    "id": "retracted-01",
+    "category": "retracted",
+    "style": "text",
+    "input": "Wakefield AJ, Murch SH, Anthony A, Linnell J, Casson DM, Malik M, et al. Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder in children. Lancet. 1998;351(9103):637-641.",
+    "expect": {
+      "status": [
+        "retracted"
+      ]
+    },
+    "source": {
+      "doi": "10.1016/s0140-6736(97)11096-0"
+    }
+  },
+  {
+    "id": "retracted-02",
+    "category": "retracted",
+    "style": "text",
+    "input": "Mehra, M. R., Desai, S. S., Ruschitzka, F., & Patel, A. N. (2020). Hydroxychloroquine or chloroquine with or without a macrolide for treatment of COVID-19: A multinational registry analysis. The Lancet. https://doi.org/10.1016/S0140-6736(20)31180-6",
+    "expect": {
+      "status": [
+        "retracted"
+      ]
+    },
+    "source": {
+      "doi": "10.1016/s0140-6736(20)31180-6"
+    }
+  },
+  {
+    "id": "retracted-03",
+    "category": "retracted",
+    "style": "text",
+    "input": "Mehra MR, Desai SS, Kuy S, Henry TD, Patel AN. Cardiovascular Disease, Drug Therapy, and Mortality in Covid-19. N Engl J Med. 2020;382(25):e102. doi:10.1056/NEJMoa2007621",
+    "expect": {
+      "status": [
+        "retracted"
+      ]
+    },
+    "source": {
+      "doi": "10.1056/nejmoa2007621"
+    }
+  },
+  {
+    "id": "retracted-04",
+    "category": "retracted",
+    "style": "text",
+    "input": "Hwang, Woo Suk, et al. \"Evidence of a Pluripotent Human Embryonic Stem Cell Line Derived from a Cloned Blastocyst.\" Science, vol. 303, no. 5664, 2004, pp. 1669-1674.",
+    "expect": {
+      "status": [
+        "retracted"
+      ]
+    },
+    "source": {
+      "doi": "10.1126/science.1094515"
+    }
+  },
+  {
+    "id": "retracted-05",
+    "category": "retracted",
+    "style": "text",
+    "input": "Obokata, H., Wakayama, T., Sasai, Y., Kojima, K., Vacanti, M. P., Niwa, H., Yamato, M., & Vacanti, C. A. (2014). Stimulus-triggered fate conversion of somatic cells into pluripotency. Nature, 505(7485), 641–647.",
+    "expect": {
+      "status": [
+        "retracted"
+      ]
+    },
+    "source": {
+      "doi": "10.1038/nature12968"
+    }
+  }
+]

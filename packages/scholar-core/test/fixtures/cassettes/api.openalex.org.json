@@ -1,0 +1,292 @@
+{
+ "https://api.openalex.org/works?filter=title.search%3AA+gradient-boosted+model+using+routine+triage+laboratory+values+to+predict+28-day+sepsis+mortality+in+Chinese+emergency+departments&per-page=5&select=id%2Cdoi%2Ctitle%2Cdisplay_name%2Cpublication_year%2Cauthorships%2Cprimary_location%2Cbiblio%2Cis_retracted%2Ctype%2Cids": {
+  "status": 200,
+  "body": {
+   "meta": {
+    "count": 0,
+    "db_response_time_ms": 15,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+     "oql": "get works where title has (A gradient-boosted model using routine triage laboratory values to predict 28-day sepsis mortality in Chinese emergency departments)",
+     "oqo": {
+      "get_rows": "works",
+      "filter_rows": [
+       {
+        "column_id": "display_name.search",
+        "value": "A gradient-boosted model using routine triage laboratory values to predict 28-day sepsis mortality in Chinese emergency departments",
+        "operator": "has"
+       }
+      ]
+     },
+     "url": "/works?filter=display_name.search:A gradient-boosted model using routine triage laboratory values to predict 28-day sepsis mortality in Chinese emergency departments&per_page=5"
+    },
+    "cost_usd": 0.001
+   },
+   "results": [],
+   "group_by": []
+  }
+ },
+ "https://api.openalex.org/works?filter=title.search%3AEfficacy+of+alternate-day+fasting+on+HbA1c+in+adults+with+prediabetes+in+rural+Vietnam+a+multicenter+randomized+controlled+trial&per-page=5&select=id%2Cdoi%2Ctitle%2Cdisplay_name%2Cpublication_year%2Cauthorships%2Cprimary_location%2Cbiblio%2Cis_retracted%2Ctype%2Cids": {
+  "status": 200,
+  "body": {
+   "meta": {
+    "count": 0,
+    "db_response_time_ms": 16,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+     "oql": "get works where title has (Efficacy of alternate-day fasting on HbA1c in adults with prediabetes in rural Vietnam a multicenter randomized controlled trial)",
+     "oqo": {
+      "get_rows": "works",
+      "filter_rows": [
+       {
+        "column_id": "display_name.search",
+        "value": "Efficacy of alternate-day fasting on HbA1c in adults with prediabetes in rural Vietnam a multicenter randomized controlled trial",
+        "operator": "has"
+       }
+      ]
+     },
+     "url": "/works?filter=display_name.search:Efficacy of alternate-day fasting on HbA1c in adults with prediabetes in rural Vietnam a multicenter randomized controlled trial&per_page=5"
+    },
+    "cost_usd": 0.001
+   },
+   "results": [],
+   "group_by": []
+  }
+ },
+ "https://api.openalex.org/works?filter=title.search%3AEspresso+consumption+and+incident+atrial+fibrillation+in+postmenopausal+women+the+Lombardy+Nurses+Cohort&per-page=5&select=id%2Cdoi%2Ctitle%2Cdisplay_name%2Cpublication_year%2Cauthorships%2Cprimary_location%2Cbiblio%2Cis_retracted%2Ctype%2Cids": {
+  "status": 200,
+  "body": {
+   "meta": {
+    "count": 0,
+    "db_response_time_ms": 10,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+     "oql": "get works where title has (Espresso consumption \"and\" incident atrial fibrillation in postmenopausal women the Lombardy Nurses Cohort)",
+     "oqo": {
+      "get_rows": "works",
+      "filter_rows": [
+       {
+        "column_id": "display_name.search",
+        "value": "Espresso consumption and incident atrial fibrillation in postmenopausal women the Lombardy Nurses Cohort",
+        "operator": "has"
+       }
+      ]
+     },
+     "url": "/works?filter=display_name.search:Espresso consumption and incident atrial fibrillation in postmenopausal women the Lombardy Nurses Cohort&per_page=5"
+    },
+    "cost_usd": 0.001
+   },
+   "results": [],
+   "group_by": []
+  }
+ },
+ "https://api.openalex.org/works?filter=title.search%3AExecutive+function+decline+24+months+after+mild+SARS-CoV-2+infection+in+previously+healthy+military+recruits+a+longitudinal+cohort&per-page=5&select=id%2Cdoi%2Ctitle%2Cdisplay_name%2Cpublication_year%2Cauthorships%2Cprimary_location%2Cbiblio%2Cis_retracted%2Ctype%2Cids": {
+  "status": 200,
+  "body": {
+   "meta": {
+    "count": 0,
+    "db_response_time_ms": 15,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+     "oql": "get works where title has (Executive function decline 24 months after mild SARS-CoV-2 infection in previously healthy military recruits a longitudinal cohort)",
+     "oqo": {
+      "get_rows": "works",
+      "filter_rows": [
+       {
+        "column_id": "display_name.search",
+        "value": "Executive function decline 24 months after mild SARS-CoV-2 infection in previously healthy military recruits a longitudinal cohort",
+        "operator": "has"
+       }
+      ]
+     },
+     "url": "/works?filter=display_name.search:Executive function decline 24 months after mild SARS-CoV-2 infection in previously healthy military recruits a longitudinal cohort&per_page=5"
+    },
+    "cost_usd": 0.001
+   },
+   "results": [],
+   "group_by": []
+  }
+ },
+ "https://api.openalex.org/works?filter=title.search%3ANightly+TikTok+use+and+actigraphy-measured+sleep+fragmentation+among+first-year+nursing+students+in+Malaysia+and+Thailand&per-page=5&select=id%2Cdoi%2Ctitle%2Cdisplay_name%2Cpublication_year%2Cauthorships%2Cprimary_location%2Cbiblio%2Cis_retracted%2Ctype%2Cids": {
+  "status": 200,
+  "body": {
+   "meta": {
+    "count": 0,
+    "db_response_time_ms": 12,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+     "oql": "get works where title has (Nightly TikTok use \"and\" actigraphy-measured sleep fragmentation among first-year nursing students in Malaysia \"and\" Thailand)",
+     "oqo": {
+      "get_rows": "works",
+      "filter_rows": [
+       {
+        "column_id": "display_name.search",
+        "value": "Nightly TikTok use and actigraphy-measured sleep fragmentation among first-year nursing students in Malaysia and Thailand",
+        "operator": "has"
+       }
+      ]
+     },
+     "url": "/works?filter=display_name.search:Nightly TikTok use and actigraphy-measured sleep fragmentation among first-year nursing students in Malaysia and Thailand&per_page=5"
+    },
+    "cost_usd": 0.001
+   },
+   "results": [],
+   "group_by": []
+  }
+ },
+ "https://api.openalex.org/works?filter=title.search%3AOffline+Deep+Reinforcement+Learning+for+Closed-Loop+Basal+Insulin+Titration+in+Adolescents+with+Type+1+Diabetes&per-page=5&select=id%2Cdoi%2Ctitle%2Cdisplay_name%2Cpublication_year%2Cauthorships%2Cprimary_location%2Cbiblio%2Cis_retracted%2Ctype%2Cids": {
+  "status": 200,
+  "body": {
+   "meta": {
+    "count": 0,
+    "db_response_time_ms": 21,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+     "oql": "get works where title has (Offline Deep Reinforcement Learning for Closed-Loop Basal Insulin Titration in Adolescents with Type 1 Diabetes)",
+     "oqo": {
+      "get_rows": "works",
+      "filter_rows": [
+       {
+        "column_id": "display_name.search",
+        "value": "Offline Deep Reinforcement Learning for Closed-Loop Basal Insulin Titration in Adolescents with Type 1 Diabetes",
+        "operator": "has"
+       }
+      ]
+     },
+     "url": "/works?filter=display_name.search:Offline Deep Reinforcement Learning for Closed-Loop Basal Insulin Titration in Adolescents with Type 1 Diabetes&per_page=5"
+    },
+    "cost_usd": 0.001
+   },
+   "results": [],
+   "group_by": []
+  }
+ },
+ "https://api.openalex.org/works?filter=title.search%3APreoperative+gut+microbiota+diversity+predicts+postoperative+delirium+in+elderly+patients+undergoing+hip+fracture+surgery+A+prospective+cohort+study&per-page=5&select=id%2Cdoi%2Ctitle%2Cdisplay_name%2Cpublication_year%2Cauthorships%2Cprimary_location%2Cbiblio%2Cis_retracted%2Ctype%2Cids": {
+  "status": 200,
+  "body": {
+   "meta": {
+    "count": 0,
+    "db_response_time_ms": 16,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+     "oql": "get works where title has (Preoperative gut microbiota diversity predicts postoperative delirium in elderly patients undergoing hip fracture surgery A prospective cohort study)",
+     "oqo": {
+      "get_rows": "works",
+      "filter_rows": [
+       {
+        "column_id": "display_name.search",
+        "value": "Preoperative gut microbiota diversity predicts postoperative delirium in elderly patients undergoing hip fracture surgery A prospective cohort study",
+        "operator": "has"
+       }
+      ]
+     },
+     "url": "/works?filter=display_name.search:Preoperative gut microbiota diversity predicts postoperative delirium in elderly patients undergoing hip fracture surgery A prospective cohort study&per_page=5"
+    },
+    "cost_usd": 0.001
+   },
+   "results": [],
+   "group_by": []
+  }
+ },
+ "https://api.openalex.org/works?filter=title.search%3ATelemedicine-delivered+cognitive+behavioural+therapy+for+insomnia+among+farmers+in+rural+Wales+a+pragmatic+cluster-randomised+trial&per-page=5&select=id%2Cdoi%2Ctitle%2Cdisplay_name%2Cpublication_year%2Cauthorships%2Cprimary_location%2Cbiblio%2Cis_retracted%2Ctype%2Cids": {
+  "status": 200,
+  "body": {
+   "meta": {
+    "count": 0,
+    "db_response_time_ms": 13,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+     "oql": "get works where title has (Telemedicine-delivered cognitive behavioural therapy for insomnia among farmers in rural Wales a pragmatic cluster-randomised trial)",
+     "oqo": {
+      "get_rows": "works",
+      "filter_rows": [
+       {
+        "column_id": "display_name.search",
+        "value": "Telemedicine-delivered cognitive behavioural therapy for insomnia among farmers in rural Wales a pragmatic cluster-randomised trial",
+        "operator": "has"
+       }
+      ]
+     },
+     "url": "/works?filter=display_name.search:Telemedicine-delivered cognitive behavioural therapy for insomnia among farmers in rural Wales a pragmatic cluster-randomised trial&per_page=5"
+    },
+    "cost_usd": 0.001
+   },
+   "results": [],
+   "group_by": []
+  }
+ },
+ "https://api.openalex.org/works?filter=title.search%3ATransformer-based+acoustic+and+lexical+fusion+for+early+detection+of+Alzheimer%27s+disease+from+smartphone+voice+diaries&per-page=5&select=id%2Cdoi%2Ctitle%2Cdisplay_name%2Cpublication_year%2Cauthorships%2Cprimary_location%2Cbiblio%2Cis_retracted%2Ctype%2Cids": {
+  "status": 200,
+  "body": {
+   "meta": {
+    "count": 0,
+    "db_response_time_ms": 14,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+     "oql": "get works where title has (Transformer-based acoustic \"and\" lexical fusion for early detection of Alzheimer's disease from smartphone voice diaries)",
+     "oqo": {
+      "get_rows": "works",
+      "filter_rows": [
+       {
+        "column_id": "display_name.search",
+        "value": "Transformer-based acoustic and lexical fusion for early detection of Alzheimer's disease from smartphone voice diaries",
+        "operator": "has"
+       }
+      ]
+     },
+     "url": "/works?filter=display_name.search:Transformer-based acoustic and lexical fusion for early detection of Alzheimer%27s disease from smartphone voice diaries&per_page=5"
+    },
+    "cost_usd": 0.001
+   },
+   "results": [],
+   "group_by": []
+  }
+ },
+ "https://api.openalex.org/works?filter=title.search%3AVitamin+D3+supplementation+and+depressive+symptoms+in+Nigerian+adolescents+a+systematic+review+and+dose-response+meta-analysis+of+randomised+trials&per-page=5&select=id%2Cdoi%2Ctitle%2Cdisplay_name%2Cpublication_year%2Cauthorships%2Cprimary_location%2Cbiblio%2Cis_retracted%2Ctype%2Cids": {
+  "status": 200,
+  "body": {
+   "meta": {
+    "count": 0,
+    "db_response_time_ms": 16,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+     "oql": "get works where title has (Vitamin D3 supplementation \"and\" depressive symptoms in Nigerian adolescents a systematic review \"and\" dose-response meta-analysis of randomised trials)",
+     "oqo": {
+      "get_rows": "works",
+      "filter_rows": [
+       {
+        "column_id": "display_name.search",
+        "value": "Vitamin D3 supplementation and depressive symptoms in Nigerian adolescents a systematic review and dose-response meta-analysis of randomised trials",
+        "operator": "has"
+       }
+      ]
+     },
+     "url": "/works?filter=display_name.search:Vitamin D3 supplementation and depressive symptoms in Nigerian adolescents a systematic review and dose-response meta-analysis of randomised trials&per_page=5"
+    },
+    "cost_usd": 0.001
+   },
+   "results": [],
+   "group_by": []
+  }
+ }
+}

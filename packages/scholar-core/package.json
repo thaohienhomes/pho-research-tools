@@ -1,0 +1,34 @@
+{
+  "name": "@pho/scholar-core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./png": "./src/png.ts",
+    "./prisma": "./src/prisma.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "record": "SCHOLAR_RECORD=missing vitest run --no-file-parallelism test/quality.test.ts test/search.test.ts",
+    "eval:live": "SCHOLAR_LIVE=1 vitest run --no-file-parallelism test/quality.test.ts test/search.test.ts",
+    "samples": "SCHOLAR_WRITE_SAMPLES=1 vitest run test/samples.test.ts"
+  },
+  "dependencies": {
+    "@citation-js/core": "^0.9.0",
+    "@citation-js/plugin-bibtex": "^0.9.0",
+    "@citation-js/plugin-csl": "^0.9.0",
+    "@citation-js/plugin-ris": "^0.9.0",
+    "@pho/citation-engine": "workspace:*",
+    "@resvg/resvg-js": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.3",
+    "vitest": "^5.0.0"
+  }
+}

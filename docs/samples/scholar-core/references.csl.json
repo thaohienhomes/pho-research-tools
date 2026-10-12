@@ -1,0 +1,288 @@
+[
+  {
+    "id": "ref-1",
+    "type": "article-journal",
+    "title": "Nirsevimab for Prevention of Hospitalizations Due to RSV in Infants",
+    "author": [
+      {
+        "family": "Drysdale",
+        "given": "Simon B."
+      },
+      {
+        "family": "Cathie",
+        "given": "Katrina"
+      },
+      {
+        "family": "Flamein",
+        "given": "Florence"
+      },
+      {
+        "family": "Knuf",
+        "given": "Markus"
+      },
+      {
+        "family": "Collins",
+        "given": "Andrea M."
+      },
+      {
+        "family": "Hill",
+        "given": "Helen C."
+      },
+      {
+        "family": "Kaiser",
+        "given": "Friedrich"
+      },
+      {
+        "family": "Cohen",
+        "given": "Robert"
+      },
+      {
+        "family": "Pinquier",
+        "given": "Didier"
+      },
+      {
+        "family": "Felter",
+        "given": "Christian T."
+      },
+      {
+        "family": "Vassilouthis",
+        "given": "Natalya C."
+      },
+      {
+        "family": "Jin",
+        "given": "Jing"
+      },
+      {
+        "family": "Bangert",
+        "given": "Mathieu"
+      },
+      {
+        "family": "Mari",
+        "given": "Karine"
+      },
+      {
+        "family": "Nteene",
+        "given": "Rapi"
+      },
+      {
+        "family": "Wague",
+        "given": "Sophie"
+      },
+      {
+        "family": "Roberts",
+        "given": "Michelle"
+      },
+      {
+        "family": "Tissières",
+        "given": "Pierre"
+      },
+      {
+        "family": "Royal",
+        "given": "Simon"
+      },
+      {
+        "family": "Faust",
+        "given": "Saul N."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "New England Journal of Medicine",
+    "container-title-short": "N Engl J Med",
+    "journalAbbreviation": "N Engl J Med",
+    "volume": "389",
+    "issue": "26",
+    "page": "2425-2435",
+    "DOI": "10.1056/nejmoa2309189"
+  },
+  {
+    "id": "ref-2",
+    "type": "article-journal",
+    "title": "Deep learning",
+    "author": [
+      {
+        "family": "LeCun",
+        "given": "Yann"
+      },
+      {
+        "family": "Bengio",
+        "given": "Yoshua"
+      },
+      {
+        "family": "Hinton",
+        "given": "Geoffrey"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "container-title": "Nature",
+    "volume": "521",
+    "issue": "7553",
+    "page": "436-444",
+    "DOI": "10.1038/nature14539"
+  },
+  {
+    "id": "ref-3",
+    "type": "article-journal",
+    "title": "Estimating the reproducibility of psychological science",
+    "author": [
+      {
+        "literal": "Open Science Collaboration"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "container-title": "Science",
+    "volume": "349",
+    "issue": "6251",
+    "page": "aac4716",
+    "DOI": "10.1126/science.aac4716"
+  },
+  {
+    "id": "ref-4",
+    "type": "article-journal",
+    "title": "Disease prediction by cell-free DNA methylation",
+    "author": [
+      {
+        "family": "Feng",
+        "given": "Hao"
+      },
+      {
+        "family": "Jin",
+        "given": "Peng"
+      },
+      {
+        "family": "Wu",
+        "given": "Hao"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "Briefings in Bioinformatics",
+    "volume": "20",
+    "issue": "2",
+    "page": "585-597",
+    "DOI": "10.1093/bib/bby029"
+  },
+  {
+    "id": "ref-5",
+    "type": "article-journal",
+    "title": "Efficacy of alternate-day fasting on HbA1c in adults with prediabetes in rural Vietnam: a multicenter randomized controlled trial",
+    "author": [
+      {
+        "family": "Nguyen",
+        "given": "T. H."
+      },
+      {
+        "family": "Whitfield",
+        "given": "J. A."
+      },
+      {
+        "family": "Patel",
+        "given": "R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Diabetes Care",
+    "volume": "44",
+    "issue": "7",
+    "page": "1532-1540"
+  },
+  {
+    "id": "ref-6",
+    "type": "article-journal",
+    "title": "RETRACTED: Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder in children",
+    "author": [
+      {
+        "family": "Wakefield",
+        "given": "A. J."
+      },
+      {
+        "family": "Murch",
+        "given": "S. H."
+      },
+      {
+        "family": "Anthony",
+        "given": "A."
+      },
+      {
+        "family": "Linnell",
+        "given": "J."
+      },
+      {
+        "family": "Casson",
+        "given": "D. M."
+      },
+      {
+        "family": "Malik",
+        "given": "M."
+      },
+      {
+        "family": "Berelowitz",
+        "given": "M."
+      },
+      {
+        "family": "Dhillon",
+        "given": "A. P."
+      },
+      {
+        "family": "Thomson",
+        "given": "M. A."
+      },
+      {
+        "family": "Harvey",
+        "given": "P."
+      },
+      {
+        "family": "Valentine",
+        "given": "A."
+      },
+      {
+        "family": "Davies",
+        "given": "S. E."
+      },
+      {
+        "family": "Walker-Smith",
+        "given": "J. A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1998
+        ]
+      ]
+    },
+    "container-title": "The Lancet",
+    "volume": "351",
+    "issue": "9103",
+    "page": "637-641",
+    "DOI": "10.1016/s0140-6736(97)11096-0"
+  }
+]

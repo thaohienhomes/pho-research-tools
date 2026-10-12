@@ -1,0 +1,557 @@
+{
+  "query": "sepsis fluid resuscitation",
+  "filters": {
+    "maxResults": 10,
+    "yearFrom": 2018,
+    "yearTo": 2024
+  },
+  "status": "ok",
+  "excluded": {
+    "noIdentifier": 0,
+    "retracted": 0,
+    "notices": 0,
+    "outsideYears": 0
+  },
+  "lookups": [
+    {
+      "source": "openalex",
+      "ok": true,
+      "hits": 15
+    },
+    {
+      "source": "pubmed",
+      "ok": true,
+      "hits": 15
+    }
+  ],
+  "warnings": [],
+  "results": [
+    {
+      "rank": 1,
+      "title": "Balanced versus Unbalanced Crystalloids in Initial Sepsis Fluid Resuscitation",
+      "authors": [
+        "Kerry Fellows"
+      ],
+      "year": 2018,
+      "journal": "Journal of Emergency Nursing",
+      "doi": "10.1016/j.jen.2017.11.013",
+      "pmid": "29548372",
+      "openalexId": "W2793613282",
+      "url": "https://doi.org/10.1016/j.jen.2017.11.013",
+      "links": {
+        "doi": "https://doi.org/10.1016/j.jen.2017.11.013",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/29548372/",
+        "openalex": "https://openalex.org/W2793613282"
+      },
+      "openAccess": {
+        "isOa": false
+      },
+      "foundIn": [
+        "openalex"
+      ],
+      "retracted": false,
+      "preprint": false,
+      "citedByCount": 1
+    },
+    {
+      "rank": 2,
+      "title": "Surviving Sepsis Campaign Research Priorities 2023",
+      "authors": [
+        "D De Backer",
+        "CS Deutschman",
+        "J Hellman",
+        "SN Myatra",
+        "M Ostermann",
+        "HC Prescott",
+        "D Talmor",
+        "M Antonelli",
+        "LC Pontes Azevedo",
+        "SR Bauer",
+        "N Kissoon",
+        "IM Loeches",
+        "M Nunnally",
+        "P Tissieres",
+        "A Vieillard-Baron",
+        "CM Coopersmith"
+      ],
+      "year": 2024,
+      "journal": "Critical care medicine",
+      "doi": "10.1097/ccm.0000000000006135",
+      "pmid": "38240508",
+      "url": "https://doi.org/10.1097/ccm.0000000000006135",
+      "links": {
+        "doi": "https://doi.org/10.1097/ccm.0000000000006135",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/38240508/"
+      },
+      "openAccess": {
+        "isOa": false
+      },
+      "foundIn": [
+        "pubmed"
+      ],
+      "retracted": false,
+      "preprint": false
+    },
+    {
+      "rank": 3,
+      "title": "PP118 [Infections » Sepsis]: FLUID RESUSCITATION AND INOTROPES IN SEPTIC SHOCK",
+      "authors": [
+        "R. Iramain",
+        "N. Kissoon",
+        "J. Ortiz",
+        "A. Jara",
+        "N. Bogado",
+        "R. Morínigo"
+      ],
+      "year": 2022,
+      "journal": "Pediatric Critical Care Medicine",
+      "doi": "10.1097/01.pcc.0000900384.77304.b7",
+      "openalexId": "W4308075740",
+      "url": "https://doi.org/10.1097/01.pcc.0000900384.77304.b7",
+      "links": {
+        "doi": "https://doi.org/10.1097/01.pcc.0000900384.77304.b7",
+        "openalex": "https://openalex.org/W4308075740"
+      },
+      "openAccess": {
+        "isOa": false
+      },
+      "foundIn": [
+        "openalex"
+      ],
+      "retracted": false,
+      "preprint": false,
+      "citedByCount": 0
+    },
+    {
+      "rank": 4,
+      "title": "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021",
+      "authors": [
+        "L Evans",
+        "A Rhodes",
+        "W Alhazzani",
+        "M Antonelli",
+        "CM Coopersmith",
+        "C French",
+        "FR Machado",
+        "L Mcintyre",
+        "M Ostermann",
+        "HC Prescott",
+        "C Schorr",
+        "S Simpson",
+        "WJ Wiersinga",
+        "F Alshamsi",
+        "DC Angus",
+        "Y Arabi",
+        "L Azevedo",
+        "R Beale",
+        "G Beilman",
+        "E Belley-Cote",
+        "L Burry",
+        "M Cecconi",
+        "J Centofanti",
+        "A Coz Yataco",
+        "J De Waele",
+        "RP Dellinger",
+        "K Doi",
+        "B Du",
+        "E Estenssoro",
+        "R Ferrer",
+        "C Gomersall",
+        "C Hodgson",
+        "M Hylander Møller",
+        "T Iwashyna",
+        "S Jacob",
+        "R Kleinpell",
+        "M Klompas",
+        "Y Koh",
+        "A Kumar",
+        "A Kwizera",
+        "S Lobo",
+        "H Masur",
+        "S McGloughlin",
+        "S Mehta",
+        "Y Mehta",
+        "M Mer",
+        "M Nunnally",
+        "S Oczkowski",
+        "T Osborn",
+        "E Papathanassoglou",
+        "A Perner",
+        "M Puskarich",
+        "J Roberts",
+        "W Schweickert",
+        "M Seckel",
+        "J Sevransky",
+        "CL Sprung",
+        "T Welte",
+        "J Zimmerman",
+        "M Levy"
+      ],
+      "year": 2021,
+      "journal": "Critical care medicine",
+      "doi": "10.1097/ccm.0000000000005337",
+      "pmid": "34605781",
+      "url": "https://doi.org/10.1097/ccm.0000000000005337",
+      "links": {
+        "doi": "https://doi.org/10.1097/ccm.0000000000005337",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/34605781/"
+      },
+      "openAccess": {
+        "isOa": false
+      },
+      "foundIn": [
+        "pubmed"
+      ],
+      "retracted": false,
+      "preprint": false
+    },
+    {
+      "rank": 5,
+      "title": "1635: SEPSIS FLUID RESUSCITATION COMPLIANCE: EVALUATING HIGH-RISK PATIENTS AND RESUSCITATION STRATEGIES",
+      "authors": [
+        "Olivia Henton",
+        "Jocelyn Owusu‐Guha",
+        "April Seitler"
+      ],
+      "year": 2019,
+      "journal": "Critical Care Medicine",
+      "doi": "10.1097/01.ccm.0000648444.23714.c6",
+      "openalexId": "W2995554227",
+      "url": "https://doi.org/10.1097/01.ccm.0000648444.23714.c6",
+      "links": {
+        "doi": "https://doi.org/10.1097/01.ccm.0000648444.23714.c6",
+        "openalex": "https://openalex.org/W2995554227"
+      },
+      "openAccess": {
+        "isOa": false
+      },
+      "foundIn": [
+        "openalex"
+      ],
+      "retracted": false,
+      "preprint": false,
+      "citedByCount": 0
+    },
+    {
+      "rank": 6,
+      "title": "Effect of a Resuscitation Strategy Targeting Peripheral Perfusion Status vs Serum Lactate Levels on 28-Day Mortality Among Patients With Septic Shock: The ANDROMEDA-SHOCK Randomized Clinical Trial",
+      "authors": [
+        "G Hernández",
+        "GA Ospina-Tascón",
+        "LP Damiani",
+        "E Estenssoro",
+        "A Dubin",
+        "J Hurtado",
+        "G Friedman",
+        "R Castro",
+        "L Alegría",
+        "JL Teboul",
+        "M Cecconi",
+        "G Ferri",
+        "M Jibaja",
+        "R Pairumani",
+        "P Fernández",
+        "D Barahona",
+        "V Granda-Luna",
+        "AB Cavalcanti",
+        "J Bakker",
+        "G Hernández",
+        "G Ospina-Tascón",
+        "L Petri Damiani",
+        "E Estenssoro",
+        "A Dubin",
+        "J Hurtado",
+        "G Friedman",
+        "R Castro",
+        "L Alegría",
+        "JL Teboul",
+        "M Cecconi",
+        "M Cecconi",
+        "G Ferri",
+        "M Jibaja",
+        "R Pairumani",
+        "P Fernández",
+        "D Barahona",
+        "AB Cavalcanti",
+        "J Bakker",
+        "G Hernández",
+        "L Alegría",
+        "G Ferri",
+        "N Rodriguez",
+        "P Holger",
+        "N Soto",
+        "M Pozo",
+        "J Bakker",
+        "D Cook",
+        "JL Vincent",
+        "A Rhodes",
+        "BP Kavanagh",
+        "P Dellinger",
+        "W Rietdijk",
+        "D Carpio",
+        "N Pavéz",
+        "E Henriquez",
+        "S Bravo",
+        "ED Valenzuela",
+        "M Vera",
+        "J Dreyse",
+        "V Oviedo",
+        "MA Cid",
+        "M Larroulet",
+        "E Petruska",
+        "C Sarabia",
+        "D Gallardo",
+        "JE Sanchez",
+        "H González",
+        "JM Arancibia",
+        "A Muñoz",
+        "G Ramirez",
+        "F Aravena",
+        "A Aquevedo",
+        "F Zambrano",
+        "M Bozinovic",
+        "F Valle",
+        "M Ramirez",
+        "V Rossel",
+        "P Muñoz",
+        "C Ceballos",
+        "C Esveile",
+        "C Carmona",
+        "E Candia",
+        "D Mendoza",
+        "A Sanchez",
+        "D Ponce",
+        "D Ponce",
+        "J Lastra",
+        "B Nahuelpán",
+        "F Fasce",
+        "C Luengo",
+        "N Medel",
+        "C Cortés",
+        "L Campassi",
+        "P Rubatto",
+        "N Horna",
+        "M Furche",
+        "JC Pendino",
+        "L Bettini",
+        "C Lovesio",
+        "MC González",
+        "J Rodruguez",
+        "H Canales",
+        "F Caminos",
+        "C Galletti",
+        "E Minoldo",
+        "MJ Aramburu",
+        "D Olmos",
+        "N Nin",
+        "J Tenzi",
+        "C Quiroga",
+        "P Lacuesta",
+        "A Gaudín",
+        "R Pais",
+        "A Silvestre",
+        "G Olivera",
+        "G Rieppi",
+        "D Berrutti",
+        "M Ochoa",
+        "P Cobos",
+        "F Vintimilla",
+        "V Ramirez",
+        "M Tobar",
+        "F García",
+        "F Picoita",
+        "N Remache",
+        "V Granda",
+        "F Paredes",
+        "E Barzallo",
+        "P Garcés",
+        "F Guerrero",
+        "S Salazar",
+        "G Torres",
+        "C Tana",
+        "J Calahorrano",
+        "F Solis",
+        "P Torres",
+        "L Herrera",
+        "A Ornes",
+        "V Peréz",
+        "G Delgado",
+        "A López",
+        "E Espinosa",
+        "J Moreira",
+        "B Salcedo",
+        "I Villacres",
+        "J Suing",
+        "M Lopez",
+        "L Gomez",
+        "G Toctaquiza",
+        "M Cadena Zapata",
+        "MA Orazabal",
+        "R Pardo Espejo",
+        "J Jimenez",
+        "A Calderón",
+        "G Paredes",
+        "JL Barberán",
+        "T Moya",
+        "H Atehortua",
+        "R Sabogal",
+        "G Ortiz",
+        "A Lara",
+        "F Sanchez",
+        "A Hernán Portilla",
+        "H Dávila",
+        "JA Mora",
+        "LE Calderón",
+        "I Alvarez",
+        "E Escobar",
+        "A Bejarano",
+        "LA Bustamante",
+        "JL Aldana"
+      ],
+      "year": 2019,
+      "journal": "JAMA",
+      "doi": "10.1001/jama.2019.0071",
+      "pmid": "30772908",
+      "url": "https://doi.org/10.1001/jama.2019.0071",
+      "links": {
+        "doi": "https://doi.org/10.1001/jama.2019.0071",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/30772908/",
+        "pmc": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6439620/"
+      },
+      "openAccess": {
+        "isOa": true,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6439620/"
+      },
+      "foundIn": [
+        "pubmed"
+      ],
+      "retracted": false,
+      "preprint": false
+    },
+    {
+      "rank": 7,
+      "title": "What Should We Focus on Sepsis Fluid Resuscitation? – a Research Based on Scientometrics and Visual Analysis",
+      "authors": [
+        "Xiaojun He",
+        "Xiang Zhu",
+        "Yuefeng Ma",
+        "Jun Liang"
+      ],
+      "year": 2021,
+      "journal": "Research Square",
+      "doi": "10.21203/rs.3.rs-717021/v1",
+      "openalexId": "W3183200578",
+      "url": "https://doi.org/10.21203/rs.3.rs-717021/v1",
+      "links": {
+        "doi": "https://doi.org/10.21203/rs.3.rs-717021/v1",
+        "openalex": "https://openalex.org/W3183200578"
+      },
+      "openAccess": {
+        "isOa": true,
+        "url": "https://www.researchsquare.com/article/rs-717021/latest.pdf"
+      },
+      "foundIn": [
+        "openalex"
+      ],
+      "retracted": false,
+      "preprint": true,
+      "citedByCount": 0
+    },
+    {
+      "rank": 8,
+      "title": "Review: sepsis guidelines and core measure bundles",
+      "authors": [
+        "L Desposito",
+        "C Bascara"
+      ],
+      "year": 2024,
+      "journal": "Postgraduate medicine",
+      "doi": "10.1080/00325481.2024.2388021",
+      "pmid": "39092891",
+      "url": "https://doi.org/10.1080/00325481.2024.2388021",
+      "links": {
+        "doi": "https://doi.org/10.1080/00325481.2024.2388021",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39092891/"
+      },
+      "openAccess": {
+        "isOa": false
+      },
+      "foundIn": [
+        "pubmed"
+      ],
+      "retracted": false,
+      "preprint": false
+    },
+    {
+      "rank": 9,
+      "title": "The Impact of Choice Architecture on Sepsis Fluid Resuscitation Decisions: An Exploratory Survey-Based Study",
+      "authors": [
+        "Jason N. Mansoori",
+        "Brendan J. Clark",
+        "Edward P. Havranek",
+        "Ivor S. Douglas"
+      ],
+      "year": 2022,
+      "journal": "MDM Policy & Practice",
+      "doi": "10.1177/23814683221099454",
+      "pmid": "35592271",
+      "openalexId": "W4281260441",
+      "url": "https://doi.org/10.1177/23814683221099454",
+      "links": {
+        "doi": "https://doi.org/10.1177/23814683221099454",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/35592271/",
+        "openalex": "https://openalex.org/W4281260441"
+      },
+      "openAccess": {
+        "isOa": true,
+        "url": "https://journals.sagepub.com/doi/pdf/10.1177/23814683221099454"
+      },
+      "foundIn": [
+        "openalex"
+      ],
+      "retracted": false,
+      "preprint": false,
+      "citedByCount": 0
+    },
+    {
+      "rank": 10,
+      "title": "European Society of Intensive Care Medicine clinical practice guideline on fluid therapy in adult critically ill patients. Part 1: the choice of resuscitation fluids",
+      "authors": [
+        "YM Arabi",
+        "E Belley-Cote",
+        "A Carsetti",
+        "D De Backer",
+        "K Donadello",
+        "NP Juffermans",
+        "N Hammond",
+        "JH Laake",
+        "D Liu",
+        "K Maitland",
+        "A Messina",
+        "MH Møller",
+        "D Poole",
+        "R Mac Sweeney",
+        "JL Vincent",
+        "FG Zampieri",
+        "F AlShamsi"
+      ],
+      "year": 2024,
+      "journal": "Intensive care medicine",
+      "doi": "10.1007/s00134-024-07369-9",
+      "pmid": "38771364",
+      "url": "https://doi.org/10.1007/s00134-024-07369-9",
+      "links": {
+        "doi": "https://doi.org/10.1007/s00134-024-07369-9",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/38771364/"
+      },
+      "openAccess": {
+        "isOa": false
+      },
+      "foundIn": [
+        "pubmed"
+      ],
+      "retracted": false,
+      "preprint": false
+    }
+  ]
+}

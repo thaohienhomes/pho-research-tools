@@ -1,0 +1,30 @@
+{
+ "https://doi.org/api/handles/10.1001%2Fjamapediatrics.2020.2251": {
+  "status": 404,
+  "body": {
+   "responseCode": 100,
+   "handle": "10.1001/jamapediatrics.2020.2251"
+  }
+ },
+ "https://doi.org/api/handles/10.1016%2Fs2589-7500(22)00119-7": {
+  "status": 404,
+  "body": {
+   "responseCode": 100,
+   "handle": "10.1016/s2589-7500(22)00119-7"
+  }
+ },
+ "https://doi.org/api/handles/10.1186%2Fs12889-018-6021-4": {
+  "status": 404,
+  "body": {
+   "responseCode": 100,
+   "handle": "10.1186/s12889-018-6021-4"
+  }
+ },
+ "https://doi.org/api/handles/10.3399%2Fbjgp21x999999": {
+  "status": 404,
+  "body": {
+   "responseCode": 100,
+   "handle": "10.3399/bjgp21x999999"
+  }
+ }
+}

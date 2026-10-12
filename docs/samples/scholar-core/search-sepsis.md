@@ -1,0 +1,16 @@
+# searchPapers — "sepsis fluid resuscitation", 2018–2024
+
+| # | title | year | journal | DOI / PMID | open access | found in |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | Balanced versus Unbalanced Crystalloids in Initial Sepsis Fluid Resuscitation | 2018 | Journal of Emergency Nursing | [10.1016/j.jen.2017.11.013](https://doi.org/10.1016/j.jen.2017.11.013)<br>[PMID 29548372](https://pubmed.ncbi.nlm.nih.gov/29548372/) | no | openalex |
+| 2 | Surviving Sepsis Campaign Research Priorities 2023 | 2024 | Critical care medicine | [10.1097/ccm.0000000000006135](https://doi.org/10.1097/ccm.0000000000006135)<br>[PMID 38240508](https://pubmed.ncbi.nlm.nih.gov/38240508/) | no | pubmed |
+| 3 | PP118 [Infections » Sepsis]: FLUID RESUSCITATION AND INOTROPES IN SEPTIC SHOCK | 2022 | Pediatric Critical Care Medicine | [10.1097/01.pcc.0000900384.77304.b7](https://doi.org/10.1097/01.pcc.0000900384.77304.b7) | no | openalex |
+| 4 | Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021 | 2021 | Critical care medicine | [10.1097/ccm.0000000000005337](https://doi.org/10.1097/ccm.0000000000005337)<br>[PMID 34605781](https://pubmed.ncbi.nlm.nih.gov/34605781/) | no | pubmed |
+| 5 | 1635: SEPSIS FLUID RESUSCITATION COMPLIANCE: EVALUATING HIGH-RISK PATIENTS AND RESUSCITATION STRATEGIES | 2019 | Critical Care Medicine | [10.1097/01.ccm.0000648444.23714.c6](https://doi.org/10.1097/01.ccm.0000648444.23714.c6) | no | openalex |
+| 6 | Effect of a Resuscitation Strategy Targeting Peripheral Perfusion Status vs Serum Lactate Levels on 28-Day Mortality Among Patients With Septic Shock: The ANDROMEDA-SHOCK Randomized Clinical Trial | 2019 | JAMA | [10.1001/jama.2019.0071](https://doi.org/10.1001/jama.2019.0071)<br>[PMID 30772908](https://pubmed.ncbi.nlm.nih.gov/30772908/) | [yes](https://pmc.ncbi.nlm.nih.gov/articles/PMC6439620/) | pubmed |
+| 7 | What Should We Focus on Sepsis Fluid Resuscitation? – a Research Based on Scientometrics and Visual Analysis *(preprint, not peer reviewed)* | 2021 | Research Square | [10.21203/rs.3.rs-717021/v1](https://doi.org/10.21203/rs.3.rs-717021/v1) | [yes](https://www.researchsquare.com/article/rs-717021/latest.pdf) | openalex |
+| 8 | Review: sepsis guidelines and core measure bundles | 2024 | Postgraduate medicine | [10.1080/00325481.2024.2388021](https://doi.org/10.1080/00325481.2024.2388021)<br>[PMID 39092891](https://pubmed.ncbi.nlm.nih.gov/39092891/) | no | pubmed |
+| 9 | The Impact of Choice Architecture on Sepsis Fluid Resuscitation Decisions: An Exploratory Survey-Based Study | 2022 | MDM Policy & Practice | [10.1177/23814683221099454](https://doi.org/10.1177/23814683221099454)<br>[PMID 35592271](https://pubmed.ncbi.nlm.nih.gov/35592271/) | [yes](https://journals.sagepub.com/doi/pdf/10.1177/23814683221099454) | openalex |
+| 10 | European Society of Intensive Care Medicine clinical practice guideline on fluid therapy in adult critically ill patients. Part 1: the choice of resuscitation fluids | 2024 | Intensive care medicine | [10.1007/s00134-024-07369-9](https://doi.org/10.1007/s00134-024-07369-9)<br>[PMID 38771364](https://pubmed.ncbi.nlm.nih.gov/38771364/) | no | pubmed |
+
+Excluded: {"noIdentifier":0,"retracted":0,"notices":0,"outsideYears":0}

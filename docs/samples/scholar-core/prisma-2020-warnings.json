@@ -1,0 +1,23 @@
+[
+  {
+    "code": "mismatch",
+    "field": "recordsScreened",
+    "message": "Records screened is 1,650 but should be 1,621 (records identified 2,131 minus records removed before screening 510).",
+    "expected": 1621,
+    "given": 1650
+  },
+  {
+    "code": "mismatch",
+    "field": "reportsSought",
+    "message": "Reports sought for retrieval is 171 but should be 200 (records screened 1,650 minus records excluded 1,450).",
+    "expected": 200,
+    "given": 171
+  },
+  {
+    "code": "mismatch",
+    "field": "reportsIncluded",
+    "message": "Reports of included studies is 28 but should be 30 (reports assessed 165 minus reports excluded 135).",
+    "expected": 30,
+    "given": 28
+  }
+]

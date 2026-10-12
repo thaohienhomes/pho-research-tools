@@ -3,12 +3,16 @@
   "name": "io.github.thaohienhomes/pho-research-tools",
   "title": "Phở Research Tools",
   "description": "Checks AI-written references against Crossref, PubMed and OpenAlex. Formats citations, PRISMA.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://pho.chat/tools/mcp/",
   "remotes": [
     {
       "type": "streamable-http",
       "url": "https://mcp.pho.chat/mcp"
     }
-  ]
+  ],
+  "repository": {
+    "url": "https://github.com/thaohienhomes/pho-research-tools",
+    "source": "github"
+  }
 }

@@ -1,0 +1,2916 @@
+{
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=2&retmode=json&term=10.1016%2Fs0140-6736%2823%2902190-6%5Bdoi%5D": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "1",
+    "retmax": "1",
+    "retstart": "0",
+    "idlist": [
+     "38104575"
+    ],
+    "translationset": [],
+    "querytranslation": "\"10 1016 s0140 6736 23 02190 6\"[Publisher ID]"
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=2&retmode=json&term=10.1056%2Fnejmoa2312054%5Bdoi%5D": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "1",
+    "retmax": "1",
+    "retstart": "0",
+    "idlist": [
+     "38084760"
+    ],
+    "translationset": [],
+    "querytranslation": "\"10 1056 nejmoa2312054\"[Publisher ID]"
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=2&retmode=json&term=10.1093%2Fbib%2Fbbw131%5Bdoi%5D": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "1",
+    "retmax": "1",
+    "retstart": "0",
+    "idlist": [
+     "28077402"
+    ],
+    "translationset": [],
+    "querytranslation": "\"10 1093 bib bbw131\"[Publisher ID]"
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=2&retmode=json&term=10.1097%2F01.aoa.0001080196.83363.8c%5Bdoi%5D": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [],
+    "querytranslation": "10.1097/01.aoa.0001080196.83363.8c[doi]",
+    "errorlist": {
+     "phrasesnotfound": [
+      ".aoa.0001080196.83363.8c"
+     ],
+     "fieldsnotfound": []
+    },
+    "warninglist": {
+     "phrasesignored": [],
+     "quotedphrasesnotfound": [],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=5&retmode=json&sort=relevance&term=a+gradient+boosted+model+using+routine+triage+laboratory+values+to+predict+28+day+sepsis+mortality+in+chinese+emergency+departments": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+     {
+      "from": "gradient",
+      "to": "\"gradient\"[All Fields] OR \"gradient's\"[All Fields] OR \"gradients\"[All Fields]"
+     },
+     {
+      "from": "boosted",
+      "to": "\"boost\"[All Fields] OR \"boosted\"[All Fields] OR \"boosting\"[All Fields] OR \"boosts\"[All Fields]"
+     },
+     {
+      "from": "model",
+      "to": "\"model\"[All Fields] OR \"model's\"[All Fields] OR \"modeled\"[All Fields] OR \"modeler\"[All Fields] OR \"modeler's\"[All Fields] OR \"modelers\"[All Fields] OR \"modeling\"[All Fields] OR \"modelings\"[All Fields] OR \"modelization\"[All Fields] OR \"modelizations\"[All Fields] OR \"modelize\"[All Fields] OR \"modelized\"[All Fields] OR \"modelled\"[All Fields] OR \"modeller\"[All Fields] OR \"modellers\"[All Fields] OR \"modelling\"[All Fields] OR \"modellings\"[All Fields] OR \"models\"[All Fields]"
+     },
+     {
+      "from": "routine",
+      "to": "\"routine\"[All Fields] OR \"routinely\"[All Fields] OR \"routines\"[All Fields] OR \"routinization\"[All Fields] OR \"routinize\"[All Fields] OR \"routinized\"[All Fields] OR \"routinizing\"[All Fields]"
+     },
+     {
+      "from": "triage",
+      "to": "\"triage\"[MeSH Terms] OR \"triage\"[All Fields] OR \"triages\"[All Fields] OR \"triaged\"[All Fields] OR \"triaging\"[All Fields]"
+     },
+     {
+      "from": "laboratory",
+      "to": "\"laboratorial\"[All Fields] OR \"laboratories\"[MeSH Terms] OR \"laboratories\"[All Fields] OR \"laboratory\"[All Fields] OR \"laboratory's\"[All Fields]"
+     },
+     {
+      "from": "values",
+      "to": "\"value\"[All Fields] OR \"values\"[All Fields]"
+     },
+     {
+      "from": "predict",
+      "to": "\"predict\"[All Fields] OR \"predictabilities\"[All Fields] OR \"predictability\"[All Fields] OR \"predictable\"[All Fields] OR \"predictably\"[All Fields] OR \"predicted\"[All Fields] OR \"predicting\"[All Fields] OR \"prediction\"[All Fields] OR \"predictions\"[All Fields] OR \"predictive\"[All Fields] OR \"predictively\"[All Fields] OR \"predictiveness\"[All Fields] OR \"predictives\"[All Fields] OR \"predictivities\"[All Fields] OR \"predictivity\"[All Fields] OR \"predicts\"[All Fields]"
+     },
+     {
+      "from": "sepsis",
+      "to": "\"sepsis\"[MeSH Terms] OR \"sepsis\"[All Fields]"
+     },
+     {
+      "from": "mortality",
+      "to": "\"mortality\"[MeSH Terms] OR \"mortality\"[All Fields] OR \"mortalities\"[All Fields] OR \"mortality\"[Subheading]"
+     },
+     {
+      "from": "chinese",
+      "to": "\"chinese people\"[Supplementary Concept] OR \"chinese people\"[All Fields] OR \"chinese\"[All Fields] OR \"chineses\"[All Fields]"
+     },
+     {
+      "from": "emergency departments",
+      "to": "\"emergency service, hospital\"[MeSH Terms] OR (\"emergency\"[All Fields] AND \"service\"[All Fields] AND \"hospital\"[All Fields]) OR \"hospital emergency service\"[All Fields] OR (\"emergency\"[All Fields] AND \"departments\"[All Fields]) OR \"emergency departments\"[All Fields]"
+     }
+    ],
+    "querytranslation": "(\"gradient\"[All Fields] OR \"gradient s\"[All Fields] OR \"gradients\"[All Fields]) AND (\"boost\"[All Fields] OR \"boosted\"[All Fields] OR \"boosting\"[All Fields] OR \"boosts\"[All Fields]) AND (\"model\"[All Fields] OR \"model s\"[All Fields] OR \"modeled\"[All Fields] OR \"modeler\"[All Fields] OR \"modeler s\"[All Fields] OR \"modelers\"[All Fields] OR \"modeling\"[All Fields] OR \"modelings\"[All Fields] OR \"modelization\"[All Fields] OR \"modelizations\"[All Fields] OR \"modelize\"[All Fields] OR \"modelized\"[All Fields] OR \"modelled\"[All Fields] OR \"modeller\"[All Fields] OR \"modellers\"[All Fields] OR \"modelling\"[All Fields] OR \"modellings\"[All Fields] OR \"models\"[All Fields]) AND (\"routine\"[All Fields] OR \"routinely\"[All Fields] OR \"routines\"[All Fields] OR \"routinization\"[All Fields] OR \"routinize\"[All Fields] OR \"routinized\"[All Fields] OR \"routinizing\"[All Fields]) AND (\"triage\"[MeSH Terms] OR \"triage\"[All Fields] OR \"triages\"[All Fields] OR \"triaged\"[All Fields] OR \"triaging\"[All Fields]) AND (\"laboratorial\"[All Fields] OR \"laboratories\"[MeSH Terms] OR \"laboratories\"[All Fields] OR \"laboratory\"[All Fields] OR \"laboratory s\"[All Fields]) AND (\"value\"[All Fields] OR \"values\"[All Fields]) AND (\"predict\"[All Fields] OR \"predictabilities\"[All Fields] OR \"predictability\"[All Fields] OR \"predictable\"[All Fields] OR \"predictably\"[All Fields] OR \"predicted\"[All Fields] OR \"predicting\"[All Fields] OR \"prediction\"[All Fields] OR \"predictions\"[All Fields] OR \"predictive\"[All Fields] OR \"predictively\"[All Fields] OR \"predictiveness\"[All Fields] OR \"predictives\"[All Fields] OR \"predictivities\"[All Fields] OR \"predictivity\"[All Fields] OR \"predicts\"[All Fields]) AND \"28\"[All Fields] AND \"day\"[All Fields] AND (\"sepsis\"[MeSH Terms] OR \"sepsis\"[All Fields]) AND (\"mortality\"[MeSH Terms] OR \"mortality\"[All Fields] OR \"mortalities\"[All Fields] OR \"mortality\"[MeSH Subheading]) AND (\"chinese people\"[Supplementary Concept] OR \"chinese people\"[All Fields] OR \"chinese\"[All Fields] OR \"chineses\"[All Fields]) AND (\"emergency service, hospital\"[MeSH Terms] OR (\"emergency\"[All Fields] AND \"service\"[All Fields] AND \"hospital\"[All Fields]) OR \"hospital emergency service\"[All Fields] OR (\"emergency\"[All Fields] AND \"departments\"[All Fields]) OR \"emergency departments\"[All Fields])",
+    "warninglist": {
+     "phrasesignored": [
+      "a",
+      "using",
+      "to",
+      "in"
+     ],
+     "quotedphrasesnotfound": [],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=5&retmode=json&sort=relevance&term=efficacy+of+alternate+day+fasting+on+hba1c+in+adults+with+prediabetes+in+rural+vietnam+a+multicenter+randomized+controlled+trial": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+     {
+      "from": "efficacy",
+      "to": "\"efficacies\"[All Fields] OR \"efficacious\"[All Fields] OR \"efficaciously\"[All Fields] OR \"efficaciousness\"[All Fields] OR \"efficacy\"[All Fields]"
+     },
+     {
+      "from": "alternate",
+      "to": "\"alternance\"[All Fields] OR \"alternances\"[All Fields] OR \"alternant\"[All Fields] OR \"alternants\"[All Fields] OR \"alternate\"[All Fields] OR \"alternated\"[All Fields] OR \"alternately\"[All Fields] OR \"alternates\"[All Fields] OR \"alternating\"[All Fields] OR \"alternation\"[All Fields] OR \"alternations\"[All Fields] OR \"alternative\"[All Fields] OR \"alternatively\"[All Fields] OR \"alternatives\"[All Fields]"
+     },
+     {
+      "from": "fasting",
+      "to": "\"fasted\"[All Fields] OR \"fasting\"[MeSH Terms] OR \"fasting\"[All Fields] OR \"fastings\"[All Fields] OR \"fasts\"[All Fields]"
+     },
+     {
+      "from": "hba1c",
+      "to": "\"glycated hemoglobin\"[Supplementary Concept] OR \"glycated hemoglobin\"[All Fields] OR \"hba1c\"[All Fields] OR \"glycated hemoglobin\"[MeSH Terms] OR (\"glycated\"[All Fields] AND \"hemoglobin\"[All Fields]) OR \"hba1cs\"[All Fields]"
+     },
+     {
+      "from": "adults",
+      "to": "\"adult\"[MeSH Terms] OR \"adult\"[All Fields] OR \"adults\"[All Fields] OR \"adult's\"[All Fields]"
+     },
+     {
+      "from": "prediabetes",
+      "to": "\"prediabetic state\"[MeSH Terms] OR (\"prediabetic\"[All Fields] AND \"state\"[All Fields]) OR \"prediabetic state\"[All Fields] OR \"prediabetes\"[All Fields] OR \"prediabetic\"[All Fields] OR \"prediabetics\"[All Fields]"
+     },
+     {
+      "from": "rural",
+      "to": "\"rural\"[All Fields] OR \"ruralities\"[All Fields] OR \"rurality\"[All Fields] OR \"rurally\"[All Fields] OR \"ruralness\"[All Fields] OR \"rurals\"[All Fields]"
+     },
+     {
+      "from": "vietnam",
+      "to": "\"vietnam\"[MeSH Terms] OR \"vietnam\"[All Fields] OR \"vietnam's\"[All Fields]"
+     },
+     {
+      "from": "multicenter",
+      "to": "\"multicenter\"[All Fields] OR \"multicentered\"[All Fields] OR \"multicenters\"[All Fields]"
+     },
+     {
+      "from": "randomized controlled trial",
+      "to": "\"randomized controlled trial\"[Publication Type] OR \"randomized controlled trials as topic\"[MeSH Terms] OR \"randomized controlled trial\"[All Fields] OR \"randomised controlled trial\"[All Fields]"
+     }
+    ],
+    "querytranslation": "(\"efficacies\"[All Fields] OR \"efficacious\"[All Fields] OR \"efficaciously\"[All Fields] OR \"efficaciousness\"[All Fields] OR \"efficacy\"[All Fields]) AND (\"alternance\"[All Fields] OR \"alternances\"[All Fields] OR \"alternant\"[All Fields] OR \"alternants\"[All Fields] OR \"alternate\"[All Fields] OR \"alternated\"[All Fields] OR \"alternately\"[All Fields] OR \"alternates\"[All Fields] OR \"alternating\"[All Fields] OR \"alternation\"[All Fields] OR \"alternations\"[All Fields] OR \"alternative\"[All Fields] OR \"alternatively\"[All Fields] OR \"alternatives\"[All Fields]) AND \"day\"[All Fields] AND (\"fasted\"[All Fields] OR \"fasting\"[MeSH Terms] OR \"fasting\"[All Fields] OR \"fastings\"[All Fields] OR \"fasts\"[All Fields]) AND (\"glycated hemoglobin\"[Supplementary Concept] OR \"glycated hemoglobin\"[All Fields] OR \"hba1c\"[All Fields] OR \"glycated hemoglobin\"[MeSH Terms] OR (\"glycated\"[All Fields] AND \"hemoglobin\"[All Fields]) OR \"hba1cs\"[All Fields]) AND (\"adult\"[MeSH Terms] OR \"adult\"[All Fields] OR \"adults\"[All Fields] OR \"adult s\"[All Fields]) AND (\"prediabetic state\"[MeSH Terms] OR (\"prediabetic\"[All Fields] AND \"state\"[All Fields]) OR \"prediabetic state\"[All Fields] OR \"prediabetes\"[All Fields] OR \"prediabetic\"[All Fields] OR \"prediabetics\"[All Fields]) AND (\"rural\"[All Fields] OR \"ruralities\"[All Fields] OR \"rurality\"[All Fields] OR \"rurally\"[All Fields] OR \"ruralness\"[All Fields] OR \"rurals\"[All Fields]) AND (\"vietnam\"[MeSH Terms] OR \"vietnam\"[All Fields] OR \"vietnam s\"[All Fields]) AND (\"multicenter\"[All Fields] OR \"multicentered\"[All Fields] OR \"multicenters\"[All Fields]) AND (\"randomized controlled trial\"[Publication Type] OR \"randomized controlled trials as topic\"[MeSH Terms] OR \"randomized controlled trial\"[All Fields] OR \"randomised controlled trial\"[All Fields])",
+    "warninglist": {
+     "phrasesignored": [
+      "of",
+      "on",
+      "in",
+      "with",
+      "a"
+     ],
+     "quotedphrasesnotfound": [],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=5&retmode=json&sort=relevance&term=efficacy+safety+of+aldosterone+synthase+inhibition+with+without+empagliflozin+for+chronic+kidney+disease+a+randomised+controlled+phase+2+trial": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "3",
+    "retmax": "3",
+    "retstart": "0",
+    "idlist": [
+     "38109916",
+     "39533115",
+     "37903483"
+    ],
+    "translationset": [
+     {
+      "from": "efficacy",
+      "to": "\"efficacies\"[All Fields] OR \"efficacious\"[All Fields] OR \"efficaciously\"[All Fields] OR \"efficaciousness\"[All Fields] OR \"efficacy\"[All Fields]"
+     },
+     {
+      "from": "safety",
+      "to": "\"safety\"[MeSH Terms] OR \"safety\"[All Fields] OR \"safeties\"[All Fields]"
+     },
+     {
+      "from": "aldosterone synthase",
+      "to": "\"cytochrome p-450 cyp11b2\"[Supplementary Concept] OR \"cytochrome p-450 cyp11b2\"[All Fields] OR \"aldosterone synthase\"[All Fields] OR \"cytochrome p-450 cyp11b2\"[MeSH Terms] OR (\"cytochrome\"[All Fields] AND \"p-450\"[All Fields] AND \"cyp11b2\"[All Fields]) OR (\"aldosterone\"[All Fields] AND \"synthase\"[All Fields])"
+     },
+     {
+      "from": "inhibition",
+      "to": "\"inhibit\"[All Fields] OR \"inhibitable\"[All Fields] OR \"inhibite\"[All Fields] OR \"inhibited\"[All Fields] OR \"inhibites\"[All Fields] OR \"inhibiting\"[All Fields] OR \"inhibition, psychological\"[MeSH Terms] OR (\"inhibition\"[All Fields] AND \"psychological\"[All Fields]) OR \"psychological inhibition\"[All Fields] OR \"inhibition\"[All Fields] OR \"inhibitions\"[All Fields] OR \"inhibitive\"[All Fields] OR \"inhibits\"[All Fields]"
+     },
+     {
+      "from": "empagliflozin",
+      "to": "\"empagliflozin\"[Supplementary Concept] OR \"empagliflozin\"[All Fields]"
+     },
+     {
+      "from": "chronic kidney disease",
+      "to": "\"renal insufficiency, chronic\"[MeSH Terms] OR (\"renal\"[All Fields] AND \"insufficiency\"[All Fields] AND \"chronic\"[All Fields]) OR \"chronic renal insufficiency\"[All Fields] OR (\"chronic\"[All Fields] AND \"kidney\"[All Fields] AND \"disease\"[All Fields]) OR \"chronic kidney disease\"[All Fields]"
+     },
+     {
+      "from": "randomised",
+      "to": "\"random allocation\"[MeSH Terms] OR (\"random\"[All Fields] AND \"allocation\"[All Fields]) OR \"random allocation\"[All Fields] OR \"randomization\"[All Fields] OR \"randomized\"[All Fields] OR \"random\"[All Fields] OR \"randomisation\"[All Fields] OR \"randomisations\"[All Fields] OR \"randomise\"[All Fields] OR \"randomised\"[All Fields] OR \"randomising\"[All Fields] OR \"randomizations\"[All Fields] OR \"randomize\"[All Fields] OR \"randomizes\"[All Fields] OR \"randomizing\"[All Fields] OR \"randomness\"[All Fields] OR \"randoms\"[All Fields]"
+     },
+     {
+      "from": "phase",
+      "to": "\"phase\"[All Fields] OR \"phase's\"[All Fields] OR \"phases\"[All Fields]"
+     },
+     {
+      "from": "trial",
+      "to": "\"clinical trials as topic\"[MeSH Terms] OR (\"clinical\"[All Fields] AND \"trials\"[All Fields] AND \"topic\"[All Fields]) OR \"clinical trials as topic\"[All Fields] OR \"trial\"[All Fields] OR \"trial's\"[All Fields] OR \"trialed\"[All Fields] OR \"trialing\"[All Fields] OR \"trials\"[All Fields]"
+     }
+    ],
+    "querytranslation": "(\"efficacies\"[All Fields] OR \"efficacious\"[All Fields] OR \"efficaciously\"[All Fields] OR \"efficaciousness\"[All Fields] OR \"efficacy\"[All Fields]) AND (\"safety\"[MeSH Terms] OR \"safety\"[All Fields] OR \"safeties\"[All Fields]) AND (\"cytochrome p 450 cyp11b2\"[Supplementary Concept] OR \"cytochrome p 450 cyp11b2\"[All Fields] OR \"aldosterone synthase\"[All Fields] OR \"cytochrome p 450 cyp11b2\"[MeSH Terms] OR (\"cytochrome\"[All Fields] AND \"p 450\"[All Fields] AND \"cyp11b2\"[All Fields]) OR (\"aldosterone\"[All Fields] AND \"synthase\"[All Fields])) AND (\"inhibit\"[All Fields] OR \"inhibitable\"[All Fields] OR \"inhibite\"[All Fields] OR \"inhibited\"[All Fields] OR \"inhibites\"[All Fields] OR \"inhibiting\"[All Fields] OR \"inhibition, psychological\"[MeSH Terms] OR (\"inhibition\"[All Fields] AND \"psychological\"[All Fields]) OR \"psychological inhibition\"[All Fields] OR \"inhibition\"[All Fields] OR \"inhibitions\"[All Fields] OR \"inhibitive\"[All Fields] OR \"inhibits\"[All Fields]) AND (\"empagliflozin\"[Supplementary Concept] OR \"empagliflozin\"[All Fields]) AND (\"renal insufficiency, chronic\"[MeSH Terms] OR (\"renal\"[All Fields] AND \"insufficiency\"[All Fields] AND \"chronic\"[All Fields]) OR \"chronic renal insufficiency\"[All Fields] OR (\"chronic\"[All Fields] AND \"kidney\"[All Fields] AND \"disease\"[All Fields]) OR \"chronic kidney disease\"[All Fields]) AND (\"random allocation\"[MeSH Terms] OR (\"random\"[All Fields] AND \"allocation\"[All Fields]) OR \"random allocation\"[All Fields] OR \"randomization\"[All Fields] OR \"randomized\"[All Fields] OR \"random\"[All Fields] OR \"randomisation\"[All Fields] OR \"randomisations\"[All Fields] OR \"randomise\"[All Fields] OR \"randomised\"[All Fields] OR \"randomising\"[All Fields] OR \"randomizations\"[All Fields] OR \"randomize\"[All Fields] OR \"randomizes\"[All Fields] OR \"randomizing\"[All Fields] OR \"randomness\"[All Fields] OR \"randoms\"[All Fields]) AND \"controlled\"[All Fields] AND (\"phase\"[All Fields] OR \"phase s\"[All Fields] OR \"phases\"[All Fields]) AND \"2\"[All Fields] AND (\"clinical trials as topic\"[MeSH Terms] OR (\"clinical\"[All Fields] AND \"trials\"[All Fields] AND \"topic\"[All Fields]) OR \"clinical trials as topic\"[All Fields] OR \"trial\"[All Fields] OR \"trial s\"[All Fields] OR \"trialed\"[All Fields] OR \"trialing\"[All Fields] OR \"trials\"[All Fields])",
+    "warninglist": {
+     "phrasesignored": [
+      "of",
+      "with",
+      "without",
+      "for",
+      "a"
+     ],
+     "quotedphrasesnotfound": [],
+     "outputmessages": []
+    }
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=5&retmode=json&sort=relevance&term=espresso+consumption+incident+atrial+fibrillation+in+postmenopausal+women+the+lombardy+nurses+cohort": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+     {
+      "from": "espresso",
+      "to": "\"espresso\"[All Fields] OR \"espressos\"[All Fields]"
+     },
+     {
+      "from": "consumption",
+      "to": "\"consumptions\"[All Fields] OR \"economics\"[MeSH Terms] OR \"economics\"[All Fields] OR \"consumption\"[All Fields]"
+     },
+     {
+      "from": "incident",
+      "to": "\"epidemiology\"[Subheading] OR \"epidemiology\"[All Fields] OR \"incidence\"[All Fields] OR \"incidence\"[MeSH Terms] OR \"incidences\"[All Fields] OR \"incident\"[All Fields] OR \"incidents\"[All Fields]"
+     },
+     {
+      "from": "atrial fibrillation",
+      "to": "\"atrial fibrillation\"[MeSH Terms] OR (\"atrial\"[All Fields] AND \"fibrillation\"[All Fields]) OR \"atrial fibrillation\"[All Fields]"
+     },
+     {
+      "from": "postmenopausal",
+      "to": "\"postmenopausal\"[All Fields] OR \"postmenopausally\"[All Fields] OR \"postmenopausals\"[All Fields] OR \"postmenopause\"[MeSH Terms] OR \"postmenopause\"[All Fields] OR \"postmenopausic\"[All Fields]"
+     },
+     {
+      "from": "women",
+      "to": "\"womans\"[All Fields] OR \"women\"[MeSH Terms] OR \"women\"[All Fields] OR \"woman\"[All Fields] OR \"women's\"[All Fields] OR \"womens\"[All Fields]"
+     },
+     {
+      "from": "nurses",
+      "to": "\"nurse's\"[All Fields] OR \"nurses\"[MeSH Terms] OR \"nurses\"[All Fields] OR \"nurse\"[All Fields] OR \"nurses's\"[All Fields]"
+     },
+     {
+      "from": "cohort",
+      "to": "\"cohort\"[All Fields] OR \"cohort's\"[All Fields] OR \"cohorte\"[All Fields] OR \"cohorts\"[All Fields]"
+     }
+    ],
+    "querytranslation": "(\"espresso\"[All Fields] OR \"espressos\"[All Fields]) AND (\"consumptions\"[All Fields] OR \"economics\"[MeSH Terms] OR \"economics\"[All Fields] OR \"consumption\"[All Fields]) AND (\"epidemiology\"[MeSH Subheading] OR \"epidemiology\"[All Fields] OR \"incidence\"[All Fields] OR \"incidence\"[MeSH Terms] OR \"incidences\"[All Fields] OR \"incident\"[All Fields] OR \"incidents\"[All Fields]) AND (\"atrial fibrillation\"[MeSH Terms] OR (\"atrial\"[All Fields] AND \"fibrillation\"[All Fields]) OR \"atrial fibrillation\"[All Fields]) AND (\"postmenopausal\"[All Fields] OR \"postmenopausally\"[All Fields] OR \"postmenopausals\"[All Fields] OR \"postmenopause\"[MeSH Terms] OR \"postmenopause\"[All Fields] OR \"postmenopausic\"[All Fields]) AND (\"womans\"[All Fields] OR \"women\"[MeSH Terms] OR \"women\"[All Fields] OR \"woman\"[All Fields] OR \"women s\"[All Fields] OR \"womens\"[All Fields]) AND \"lombardy\"[All Fields] AND (\"nurse s\"[All Fields] OR \"nurses\"[MeSH Terms] OR \"nurses\"[All Fields] OR \"nurse\"[All Fields] OR \"nurses s\"[All Fields]) AND (\"cohort\"[All Fields] OR \"cohort s\"[All Fields] OR \"cohorte\"[All Fields] OR \"cohorts\"[All Fields])",
+    "warninglist": {
+     "phrasesignored": [
+      "in",
+      "the"
+     ],
+     "quotedphrasesnotfound": [],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=5&retmode=json&sort=relevance&term=executive+function+decline+24+months+after+mild+sars+cov+2+infection+in+previously+healthy+military+recruits+a+longitudinal+cohort": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+     {
+      "from": "executive function",
+      "to": "\"executive function\"[MeSH Terms] OR (\"executive\"[All Fields] AND \"function\"[All Fields]) OR \"executive function\"[All Fields]"
+     },
+     {
+      "from": "decline",
+      "to": "\"decline\"[All Fields] OR \"declined\"[All Fields] OR \"decliner\"[All Fields] OR \"decliners\"[All Fields] OR \"declines\"[All Fields] OR \"declining\"[All Fields]"
+     },
+     {
+      "from": "months",
+      "to": "\"month\"[All Fields] OR \"months\"[All Fields]"
+     },
+     {
+      "from": "sars cov 2 infection",
+      "to": "\"covid-19\"[MeSH Terms] OR \"covid-19\"[All Fields] OR \"sars cov 2 infection\"[All Fields]"
+     },
+     {
+      "from": "healthy",
+      "to": "\"healthies\"[All Fields] OR \"healthy\"[All Fields]"
+     },
+     {
+      "from": "military",
+      "to": "\"militaries\"[All Fields] OR \"military personnel\"[MeSH Terms] OR (\"military\"[All Fields] AND \"personnel\"[All Fields]) OR \"military personnel\"[All Fields] OR \"military\"[All Fields] OR \"military's\"[All Fields]"
+     },
+     {
+      "from": "recruits",
+      "to": "\"recruit\"[All Fields] OR \"recruited\"[All Fields] OR \"recruiter\"[All Fields] OR \"recruiters\"[All Fields] OR \"recruiting\"[All Fields] OR \"recruitment\"[All Fields] OR \"recruitments\"[All Fields] OR \"recruits\"[All Fields]"
+     },
+     {
+      "from": "longitudinal",
+      "to": "\"longitudinal\"[All Fields] OR \"longitudinally\"[All Fields]"
+     },
+     {
+      "from": "cohort",
+      "to": "\"cohort\"[All Fields] OR \"cohort's\"[All Fields] OR \"cohorte\"[All Fields] OR \"cohorts\"[All Fields]"
+     }
+    ],
+    "querytranslation": "(\"executive function\"[MeSH Terms] OR (\"executive\"[All Fields] AND \"function\"[All Fields]) OR \"executive function\"[All Fields]) AND (\"decline\"[All Fields] OR \"declined\"[All Fields] OR \"decliner\"[All Fields] OR \"decliners\"[All Fields] OR \"declines\"[All Fields] OR \"declining\"[All Fields]) AND \"24\"[All Fields] AND (\"month\"[All Fields] OR \"months\"[All Fields]) AND \"after\"[All Fields] AND \"mild\"[All Fields] AND (\"covid 19\"[MeSH Terms] OR \"covid 19\"[All Fields] OR \"sars cov 2 infection\"[All Fields]) AND \"previously\"[All Fields] AND (\"healthies\"[All Fields] OR \"healthy\"[All Fields]) AND (\"militaries\"[All Fields] OR \"military personnel\"[MeSH Terms] OR (\"military\"[All Fields] AND \"personnel\"[All Fields]) OR \"military personnel\"[All Fields] OR \"military\"[All Fields] OR \"military s\"[All Fields]) AND (\"recruit\"[All Fields] OR \"recruited\"[All Fields] OR \"recruiter\"[All Fields] OR \"recruiters\"[All Fields] OR \"recruiting\"[All Fields] OR \"recruitment\"[All Fields] OR \"recruitments\"[All Fields] OR \"recruits\"[All Fields]) AND (\"longitudinal\"[All Fields] OR \"longitudinally\"[All Fields]) AND (\"cohort\"[All Fields] OR \"cohort s\"[All Fields] OR \"cohorte\"[All Fields] OR \"cohorts\"[All Fields])",
+    "warninglist": {
+     "phrasesignored": [
+      "in",
+      "a"
+     ],
+     "quotedphrasesnotfound": [],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=5&retmode=json&sort=relevance&term=hydroxychloroquine+chloroquine+with+without+a+macrolide+for+treatment+of+covid+19+a+multinational+registry+analysis": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "5",
+    "retmax": "5",
+    "retstart": "0",
+    "idlist": [
+     "32511943",
+     "32504543",
+     "33343837",
+     "33378357",
+     "32450107"
+    ],
+    "translationset": [
+     {
+      "from": "hydroxychloroquine",
+      "to": "\"hydroxychloroquine\"[Supplementary Concept] OR \"hydroxychloroquine\"[All Fields] OR \"hydroxychloroquine\"[MeSH Terms]"
+     },
+     {
+      "from": "chloroquine",
+      "to": "\"chloroquin\"[All Fields] OR \"chloroquine\"[Supplementary Concept] OR \"chloroquine\"[All Fields] OR \"chloroquine\"[MeSH Terms] OR \"chloroquine's\"[All Fields] OR \"chloroquines\"[All Fields]"
+     },
+     {
+      "from": "macrolide",
+      "to": "\"macrolid\"[All Fields] OR \"macrolides\"[Supplementary Concept] OR \"macrolides\"[All Fields] OR \"macrolide\"[All Fields] OR \"macrolides\"[MeSH Terms] OR \"macrolids\"[All Fields]"
+     },
+     {
+      "from": "treatment",
+      "to": "\"therapeutics\"[MeSH Terms] OR \"therapeutics\"[All Fields] OR \"treatments\"[All Fields] OR \"therapy\"[Subheading] OR \"therapy\"[All Fields] OR \"treatment\"[All Fields] OR \"treatment's\"[All Fields]"
+     },
+     {
+      "from": "covid 19",
+      "to": "(\"COVID-19\" OR \"COVID19\" OR \"COVID-19\"[MeSH Terms] OR \"COVID-19 Vaccines\" OR \"COVID-19 Vaccines\"[MeSH Terms] OR \"COVID-19 serotherapy\" OR \"COVID-19 serotherapy\"[MeSH Terms] OR \"COVID-19 Nucleic Acid Testing\" OR \"covid-19 nucleic acid testing\"[MeSH Terms] OR \"COVID-19 Serological Testing\" OR \"covid-19 serological testing\"[MeSH Terms] OR \"COVID-19 Testing\" OR \"covid-19 testing\"[MeSH Terms] OR \"SARS-CoV-2\" OR \"SARSCoV2\" OR \"SARSCoV-2\" OR \"SARS-CoV2\" OR \"sars-cov-2\"[MeSH Terms] OR \"Severe Acute Respiratory Syndrome Coronavirus 2\" OR \"2019 NCOV\" OR ((\"coronavirus\"[MeSH Terms] OR \"coronavirus\" OR \"COV\" OR \"NCOV\") AND 2019/11/01[PDAT] : 3000/12/31[PDAT]))"
+     },
+     {
+      "from": "multinational",
+      "to": "\"multinational\"[All Fields] OR \"multinationals\"[All Fields]"
+     },
+     {
+      "from": "registry",
+      "to": "\"registries\"[MeSH Terms] OR \"registries\"[All Fields] OR \"registry\"[All Fields] OR \"registry's\"[All Fields]"
+     },
+     {
+      "from": "analysis",
+      "to": "\"analysis\"[Subheading] OR \"analysis\"[All Fields]"
+     }
+    ],
+    "querytranslation": "(\"hydroxychloroquine\"[Supplementary Concept] OR \"hydroxychloroquine\"[All Fields] OR \"hydroxychloroquine\"[MeSH Terms]) AND (\"chloroquin\"[All Fields] OR \"chloroquine\"[Supplementary Concept] OR \"chloroquine\"[All Fields] OR \"chloroquine\"[MeSH Terms] OR \"chloroquine s\"[All Fields] OR \"chloroquines\"[All Fields]) AND (\"macrolid\"[All Fields] OR \"macrolides\"[Supplementary Concept] OR \"macrolides\"[All Fields] OR \"macrolide\"[All Fields] OR \"macrolides\"[MeSH Terms] OR \"macrolids\"[All Fields]) AND (\"therapeutics\"[MeSH Terms] OR \"therapeutics\"[All Fields] OR \"treatments\"[All Fields] OR \"therapy\"[MeSH Subheading] OR \"therapy\"[All Fields] OR \"treatment\"[All Fields] OR \"treatment s\"[All Fields]) AND (\"covid 19\"[All Fields] OR \"covid19\"[All Fields] OR \"covid 19\"[MeSH Terms] OR \"covid 19 vaccines\"[All Fields] OR \"covid 19 vaccines\"[MeSH Terms] OR \"covid 19 serotherapy\"[All Fields] OR \"covid 19 serotherapy\"[MeSH Terms] OR \"covid 19 nucleic acid testing\"[All Fields] OR \"covid 19 nucleic acid testing\"[MeSH Terms] OR \"covid 19 serological testing\"[All Fields] OR \"covid 19 serological testing\"[MeSH Terms] OR \"covid 19 testing\"[All Fields] OR \"covid 19 testing\"[MeSH Terms] OR \"sars cov 2\"[All Fields] OR \"sarscov2\"[All Fields] OR \"sarscov 2\"[All Fields] OR \"sars cov2\"[All Fields] OR \"sars cov 2\"[MeSH Terms] OR \"severe acute respiratory syndrome coronavirus 2\"[All Fields] OR \"2019 ncov\"[All Fields] OR ((\"coronavirus\"[MeSH Terms] OR \"coronavirus\"[All Fields] OR \"cov\"[All Fields] OR \"ncov\"[All Fields]) AND 2019/11/01:3000/12/31[Date - Publication])) AND (\"multinational\"[All Fields] OR \"multinationals\"[All Fields]) AND (\"registries\"[MeSH Terms] OR \"registries\"[All Fields] OR \"registry\"[All Fields] OR \"registry s\"[All Fields]) AND (\"analysis\"[MeSH Subheading] OR \"analysis\"[All Fields])",
+    "warninglist": {
+     "phrasesignored": [
+      "with",
+      "without",
+      "a",
+      "for",
+      "of"
+     ],
+     "quotedphrasesnotfound": [],
+     "outputmessages": []
+    }
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=5&retmode=json&sort=relevance&term=nightly+tiktok+use+actigraphy+measured+sleep+fragmentation+among+first+year+nursing+students+in+malaysia+thailand": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+     {
+      "from": "actigraphy",
+      "to": "\"actigraphy\"[MeSH Terms] OR \"actigraphy\"[All Fields]"
+     },
+     {
+      "from": "measured",
+      "to": "\"measurability\"[All Fields] OR \"measurable\"[All Fields] OR \"measurably\"[All Fields] OR \"measure's\"[All Fields] OR \"measureable\"[All Fields] OR \"measured\"[All Fields] OR \"measurement\"[All Fields] OR \"measurement's\"[All Fields] OR \"measurements\"[All Fields] OR \"measurer\"[All Fields] OR \"measurers\"[All Fields] OR \"measuring\"[All Fields] OR \"measurings\"[All Fields] OR \"measurment\"[All Fields] OR \"measurments\"[All Fields] OR \"weights and measures\"[MeSH Terms] OR (\"weights\"[All Fields] AND \"measures\"[All Fields]) OR \"weights and measures\"[All Fields] OR \"measure\"[All Fields] OR \"measures\"[All Fields]"
+     },
+     {
+      "from": "sleep fragmentation",
+      "to": "\"sleep deprivation\"[MeSH Terms] OR (\"sleep\"[All Fields] AND \"deprivation\"[All Fields]) OR \"sleep deprivation\"[All Fields] OR (\"sleep\"[All Fields] AND \"fragmentation\"[All Fields]) OR \"sleep fragmentation\"[All Fields]"
+     },
+     {
+      "from": "first",
+      "to": "\"first\"[All Fields] OR \"firsts\"[All Fields]"
+     },
+     {
+      "from": "nursing students",
+      "to": "\"students, nursing\"[MeSH Terms] OR (\"students\"[All Fields] AND \"nursing\"[All Fields]) OR \"nursing students\"[All Fields] OR (\"nursing\"[All Fields] AND \"students\"[All Fields])"
+     },
+     {
+      "from": "malaysia",
+      "to": "\"malaysia\"[MeSH Terms] OR \"malaysia\"[All Fields] OR \"malaysia's\"[All Fields]"
+     },
+     {
+      "from": "thailand",
+      "to": "\"thailand\"[MeSH Terms] OR \"thailand\"[All Fields] OR \"thailand's\"[All Fields]"
+     }
+    ],
+    "querytranslation": "\"nightly\"[All Fields] AND \"tiktok\"[All Fields] AND (\"actigraphy\"[MeSH Terms] OR \"actigraphy\"[All Fields]) AND (\"measurability\"[All Fields] OR \"measurable\"[All Fields] OR \"measurably\"[All Fields] OR \"measure s\"[All Fields] OR \"measureable\"[All Fields] OR \"measured\"[All Fields] OR \"measurement\"[All Fields] OR \"measurement s\"[All Fields] OR \"measurements\"[All Fields] OR \"measurer\"[All Fields] OR \"measurers\"[All Fields] OR \"measuring\"[All Fields] OR \"measurings\"[All Fields] OR \"measurment\"[All Fields] OR \"measurments\"[All Fields] OR \"weights and measures\"[MeSH Terms] OR (\"weights\"[All Fields] AND \"measures\"[All Fields]) OR \"weights and measures\"[All Fields] OR \"measure\"[All Fields] OR \"measures\"[All Fields]) AND (\"sleep deprivation\"[MeSH Terms] OR (\"sleep\"[All Fields] AND \"deprivation\"[All Fields]) OR \"sleep deprivation\"[All Fields] OR (\"sleep\"[All Fields] AND \"fragmentation\"[All Fields]) OR \"sleep fragmentation\"[All Fields]) AND (\"first\"[All Fields] OR \"firsts\"[All Fields]) AND \"year\"[All Fields] AND (\"students, nursing\"[MeSH Terms] OR (\"students\"[All Fields] AND \"nursing\"[All Fields]) OR \"nursing students\"[All Fields] OR (\"nursing\"[All Fields] AND \"students\"[All Fields])) AND (\"malaysia\"[MeSH Terms] OR \"malaysia\"[All Fields] OR \"malaysia s\"[All Fields]) AND (\"thailand\"[MeSH Terms] OR \"thailand\"[All Fields] OR \"thailand s\"[All Fields])",
+    "warninglist": {
+     "phrasesignored": [
+      "use",
+      "among",
+      "in"
+     ],
+     "quotedphrasesnotfound": [],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=5&retmode=json&sort=relevance&term=offline+deep+reinforcement+learning+for+closed+loop+basal+insulin+titration+in+adolescents+with+type+1+diabetes": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+     {
+      "from": "deep reinforcement learning",
+      "to": "\"reinforcement machine learning\"[MeSH Terms] OR (\"reinforcement\"[All Fields] AND \"machine\"[All Fields] AND \"learning\"[All Fields]) OR \"reinforcement machine learning\"[All Fields] OR (\"deep\"[All Fields] AND \"reinforcement\"[All Fields] AND \"learning\"[All Fields]) OR \"deep reinforcement learning\"[All Fields]"
+     },
+     {
+      "from": "closed",
+      "to": "\"close\"[All Fields] OR \"closed\"[All Fields] OR \"closely\"[All Fields] OR \"closeness\"[All Fields] OR \"closes\"[All Fields] OR \"closing\"[All Fields] OR \"closings\"[All Fields]"
+     },
+     {
+      "from": "basal",
+      "to": "\"basal\"[All Fields] OR \"basale\"[All Fields] OR \"basally\"[All Fields] OR \"basals\"[All Fields]"
+     },
+     {
+      "from": "insulin",
+      "to": "\"insulin\"[Supplementary Concept] OR \"insulin\"[All Fields] OR \"insulin\"[MeSH Terms] OR \"insulin's\"[All Fields] OR \"insuline\"[All Fields] OR \"insulinic\"[All Fields] OR \"insulinization\"[All Fields] OR \"insulinized\"[All Fields] OR \"insulins\"[MeSH Terms] OR \"insulins\"[All Fields]"
+     },
+     {
+      "from": "titration",
+      "to": "\"titrate\"[All Fields] OR \"titrated\"[All Fields] OR \"titrates\"[All Fields] OR \"titrating\"[All Fields] OR \"titrator\"[All Fields] OR \"titrators\"[All Fields] OR \"titrimetry\"[MeSH Terms] OR \"titrimetry\"[All Fields] OR \"titration\"[All Fields] OR \"titrations\"[All Fields]"
+     },
+     {
+      "from": "adolescents",
+      "to": "\"adolescences\"[All Fields] OR \"adolescency\"[All Fields] OR \"adolescent\"[MeSH Terms] OR \"adolescent\"[All Fields] OR \"adolescence\"[All Fields] OR \"adolescents\"[All Fields] OR \"adolescent's\"[All Fields]"
+     },
+     {
+      "from": "type 1 diabetes",
+      "to": "\"diabetes mellitus, type 1\"[MeSH Terms] OR \"type 1 diabetes mellitus\"[All Fields] OR \"type 1 diabetes\"[All Fields]"
+     }
+    ],
+    "querytranslation": "\"offline\"[All Fields] AND (\"reinforcement machine learning\"[MeSH Terms] OR (\"reinforcement\"[All Fields] AND \"machine\"[All Fields] AND \"learning\"[All Fields]) OR \"reinforcement machine learning\"[All Fields] OR (\"deep\"[All Fields] AND \"reinforcement\"[All Fields] AND \"learning\"[All Fields]) OR \"deep reinforcement learning\"[All Fields]) AND (\"close\"[All Fields] OR \"closed\"[All Fields] OR \"closely\"[All Fields] OR \"closeness\"[All Fields] OR \"closes\"[All Fields] OR \"closing\"[All Fields] OR \"closings\"[All Fields]) AND \"loop\"[All Fields] AND (\"basal\"[All Fields] OR \"basale\"[All Fields] OR \"basally\"[All Fields] OR \"basals\"[All Fields]) AND (\"insulin\"[Supplementary Concept] OR \"insulin\"[All Fields] OR \"insulin\"[MeSH Terms] OR \"insulin s\"[All Fields] OR \"insuline\"[All Fields] OR \"insulinic\"[All Fields] OR \"insulinization\"[All Fields] OR \"insulinized\"[All Fields] OR \"insulins\"[MeSH Terms] OR \"insulins\"[All Fields]) AND (\"titrate\"[All Fields] OR \"titrated\"[All Fields] OR \"titrates\"[All Fields] OR \"titrating\"[All Fields] OR \"titrator\"[All Fields] OR \"titrators\"[All Fields] OR \"titrimetry\"[MeSH Terms] OR \"titrimetry\"[All Fields] OR \"titration\"[All Fields] OR \"titrations\"[All Fields]) AND (\"adolescences\"[All Fields] OR \"adolescency\"[All Fields] OR \"adolescent\"[MeSH Terms] OR \"adolescent\"[All Fields] OR \"adolescence\"[All Fields] OR \"adolescents\"[All Fields] OR \"adolescent s\"[All Fields]) AND (\"diabetes mellitus, type 1\"[MeSH Terms] OR \"type 1 diabetes mellitus\"[All Fields] OR \"type 1 diabetes\"[All Fields])",
+    "warninglist": {
+     "phrasesignored": [
+      "for",
+      "in",
+      "with"
+     ],
+     "quotedphrasesnotfound": [],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=5&retmode=json&sort=relevance&term=preoperative+gut+microbiota+diversity+predicts+postoperative+delirium+in+elderly+patients+undergoing+hip+fracture+surgery+a+prospective+cohort+study": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+     {
+      "from": "preoperative",
+      "to": "\"preoperation\"[All Fields] OR \"preoperational\"[All Fields] OR \"preoperations\"[All Fields] OR \"preoperative\"[All Fields] OR \"preoperatively\"[All Fields]"
+     },
+     {
+      "from": "gut microbiota",
+      "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+     },
+     {
+      "from": "diversity",
+      "to": "\"diverse\"[All Fields] OR \"diversely\"[All Fields] OR \"diversities\"[All Fields] OR \"diversity\"[All Fields]"
+     },
+     {
+      "from": "predicts",
+      "to": "\"predict\"[All Fields] OR \"predictabilities\"[All Fields] OR \"predictability\"[All Fields] OR \"predictable\"[All Fields] OR \"predictably\"[All Fields] OR \"predicted\"[All Fields] OR \"predicting\"[All Fields] OR \"prediction\"[All Fields] OR \"predictions\"[All Fields] OR \"predictive\"[All Fields] OR \"predictively\"[All Fields] OR \"predictiveness\"[All Fields] OR \"predictives\"[All Fields] OR \"predictivities\"[All Fields] OR \"predictivity\"[All Fields] OR \"predicts\"[All Fields]"
+     },
+     {
+      "from": "postoperative delirium",
+      "to": "\"emergence delirium\"[MeSH Terms] OR (\"emergence\"[All Fields] AND \"delirium\"[All Fields]) OR \"emergence delirium\"[All Fields] OR (\"postoperative\"[All Fields] AND \"delirium\"[All Fields]) OR \"postoperative delirium\"[All Fields]"
+     },
+     {
+      "from": "elderly",
+      "to": "\"aged\"[MeSH Terms] OR \"aged\"[All Fields] OR \"elderly\"[All Fields] OR \"elderlies\"[All Fields] OR \"elderly's\"[All Fields] OR \"elderlys\"[All Fields]"
+     },
+     {
+      "from": "patients",
+      "to": "\"patient's\"[All Fields] OR \"patients\"[MeSH Terms] OR \"patients\"[All Fields] OR \"patient\"[All Fields] OR \"patients's\"[All Fields]"
+     },
+     {
+      "from": "undergoing",
+      "to": "\"undergo\"[All Fields] OR \"undergoes\"[All Fields] OR \"undergoing\"[All Fields]"
+     },
+     {
+      "from": "hip fracture",
+      "to": "\"hip fractures\"[MeSH Terms] OR (\"hip\"[All Fields] AND \"fractures\"[All Fields]) OR \"hip fractures\"[All Fields] OR (\"hip\"[All Fields] AND \"fracture\"[All Fields]) OR \"hip fracture\"[All Fields]"
+     },
+     {
+      "from": "surgery",
+      "to": "\"surgery\"[Subheading] OR \"surgery\"[All Fields] OR \"surgical procedures, operative\"[MeSH Terms] OR (\"surgical\"[All Fields] AND \"procedures\"[All Fields] AND \"operative\"[All Fields]) OR \"operative surgical procedures\"[All Fields] OR \"general surgery\"[MeSH Terms] OR (\"general\"[All Fields] AND \"surgery\"[All Fields]) OR \"general surgery\"[All Fields] OR \"surgery's\"[All Fields] OR \"surgerys\"[All Fields] OR \"surgeries\"[All Fields]"
+     },
+     {
+      "from": "prospective",
+      "to": "\"prospective\"[All Fields] OR \"prospectively\"[All Fields]"
+     },
+     {
+      "from": "cohort study",
+      "to": "\"cohort studies\"[MeSH Terms] OR (\"cohort\"[All Fields] AND \"studies\"[All Fields]) OR \"cohort studies\"[All Fields] OR (\"cohort\"[All Fields] AND \"study\"[All Fields]) OR \"cohort study\"[All Fields]"
+     }
+    ],
+    "querytranslation": "(\"preoperation\"[All Fields] OR \"preoperational\"[All Fields] OR \"preoperations\"[All Fields] OR \"preoperative\"[All Fields] OR \"preoperatively\"[All Fields]) AND (\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]) AND (\"diverse\"[All Fields] OR \"diversely\"[All Fields] OR \"diversities\"[All Fields] OR \"diversity\"[All Fields]) AND (\"predict\"[All Fields] OR \"predictabilities\"[All Fields] OR \"predictability\"[All Fields] OR \"predictable\"[All Fields] OR \"predictably\"[All Fields] OR \"predicted\"[All Fields] OR \"predicting\"[All Fields] OR \"prediction\"[All Fields] OR \"predictions\"[All Fields] OR \"predictive\"[All Fields] OR \"predictively\"[All Fields] OR \"predictiveness\"[All Fields] OR \"predictives\"[All Fields] OR \"predictivities\"[All Fields] OR \"predictivity\"[All Fields] OR \"predicts\"[All Fields]) AND (\"emergence delirium\"[MeSH Terms] OR (\"emergence\"[All Fields] AND \"delirium\"[All Fields]) OR \"emergence delirium\"[All Fields] OR (\"postoperative\"[All Fields] AND \"delirium\"[All Fields]) OR \"postoperative delirium\"[All Fields]) AND (\"aged\"[MeSH Terms] OR \"aged\"[All Fields] OR \"elderly\"[All Fields] OR \"elderlies\"[All Fields] OR \"elderly s\"[All Fields] OR \"elderlys\"[All Fields]) AND (\"patient s\"[All Fields] OR \"patients\"[MeSH Terms] OR \"patients\"[All Fields] OR \"patient\"[All Fields] OR \"patients s\"[All Fields]) AND (\"undergo\"[All Fields] OR \"undergoes\"[All Fields] OR \"undergoing\"[All Fields]) AND (\"hip fractures\"[MeSH Terms] OR (\"hip\"[All Fields] AND \"fractures\"[All Fields]) OR \"hip fractures\"[All Fields] OR (\"hip\"[All Fields] AND \"fracture\"[All Fields]) OR \"hip fracture\"[All Fields]) AND (\"surgery\"[MeSH Subheading] OR \"surgery\"[All Fields] OR \"surgical procedures, operative\"[MeSH Terms] OR (\"surgical\"[All Fields] AND \"procedures\"[All Fields] AND \"operative\"[All Fields]) OR \"operative surgical procedures\"[All Fields] OR \"general surgery\"[MeSH Terms] OR (\"general\"[All Fields] AND \"surgery\"[All Fields]) OR \"general surgery\"[All Fields] OR \"surgery s\"[All Fields] OR \"surgerys\"[All Fields] OR \"surgeries\"[All Fields]) AND (\"prospective\"[All Fields] OR \"prospectively\"[All Fields]) AND (\"cohort studies\"[MeSH Terms] OR (\"cohort\"[All Fields] AND \"studies\"[All Fields]) OR \"cohort studies\"[All Fields] OR (\"cohort\"[All Fields] AND \"study\"[All Fields]) OR \"cohort study\"[All Fields])",
+    "warninglist": {
+     "phrasesignored": [
+      "in",
+      "a"
+     ],
+     "quotedphrasesnotfound": [],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=5&retmode=json&sort=relevance&term=telemedicine+delivered+cognitive+behavioural+therapy+for+insomnia+among+farmers+in+rural+wales+a+pragmatic+cluster+randomised+trial": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+     {
+      "from": "telemedicine",
+      "to": "\"telemedicine\"[MeSH Terms] OR \"telemedicine\"[All Fields] OR \"telemedicine's\"[All Fields]"
+     },
+     {
+      "from": "delivered",
+      "to": "\"deliver\"[All Fields] OR \"delivered\"[All Fields] OR \"delivering\"[All Fields] OR \"delivers\"[All Fields]"
+     },
+     {
+      "from": "cognitive behavioural therapy",
+      "to": "\"cognitive behavioural therapy\"[All Fields] OR \"cognitive behavioral therapy\"[MeSH Terms] OR (\"cognitive\"[All Fields] AND \"behavioral\"[All Fields] AND \"therapy\"[All Fields]) OR \"cognitive behavioral therapy\"[All Fields]"
+     },
+     {
+      "from": "insomnia",
+      "to": "\"insomnia's\"[All Fields] OR \"sleep initiation and maintenance disorders\"[MeSH Terms] OR (\"sleep\"[All Fields] AND \"initiation\"[All Fields] AND \"maintenance\"[All Fields] AND \"disorders\"[All Fields]) OR \"sleep initiation and maintenance disorders\"[All Fields] OR \"insomnia\"[All Fields] OR \"insomnias\"[All Fields]"
+     },
+     {
+      "from": "farmers",
+      "to": "\"farmer's\"[All Fields] OR \"farmers\"[MeSH Terms] OR \"farmers\"[All Fields] OR \"farmer\"[All Fields]"
+     },
+     {
+      "from": "rural",
+      "to": "\"rural\"[All Fields] OR \"ruralities\"[All Fields] OR \"rurality\"[All Fields] OR \"rurally\"[All Fields] OR \"ruralness\"[All Fields] OR \"rurals\"[All Fields]"
+     },
+     {
+      "from": "wales a",
+      "to": "wales a[Author]"
+     },
+     {
+      "from": "pragmatic",
+      "to": "\"pragmatic\"[All Fields] OR \"pragmatical\"[All Fields] OR \"pragmatically\"[All Fields] OR \"pragmatics\"[All Fields] OR \"pragmatism\"[All Fields]"
+     },
+     {
+      "from": "cluster",
+      "to": "\"cluster analysis\"[MeSH Terms] OR (\"cluster\"[All Fields] AND \"analysis\"[All Fields]) OR \"cluster analysis\"[All Fields] OR \"clustering\"[All Fields] OR \"clusterings\"[All Fields] OR \"cluster\"[All Fields] OR \"cluster's\"[All Fields] OR \"clustered\"[All Fields] OR \"clusterization\"[All Fields] OR \"clusters\"[All Fields]"
+     },
+     {
+      "from": "randomised",
+      "to": "\"random allocation\"[MeSH Terms] OR (\"random\"[All Fields] AND \"allocation\"[All Fields]) OR \"random allocation\"[All Fields] OR \"randomization\"[All Fields] OR \"randomized\"[All Fields] OR \"random\"[All Fields] OR \"randomisation\"[All Fields] OR \"randomisations\"[All Fields] OR \"randomise\"[All Fields] OR \"randomised\"[All Fields] OR \"randomising\"[All Fields] OR \"randomizations\"[All Fields] OR \"randomize\"[All Fields] OR \"randomizes\"[All Fields] OR \"randomizing\"[All Fields] OR \"randomness\"[All Fields] OR \"randoms\"[All Fields]"
+     },
+     {
+      "from": "trial",
+      "to": "\"clinical trials as topic\"[MeSH Terms] OR (\"clinical\"[All Fields] AND \"trials\"[All Fields] AND \"topic\"[All Fields]) OR \"clinical trials as topic\"[All Fields] OR \"trial\"[All Fields] OR \"trial's\"[All Fields] OR \"trialed\"[All Fields] OR \"trialing\"[All Fields] OR \"trials\"[All Fields]"
+     }
+    ],
+    "querytranslation": "(\"telemedicine\"[MeSH Terms] OR \"telemedicine\"[All Fields] OR \"telemedicine s\"[All Fields]) AND (\"deliver\"[All Fields] OR \"delivered\"[All Fields] OR \"delivering\"[All Fields] OR \"delivers\"[All Fields]) AND (\"cognitive behavioural therapy\"[All Fields] OR \"cognitive behavioral therapy\"[MeSH Terms] OR (\"cognitive\"[All Fields] AND \"behavioral\"[All Fields] AND \"therapy\"[All Fields]) OR \"cognitive behavioral therapy\"[All Fields]) AND (\"insomnia s\"[All Fields] OR \"sleep initiation and maintenance disorders\"[MeSH Terms] OR (\"sleep\"[All Fields] AND \"initiation\"[All Fields] AND \"maintenance\"[All Fields] AND \"disorders\"[All Fields]) OR \"sleep initiation and maintenance disorders\"[All Fields] OR \"insomnia\"[All Fields] OR \"insomnias\"[All Fields]) AND (\"farmer s\"[All Fields] OR \"farmers\"[MeSH Terms] OR \"farmers\"[All Fields] OR \"farmer\"[All Fields]) AND (\"rural\"[All Fields] OR \"ruralities\"[All Fields] OR \"rurality\"[All Fields] OR \"rurally\"[All Fields] OR \"ruralness\"[All Fields] OR \"rurals\"[All Fields]) AND wales a[Author] AND (\"pragmatic\"[All Fields] OR \"pragmatical\"[All Fields] OR \"pragmatically\"[All Fields] OR \"pragmatics\"[All Fields] OR \"pragmatism\"[All Fields]) AND (\"cluster analysis\"[MeSH Terms] OR (\"cluster\"[All Fields] AND \"analysis\"[All Fields]) OR \"cluster analysis\"[All Fields] OR \"clustering\"[All Fields] OR \"clusterings\"[All Fields] OR \"cluster\"[All Fields] OR \"cluster s\"[All Fields] OR \"clustered\"[All Fields] OR \"clusterization\"[All Fields] OR \"clusters\"[All Fields]) AND (\"random allocation\"[MeSH Terms] OR (\"random\"[All Fields] AND \"allocation\"[All Fields]) OR \"random allocation\"[All Fields] OR \"randomization\"[All Fields] OR \"randomized\"[All Fields] OR \"random\"[All Fields] OR \"randomisation\"[All Fields] OR \"randomisations\"[All Fields] OR \"randomise\"[All Fields] OR \"randomised\"[All Fields] OR \"randomising\"[All Fields] OR \"randomizations\"[All Fields] OR \"randomize\"[All Fields] OR \"randomizes\"[All Fields] OR \"randomizing\"[All Fields] OR \"randomness\"[All Fields] OR \"randoms\"[All Fields]) AND (\"clinical trials as topic\"[MeSH Terms] OR (\"clinical\"[All Fields] AND \"trials\"[All Fields] AND \"topic\"[All Fields]) OR \"clinical trials as topic\"[All Fields] OR \"trial\"[All Fields] OR \"trial s\"[All Fields] OR \"trialed\"[All Fields] OR \"trialing\"[All Fields] OR \"trials\"[All Fields])",
+    "warninglist": {
+     "phrasesignored": [
+      "for",
+      "among",
+      "in"
+     ],
+     "quotedphrasesnotfound": [],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=5&retmode=json&sort=relevance&term=transformer+based+acoustic+lexical+fusion+for+early+detection+of+alzheimer+s+disease+from+smartphone+voice+diaries": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+     {
+      "from": "transformer",
+      "to": "\"transformer\"[All Fields] OR \"transformers\"[All Fields]"
+     },
+     {
+      "from": "based",
+      "to": "\"based\"[All Fields] OR \"basing\"[All Fields]"
+     },
+     {
+      "from": "acoustic",
+      "to": "\"acoust\"[All Fields] OR \"acoustical\"[All Fields] OR \"acoustically\"[All Fields] OR \"acoustics\"[MeSH Terms] OR \"acoustics\"[All Fields] OR \"acoustic\"[All Fields]"
+     },
+     {
+      "from": "lexical",
+      "to": "\"lexical\"[All Fields] OR \"lexicality\"[All Fields] OR \"lexicalization\"[All Fields] OR \"lexicalizations\"[All Fields] OR \"lexicalize\"[All Fields] OR \"lexicalized\"[All Fields] OR \"lexically\"[All Fields]"
+     },
+     {
+      "from": "fusion",
+      "to": "\"fusion\"[All Fields] OR \"fusions\"[All Fields]"
+     },
+     {
+      "from": "early detection",
+      "to": "\"early diagnosis\"[MeSH Terms] OR (\"early\"[All Fields] AND \"diagnosis\"[All Fields]) OR \"early diagnosis\"[All Fields] OR (\"early\"[All Fields] AND \"detection\"[All Fields]) OR \"early detection\"[All Fields]"
+     },
+     {
+      "from": "alzheimer s disease",
+      "to": "\"alzheimer disease\"[MeSH Terms] OR (\"alzheimer\"[All Fields] AND \"disease\"[All Fields]) OR \"alzheimer disease\"[All Fields] OR (\"alzheimer's\"[All Fields] AND \"disease\"[All Fields]) OR \"alzheimer's disease\"[All Fields]"
+     },
+     {
+      "from": "smartphone",
+      "to": "\"smartphone\"[MeSH Terms] OR \"smartphone\"[All Fields] OR \"smartphones\"[All Fields] OR \"smartphone's\"[All Fields]"
+     },
+     {
+      "from": "voice",
+      "to": "\"voice\"[MeSH Terms] OR \"voice\"[All Fields] OR \"voices\"[All Fields] OR \"voice's\"[All Fields] OR \"voiced\"[All Fields] OR \"voicing\"[All Fields]"
+     },
+     {
+      "from": "diaries",
+      "to": "\"diaries\"[All Fields] OR \"diary\"[All Fields]"
+     }
+    ],
+    "querytranslation": "(\"transformer\"[All Fields] OR \"transformers\"[All Fields]) AND (\"based\"[All Fields] OR \"basing\"[All Fields]) AND (\"acoust\"[All Fields] OR \"acoustical\"[All Fields] OR \"acoustically\"[All Fields] OR \"acoustics\"[MeSH Terms] OR \"acoustics\"[All Fields] OR \"acoustic\"[All Fields]) AND (\"lexical\"[All Fields] OR \"lexicality\"[All Fields] OR \"lexicalization\"[All Fields] OR \"lexicalizations\"[All Fields] OR \"lexicalize\"[All Fields] OR \"lexicalized\"[All Fields] OR \"lexically\"[All Fields]) AND (\"fusion\"[All Fields] OR \"fusions\"[All Fields]) AND (\"early diagnosis\"[MeSH Terms] OR (\"early\"[All Fields] AND \"diagnosis\"[All Fields]) OR \"early diagnosis\"[All Fields] OR (\"early\"[All Fields] AND \"detection\"[All Fields]) OR \"early detection\"[All Fields]) AND (\"alzheimer disease\"[MeSH Terms] OR (\"alzheimer\"[All Fields] AND \"disease\"[All Fields]) OR \"alzheimer disease\"[All Fields] OR (\"alzheimer s\"[All Fields] AND \"disease\"[All Fields]) OR \"alzheimer s disease\"[All Fields]) AND (\"smartphone\"[MeSH Terms] OR \"smartphone\"[All Fields] OR \"smartphones\"[All Fields] OR \"smartphone s\"[All Fields]) AND (\"voice\"[MeSH Terms] OR \"voice\"[All Fields] OR \"voices\"[All Fields] OR \"voice s\"[All Fields] OR \"voiced\"[All Fields] OR \"voicing\"[All Fields]) AND (\"diaries\"[All Fields] OR \"diary\"[All Fields])",
+    "warninglist": {
+     "phrasesignored": [
+      "for",
+      "of",
+      "from"
+     ],
+     "quotedphrasesnotfound": [],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=5&retmode=json&sort=relevance&term=vitamin+d3+supplementation+depressive+symptoms+in+nigerian+adolescents+a+systematic+review+dose+response+meta+analysis+of+randomised+trials": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+     {
+      "from": "vitamin d3",
+      "to": "\"cholecalciferol\"[Supplementary Concept] OR \"cholecalciferol\"[All Fields] OR \"vitamin d3\"[All Fields] OR \"cholecalciferol\"[MeSH Terms] OR (\"vitamin\"[All Fields] AND \"d3\"[All Fields])"
+     },
+     {
+      "from": "supplementation",
+      "to": "\"supplemental\"[All Fields] OR \"supplementating\"[All Fields] OR \"supplementation\"[All Fields] OR \"supplementation's\"[All Fields] OR \"supplementations\"[All Fields] OR \"supplemention\"[All Fields]"
+     },
+     {
+      "from": "depressive symptoms",
+      "to": "\"depression\"[MeSH Terms] OR \"depression\"[All Fields] OR (\"depressive\"[All Fields] AND \"symptoms\"[All Fields]) OR \"depressive symptoms\"[All Fields]"
+     },
+     {
+      "from": "nigerian",
+      "to": "\"nigerian people\"[Supplementary Concept] OR \"nigerian people\"[All Fields] OR \"nigerian\"[All Fields] OR \"nigerians\"[All Fields]"
+     },
+     {
+      "from": "adolescents",
+      "to": "\"adolescences\"[All Fields] OR \"adolescency\"[All Fields] OR \"adolescent\"[MeSH Terms] OR \"adolescent\"[All Fields] OR \"adolescence\"[All Fields] OR \"adolescents\"[All Fields] OR \"adolescent's\"[All Fields]"
+     },
+     {
+      "from": "systematic review",
+      "to": "\"systematic review\"[Publication Type] OR \"systematic reviews as topic\"[MeSH Terms] OR \"systematic review\"[All Fields]"
+     },
+     {
+      "from": "dose response",
+      "to": "\"Dose Response\"[Journal:__jid101308899] OR (\"dose\"[All Fields] AND \"response\"[All Fields]) OR \"dose response\"[All Fields]"
+     },
+     {
+      "from": "meta analysis",
+      "to": "\"meta-analysis\"[Publication Type] OR \"meta-analysis as topic\"[MeSH Terms] OR \"meta-analysis\"[All Fields]"
+     },
+     {
+      "from": "randomised",
+      "to": "\"random allocation\"[MeSH Terms] OR (\"random\"[All Fields] AND \"allocation\"[All Fields]) OR \"random allocation\"[All Fields] OR \"randomization\"[All Fields] OR \"randomized\"[All Fields] OR \"random\"[All Fields] OR \"randomisation\"[All Fields] OR \"randomisations\"[All Fields] OR \"randomise\"[All Fields] OR \"randomised\"[All Fields] OR \"randomising\"[All Fields] OR \"randomizations\"[All Fields] OR \"randomize\"[All Fields] OR \"randomizes\"[All Fields] OR \"randomizing\"[All Fields] OR \"randomness\"[All Fields] OR \"randoms\"[All Fields]"
+     },
+     {
+      "from": "trials",
+      "to": "\"clinical trials as topic\"[MeSH Terms] OR (\"clinical\"[All Fields] AND \"trials\"[All Fields] AND \"topic\"[All Fields]) OR \"clinical trials as topic\"[All Fields] OR \"trial\"[All Fields] OR \"trial's\"[All Fields] OR \"trialed\"[All Fields] OR \"trialing\"[All Fields] OR \"trials\"[All Fields]"
+     }
+    ],
+    "querytranslation": "(\"cholecalciferol\"[Supplementary Concept] OR \"cholecalciferol\"[All Fields] OR \"vitamin d3\"[All Fields] OR \"cholecalciferol\"[MeSH Terms] OR (\"vitamin\"[All Fields] AND \"d3\"[All Fields])) AND (\"supplemental\"[All Fields] OR \"supplementating\"[All Fields] OR \"supplementation\"[All Fields] OR \"supplementation s\"[All Fields] OR \"supplementations\"[All Fields] OR \"supplemention\"[All Fields]) AND (\"depression\"[MeSH Terms] OR \"depression\"[All Fields] OR (\"depressive\"[All Fields] AND \"symptoms\"[All Fields]) OR \"depressive symptoms\"[All Fields]) AND (\"nigerian people\"[Supplementary Concept] OR \"nigerian people\"[All Fields] OR \"nigerian\"[All Fields] OR \"nigerians\"[All Fields]) AND (\"adolescences\"[All Fields] OR \"adolescency\"[All Fields] OR \"adolescent\"[MeSH Terms] OR \"adolescent\"[All Fields] OR \"adolescence\"[All Fields] OR \"adolescents\"[All Fields] OR \"adolescent s\"[All Fields]) AND (\"systematic review\"[Publication Type] OR \"systematic reviews as topic\"[MeSH Terms] OR \"systematic review\"[All Fields]) AND (\"dose response\"[Journal] OR (\"dose\"[All Fields] AND \"response\"[All Fields]) OR \"dose response\"[All Fields]) AND (\"meta analysis\"[Publication Type] OR \"meta analysis as topic\"[MeSH Terms] OR \"meta analysis\"[All Fields]) AND (\"random allocation\"[MeSH Terms] OR (\"random\"[All Fields] AND \"allocation\"[All Fields]) OR \"random allocation\"[All Fields] OR \"randomization\"[All Fields] OR \"randomized\"[All Fields] OR \"random\"[All Fields] OR \"randomisation\"[All Fields] OR \"randomisations\"[All Fields] OR \"randomise\"[All Fields] OR \"randomised\"[All Fields] OR \"randomising\"[All Fields] OR \"randomizations\"[All Fields] OR \"randomize\"[All Fields] OR \"randomizes\"[All Fields] OR \"randomizing\"[All Fields] OR \"randomness\"[All Fields] OR \"randoms\"[All Fields]) AND (\"clinical trials as topic\"[MeSH Terms] OR (\"clinical\"[All Fields] AND \"trials\"[All Fields] AND \"topic\"[All Fields]) OR \"clinical trials as topic\"[All Fields] OR \"trial\"[All Fields] OR \"trial s\"[All Fields] OR \"trialed\"[All Fields] OR \"trialing\"[All Fields] OR \"trials\"[All Fields])",
+    "warninglist": {
+     "phrasesignored": [
+      "in",
+      "a",
+      "of"
+     ],
+     "quotedphrasesnotfound": [],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=28077402&retmode=json": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esummary",
+    "version": "0.3"
+   },
+   "result": {
+    "28077402": {
+     "uid": "28077402",
+     "pubdate": "2018 May 1",
+     "epubdate": "",
+     "source": "Brief Bioinform",
+     "authors": [
+      {
+       "name": "Zhang P",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Georgiou CA",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Brusic V",
+       "authtype": "Author",
+       "clusterid": ""
+      }
+     ],
+     "lastauthor": "Brusic V",
+     "title": "Elemental metabolomics.",
+     "sorttitle": "elemental metabolomics",
+     "volume": "19",
+     "issue": "3",
+     "pages": "524-536",
+     "lang": [
+      "eng"
+     ],
+     "nlmuniqueid": "100912837",
+     "issn": "1467-5463",
+     "essn": "1477-4054",
+     "pubtype": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+     ],
+     "recordstatus": "PubMed - indexed for MEDLINE",
+     "pubstatus": "4",
+     "articleids": [
+      {
+       "idtype": "pubmed",
+       "idtypen": 1,
+       "value": "28077402"
+      },
+      {
+       "idtype": "doi",
+       "idtypen": 3,
+       "value": "10.1093/bib/bbw131"
+      },
+      {
+       "idtype": "pii",
+       "idtypen": 4,
+       "value": "bbw131"
+      }
+     ],
+     "history": [
+      {
+       "pubstatus": "received",
+       "date": "2016/09/22 00:00"
+      },
+      {
+       "pubstatus": "accepted",
+       "date": "2016/11/24 00:00"
+      },
+      {
+       "pubstatus": "pubmed",
+       "date": "2017/01/13 06:00"
+      },
+      {
+       "pubstatus": "medline",
+       "date": "2019/03/27 06:00"
+      },
+      {
+       "pubstatus": "entrez",
+       "date": "2017/01/13 06:00"
+      }
+     ],
+     "references": [],
+     "attributes": [
+      "Has Abstract"
+     ],
+     "pmcrefcount": "",
+     "fulljournalname": "Briefings in bioinformatics",
+     "elocationid": "doi: 10.1093/bib/bbw131",
+     "doctype": "citation",
+     "srccontriblist": [],
+     "booktitle": "",
+     "medium": "",
+     "edition": "",
+     "publisherlocation": "",
+     "publishername": "",
+     "srcdate": "",
+     "reportnumber": "",
+     "availablefromurl": "",
+     "locationlabel": "",
+     "doccontriblist": [],
+     "docdate": "",
+     "bookname": "",
+     "chapter": "",
+     "sortpubdate": "2018/05/01 00:00",
+     "sortfirstauthor": "Zhang P",
+     "vernaculartitle": ""
+    },
+    "uids": [
+     "28077402"
+    ]
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=32511943%2C32504543%2C33343837%2C33378357%2C32450107&retmode=json": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esummary",
+    "version": "0.3"
+   },
+   "result": {
+    "32450107": {
+     "uid": "32450107",
+     "pubdate": "2020 May 22",
+     "epubdate": "2020 May 22",
+     "source": "Lancet",
+     "authors": [
+      {
+       "name": "Mehra MR",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Desai SS",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Ruschitzka F",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Patel AN",
+       "authtype": "Author",
+       "clusterid": ""
+      }
+     ],
+     "lastauthor": "Patel AN",
+     "title": "RETRACTED: Hydroxychloroquine or chloroquine with or without a macrolide for treatment of COVID-19: a multinational registry analysis.",
+     "sorttitle": "retracted hydroxychloroquine or chloroquine with or without a macrolide for treatment of covid 19 a multinational registry analysis",
+     "volume": "",
+     "issue": "",
+     "pages": "",
+     "lang": [
+      "eng"
+     ],
+     "nlmuniqueid": "2985213R",
+     "issn": "0140-6736",
+     "essn": "1474-547X",
+     "pubtype": [
+      "Journal Article",
+      "Retracted Publication"
+     ],
+     "recordstatus": "PubMed",
+     "pubstatus": "10",
+     "articleids": [
+      {
+       "idtype": "pubmed",
+       "idtypen": 1,
+       "value": "32450107"
+      },
+      {
+       "idtype": "pmc",
+       "idtypen": 8,
+       "value": "PMC7255293"
+      },
+      {
+       "idtype": "pmcid",
+       "idtypen": 5,
+       "value": "pmc-id: PMC7255293;"
+      },
+      {
+       "idtype": "doi",
+       "idtypen": 3,
+       "value": "10.1016/S0140-6736(20)31180-6"
+      },
+      {
+       "idtype": "pii",
+       "idtypen": 4,
+       "value": "S0140-6736(20)31180-6"
+      }
+     ],
+     "history": [
+      {
+       "pubstatus": "received",
+       "date": "2020/04/24 00:00"
+      },
+      {
+       "pubstatus": "revised",
+       "date": "2020/05/07 00:00"
+      },
+      {
+       "pubstatus": "accepted",
+       "date": "2020/05/09 00:00"
+      },
+      {
+       "pubstatus": "entrez",
+       "date": "2020/05/26 06:00"
+      },
+      {
+       "pubstatus": "pubmed",
+       "date": "2020/05/26 06:00"
+      },
+      {
+       "pubstatus": "medline",
+       "date": "2020/05/26 06:01"
+      },
+      {
+       "pubstatus": "pmc-release",
+       "date": "2020/05/22 00:00"
+      }
+     ],
+     "references": [
+      {
+       "refsource": "Lancet. 2020 May 30:S0140-6736(20)31249-6. doi: 10.1016/S0140-6736(20)31249-6.",
+       "reftype": "Erratum in",
+       "pmid": 32485145,
+       "note": ""
+      },
+      {
+       "refsource": "Lancet. 2020 Jun 13;395(10240):e102. doi: 10.1016/S0140-6736(20)31290-3.",
+       "reftype": "Expression of concern in",
+       "pmid": 32504543,
+       "note": ""
+      },
+      {
+       "refsource": "Lancet. 2020 Jun 13;395(10240):1820. doi: 10.1016/S0140-6736(20)31324-6.",
+       "reftype": "Retraction in",
+       "pmid": 32511943,
+       "note": ""
+      },
+      {
+       "refsource": "J Neuroimmune Pharmacol. 2020 Sep;15(3):349. doi: 10.1007/s11481-020-09940-9.",
+       "reftype": "Comment in",
+       "pmid": 32607690,
+       "note": ""
+      },
+      {
+       "refsource": "Lancet. 2020 Jul 18;396(10245):e2-e3. doi: 10.1016/S0140-6736(20)31528-2.",
+       "reftype": "Retraction in",
+       "pmid": 32653079,
+       "note": ""
+      },
+      {
+       "refsource": "Rev Colomb Obstet Ginecol. 2020 Sep;71(3):231-236. doi: 10.18597/rcog.3621.",
+       "reftype": "Comment in",
+       "pmid": 33247886,
+       "note": ""
+      }
+     ],
+     "attributes": [
+      "Has Abstract"
+     ],
+     "pmcrefcount": 28,
+     "fulljournalname": "Lancet (London, England)",
+     "elocationid": "pii: S0140-6736(20)31180-6. doi: 10.1016/S0140-6736(20)31180-6",
+     "doctype": "citation",
+     "srccontriblist": [],
+     "booktitle": "",
+     "medium": "",
+     "edition": "",
+     "publisherlocation": "",
+     "publishername": "",
+     "srcdate": "",
+     "reportnumber": "",
+     "availablefromurl": "",
+     "locationlabel": "",
+     "doccontriblist": [],
+     "docdate": "",
+     "bookname": "",
+     "chapter": "",
+     "sortpubdate": "2020/05/22 00:00",
+     "sortfirstauthor": "Mehra MR",
+     "vernaculartitle": ""
+    },
+    "32504543": {
+     "uid": "32504543",
+     "pubdate": "2020 Jun 13",
+     "epubdate": "2020 Jun 3",
+     "source": "Lancet",
+     "authors": [
+      {
+       "name": "The Lancet Editors",
+       "authtype": "CollectiveName",
+       "clusterid": ""
+      }
+     ],
+     "lastauthor": "The Lancet Editors",
+     "title": "Expression of concern: Hydroxychloroquine or chloroquine with or without a macrolide for treatment of COVID-19: a multinational registry analysis.",
+     "sorttitle": "expression of concern hydroxychloroquine or chloroquine with or without a macrolide for treatment of covid 19 a multinational registry analysis",
+     "volume": "395",
+     "issue": "10240",
+     "pages": "e102",
+     "lang": [
+      "eng"
+     ],
+     "nlmuniqueid": "2985213R",
+     "issn": "0140-6736",
+     "essn": "1474-547X",
+     "pubtype": [
+      "Journal Article",
+      "Expression of Concern"
+     ],
+     "recordstatus": "PubMed",
+     "pubstatus": "256",
+     "articleids": [
+      {
+       "idtype": "pubmed",
+       "idtypen": 1,
+       "value": "32504543"
+      },
+      {
+       "idtype": "pmc",
+       "idtypen": 8,
+       "value": "PMC7269709"
+      },
+      {
+       "idtype": "pmcid",
+       "idtypen": 5,
+       "value": "pmc-id: PMC7269709;"
+      },
+      {
+       "idtype": "doi",
+       "idtypen": 3,
+       "value": "10.1016/S0140-6736(20)31290-3"
+      },
+      {
+       "idtype": "pii",
+       "idtypen": 4,
+       "value": "S0140-6736(20)31290-3"
+      }
+     ],
+     "history": [
+      {
+       "pubstatus": "pubmed",
+       "date": "2020/06/07 06:00"
+      },
+      {
+       "pubstatus": "medline",
+       "date": "2020/06/07 06:01"
+      },
+      {
+       "pubstatus": "entrez",
+       "date": "2020/06/07 06:00"
+      },
+      {
+       "pubstatus": "pmc-release",
+       "date": "2020/06/03 00:00"
+      }
+     ],
+     "references": [
+      {
+       "refsource": "Lancet. 2020 May 22:S0140-6736(20)31180-6. doi: 10.1016/S0140-6736(20)31180-6.",
+       "reftype": "Expression of concern for",
+       "pmid": 32450107,
+       "note": ""
+      },
+      {
+       "refsource": "Lancet. 2020 Oct 10;396(10257):1055-1056. doi: 10.1016/S0140-6736(20)32077-8.",
+       "reftype": "Comment in",
+       "pmid": 33038952,
+       "note": ""
+      },
+      {
+       "refsource": "Pulmonology. 2021 Mar-Apr;27(2):97-106. doi: 10.1016/j.pulmoe.2020.10.011.",
+       "reftype": "Comment in",
+       "pmid": 33281107,
+       "note": ""
+      }
+     ],
+     "attributes": [],
+     "pmcrefcount": 1,
+     "fulljournalname": "Lancet (London, England)",
+     "elocationid": "doi: 10.1016/S0140-6736(20)31290-3",
+     "doctype": "citation",
+     "srccontriblist": [],
+     "booktitle": "",
+     "medium": "",
+     "edition": "",
+     "publisherlocation": "",
+     "publishername": "",
+     "srcdate": "",
+     "reportnumber": "",
+     "availablefromurl": "",
+     "locationlabel": "",
+     "doccontriblist": [],
+     "docdate": "",
+     "bookname": "",
+     "chapter": "",
+     "sortpubdate": "2020/06/13 00:00",
+     "sortfirstauthor": "The Lancet Editors",
+     "vernaculartitle": ""
+    },
+    "32511943": {
+     "uid": "32511943",
+     "pubdate": "2020 Jun 13",
+     "epubdate": "2020 Jun 5",
+     "source": "Lancet",
+     "authors": [
+      {
+       "name": "Mehra MR",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Ruschitzka F",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Patel AN",
+       "authtype": "Author",
+       "clusterid": ""
+      }
+     ],
+     "lastauthor": "Patel AN",
+     "title": "Retraction-Hydroxychloroquine or chloroquine with or without a macrolide for treatment of COVID-19: a multinational registry analysis.",
+     "sorttitle": "retraction hydroxychloroquine or chloroquine with or without a macrolide for treatment of covid 19 a multinational registry analysis",
+     "volume": "395",
+     "issue": "10240",
+     "pages": "1820",
+     "lang": [
+      "eng"
+     ],
+     "nlmuniqueid": "2985213R",
+     "issn": "0140-6736",
+     "essn": "1474-547X",
+     "pubtype": [
+      "Journal Article",
+      "Retraction Notice"
+     ],
+     "recordstatus": "PubMed",
+     "pubstatus": "256",
+     "articleids": [
+      {
+       "idtype": "pubmed",
+       "idtypen": 1,
+       "value": "32511943"
+      },
+      {
+       "idtype": "pmc",
+       "idtypen": 8,
+       "value": "PMC7274621"
+      },
+      {
+       "idtype": "pmcid",
+       "idtypen": 5,
+       "value": "pmc-id: PMC7274621;"
+      },
+      {
+       "idtype": "doi",
+       "idtypen": 3,
+       "value": "10.1016/S0140-6736(20)31324-6"
+      },
+      {
+       "idtype": "pii",
+       "idtypen": 4,
+       "value": "S0140-6736(20)31324-6"
+      }
+     ],
+     "history": [
+      {
+       "pubstatus": "pubmed",
+       "date": "2020/06/09 06:00"
+      },
+      {
+       "pubstatus": "medline",
+       "date": "2020/06/09 06:01"
+      },
+      {
+       "pubstatus": "entrez",
+       "date": "2020/06/09 06:00"
+      },
+      {
+       "pubstatus": "pmc-release",
+       "date": "2020/06/05 00:00"
+      }
+     ],
+     "references": [
+      {
+       "refsource": "Lancet. 2020 May 22:S0140-6736(20)31180-6. doi: 10.1016/S0140-6736(20)31180-6.",
+       "reftype": "Retraction of",
+       "pmid": 32450107,
+       "note": ""
+      }
+     ],
+     "attributes": [],
+     "pmcrefcount": 1,
+     "fulljournalname": "Lancet (London, England)",
+     "elocationid": "doi: 10.1016/S0140-6736(20)31324-6",
+     "doctype": "citation",
+     "srccontriblist": [],
+     "booktitle": "",
+     "medium": "",
+     "edition": "",
+     "publisherlocation": "",
+     "publishername": "",
+     "srcdate": "",
+     "reportnumber": "",
+     "availablefromurl": "",
+     "locationlabel": "",
+     "doccontriblist": [],
+     "docdate": "",
+     "bookname": "",
+     "chapter": "",
+     "sortpubdate": "2020/06/13 00:00",
+     "sortfirstauthor": "Mehra MR",
+     "vernaculartitle": ""
+    },
+    "33343837": {
+     "uid": "33343837",
+     "pubdate": "2020 Sep 10",
+     "epubdate": "2020 Sep 10",
+     "source": "J Mark Access Health Policy",
+     "authors": [
+      {
+       "name": "Toumi M",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Biernikiewicz M",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Liang S",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Wang Y",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Qiu T",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Han R",
+       "authtype": "Author",
+       "clusterid": ""
+      }
+     ],
+     "lastauthor": "Han R",
+     "title": "A critical analysis and review of Lancet COVID-19 hydroxychloroquine study.",
+     "sorttitle": "critical analysis and review of lancet covid 19 hydroxychloroquine study",
+     "volume": "8",
+     "issue": "1",
+     "pages": "1809236",
+     "lang": [
+      "eng"
+     ],
+     "nlmuniqueid": "101670174",
+     "issn": "2001-6689",
+     "essn": "2001-6689",
+     "pubtype": [
+      "Journal Article",
+      "Review"
+     ],
+     "recordstatus": "PubMed",
+     "pubstatus": "3",
+     "articleids": [
+      {
+       "idtype": "pubmed",
+       "idtypen": 1,
+       "value": "33343837"
+      },
+      {
+       "idtype": "pmc",
+       "idtypen": 8,
+       "value": "PMC7733902"
+      },
+      {
+       "idtype": "pmcid",
+       "idtypen": 5,
+       "value": "pmc-id: PMC7733902;"
+      },
+      {
+       "idtype": "doi",
+       "idtypen": 3,
+       "value": "10.1080/20016689.2020.1809236"
+      },
+      {
+       "idtype": "pii",
+       "idtypen": 4,
+       "value": "1809236"
+      }
+     ],
+     "history": [
+      {
+       "pubstatus": "entrez",
+       "date": "2020/12/21 06:06"
+      },
+      {
+       "pubstatus": "pubmed",
+       "date": "2020/12/22 06:00"
+      },
+      {
+       "pubstatus": "medline",
+       "date": "2020/12/22 06:01"
+      },
+      {
+       "pubstatus": "pmc-release",
+       "date": "2020/09/10 00:00"
+      }
+     ],
+     "references": [],
+     "attributes": [
+      "Has Abstract"
+     ],
+     "pmcrefcount": 36,
+     "fulljournalname": "Journal of market access & health policy",
+     "elocationid": "doi: 10.1080/20016689.2020.1809236",
+     "doctype": "citation",
+     "srccontriblist": [],
+     "booktitle": "",
+     "medium": "",
+     "edition": "",
+     "publisherlocation": "",
+     "publishername": "",
+     "srcdate": "",
+     "reportnumber": "",
+     "availablefromurl": "",
+     "locationlabel": "",
+     "doccontriblist": [],
+     "docdate": "",
+     "bookname": "",
+     "chapter": "",
+     "sortpubdate": "2020/09/10 00:00",
+     "sortfirstauthor": "Toumi M",
+     "vernaculartitle": ""
+    },
+    "33378357": {
+     "uid": "33378357",
+     "pubdate": "2020 Dec",
+     "epubdate": "2020 Dec 30",
+     "source": "PLoS Med",
+     "authors": [
+      {
+       "name": "Kim MS",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "An MH",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Kim WJ",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Hwang TH",
+       "authtype": "Author",
+       "clusterid": ""
+      }
+     ],
+     "lastauthor": "Hwang TH",
+     "title": "Comparative efficacy and safety of pharmacological interventions for the treatment of COVID-19: A systematic review and network meta-analysis.",
+     "sorttitle": "comparative efficacy and safety of pharmacological interventions for the treatment of covid 19 a systematic review and network meta analysis",
+     "volume": "17",
+     "issue": "12",
+     "pages": "e1003501",
+     "lang": [
+      "eng"
+     ],
+     "nlmuniqueid": "101231360",
+     "issn": "1549-1277",
+     "essn": "1549-1676",
+     "pubtype": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Systematic Review",
+      "Network Meta-Analysis"
+     ],
+     "recordstatus": "PubMed - indexed for MEDLINE",
+     "pubstatus": "258",
+     "articleids": [
+      {
+       "idtype": "pubmed",
+       "idtypen": 1,
+       "value": "33378357"
+      },
+      {
+       "idtype": "pmc",
+       "idtypen": 8,
+       "value": "PMC7794037"
+      },
+      {
+       "idtype": "pmcid",
+       "idtypen": 5,
+       "value": "pmc-id: PMC7794037;"
+      },
+      {
+       "idtype": "doi",
+       "idtypen": 3,
+       "value": "10.1371/journal.pmed.1003501"
+      },
+      {
+       "idtype": "pii",
+       "idtypen": 4,
+       "value": "PMEDICINE-D-20-03136"
+      }
+     ],
+     "history": [
+      {
+       "pubstatus": "received",
+       "date": "2020/07/01 00:00"
+      },
+      {
+       "pubstatus": "accepted",
+       "date": "2020/12/10 00:00"
+      },
+      {
+       "pubstatus": "revised",
+       "date": "2021/01/08 00:00"
+      },
+      {
+       "pubstatus": "pubmed",
+       "date": "2020/12/31 06:00"
+      },
+      {
+       "pubstatus": "medline",
+       "date": "2021/01/16 06:00"
+      },
+      {
+       "pubstatus": "entrez",
+       "date": "2020/12/30 17:13"
+      },
+      {
+       "pubstatus": "pmc-release",
+       "date": "2020/12/30 00:00"
+      }
+     ],
+     "references": [],
+     "attributes": [
+      "Has Abstract"
+     ],
+     "pmcrefcount": 80,
+     "fulljournalname": "PLoS medicine",
+     "elocationid": "doi: 10.1371/journal.pmed.1003501",
+     "doctype": "citation",
+     "srccontriblist": [],
+     "booktitle": "",
+     "medium": "",
+     "edition": "",
+     "publisherlocation": "",
+     "publishername": "",
+     "srcdate": "",
+     "reportnumber": "",
+     "availablefromurl": "",
+     "locationlabel": "",
+     "doccontriblist": [],
+     "docdate": "",
+     "bookname": "",
+     "chapter": "",
+     "sortpubdate": "2020/12/30 00:00",
+     "sortfirstauthor": "Kim MS",
+     "vernaculartitle": ""
+    },
+    "uids": [
+     "32511943",
+     "32504543",
+     "33343837",
+     "33378357",
+     "32450107"
+    ]
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=38084760&retmode=json": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esummary",
+    "version": "0.3"
+   },
+   "result": {
+    "38084760": {
+     "uid": "38084760",
+     "pubdate": "2024 Jan 25",
+     "epubdate": "2023 Dec 12",
+     "source": "N Engl J Med",
+     "authors": [
+      {
+       "name": "Sonneveld P",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Dimopoulos MA",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Boccadoro M",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Quach H",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Ho PJ",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Beksac M",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Hulin C",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Antonioli E",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Leleu X",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Mangiacavalli S",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Perrot A",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Cavo M",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Belotti A",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Broijl A",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Gay F",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Mina R",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Nijhof IS",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "van de Donk NWCJ",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Katodritou E",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Schjesvold F",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Sureda Balari A",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Rosiñol L",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Delforge M",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Roeloffzen W",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Silzle T",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Vangsted A",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Einsele H",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Spencer A",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Hajek R",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Jurczyszyn A",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Lonergan S",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Ahmadi T",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Liu Y",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Wang J",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Vieyra D",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "van Brummelen EMJ",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Vanquickelberghe V",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Sitthi-Amorn A",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "de Boer CJ",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Carson R",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Rodriguez-Otero P",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Bladé J",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Moreau P",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "PERSEUS Trial Investigators",
+       "authtype": "CollectiveName",
+       "clusterid": ""
+      }
+     ],
+     "lastauthor": "Moreau P",
+     "title": "Daratumumab, Bortezomib, Lenalidomide, and Dexamethasone for Multiple Myeloma.",
+     "sorttitle": "daratumumab bortezomib lenalidomide and dexamethasone for multiple myeloma",
+     "volume": "390",
+     "issue": "4",
+     "pages": "301-313",
+     "lang": [
+      "eng"
+     ],
+     "nlmuniqueid": "0255562",
+     "issn": "0028-4793",
+     "essn": "1533-4406",
+     "pubtype": [
+      "Clinical Trial, Phase III",
+      "Randomized Controlled Trial",
+      "Journal Article"
+     ],
+     "recordstatus": "PubMed - indexed for MEDLINE",
+     "pubstatus": "256",
+     "articleids": [
+      {
+       "idtype": "pubmed",
+       "idtypen": 1,
+       "value": "38084760"
+      },
+      {
+       "idtype": "doi",
+       "idtypen": 3,
+       "value": "10.1056/NEJMoa2312054"
+      }
+     ],
+     "history": [
+      {
+       "pubstatus": "medline",
+       "date": "2024/01/25 06:43"
+      },
+      {
+       "pubstatus": "pubmed",
+       "date": "2023/12/12 12:41"
+      },
+      {
+       "pubstatus": "entrez",
+       "date": "2023/12/12 07:51"
+      }
+     ],
+     "references": [
+      {
+       "refsource": "N Engl J Med. 2024 Apr 18;390(15):1440. doi: 10.1056/NEJMc2402133.",
+       "reftype": "Comment in",
+       "pmid": 38631009,
+       "note": ""
+      },
+      {
+       "refsource": "N Engl J Med. 2024 Apr 18;390(15):1440-1441. doi: 10.1056/NEJMc2402133.",
+       "reftype": "Comment in",
+       "pmid": 38631010,
+       "note": ""
+      }
+     ],
+     "attributes": [
+      "Has Abstract"
+     ],
+     "pmcrefcount": "",
+     "fulljournalname": "The New England journal of medicine",
+     "elocationid": "doi: 10.1056/NEJMoa2312054",
+     "doctype": "citation",
+     "srccontriblist": [],
+     "booktitle": "",
+     "medium": "",
+     "edition": "",
+     "publisherlocation": "",
+     "publishername": "",
+     "srcdate": "",
+     "reportnumber": "",
+     "availablefromurl": "",
+     "locationlabel": "",
+     "doccontriblist": [],
+     "docdate": "",
+     "bookname": "",
+     "chapter": "",
+     "sortpubdate": "2024/01/25 00:00",
+     "sortfirstauthor": "Sonneveld P",
+     "vernaculartitle": ""
+    },
+    "uids": [
+     "38084760"
+    ]
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=38104575&retmode=json": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esummary",
+    "version": "0.3"
+   },
+   "result": {
+    "38104575": {
+     "uid": "38104575",
+     "pubdate": "2024 Jan 13",
+     "epubdate": "2023 Dec 14",
+     "source": "Lancet",
+     "authors": [
+      {
+       "name": "Kaul I",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Sawchak S",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Correll CU",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Kakar R",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Breier A",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Zhu H",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Miller AC",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Paul SM",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Brannan SK",
+       "authtype": "Author",
+       "clusterid": ""
+      }
+     ],
+     "lastauthor": "Brannan SK",
+     "title": "Efficacy and safety of the muscarinic receptor agonist KarXT (xanomeline-trospium) in schizophrenia (EMERGENT-2) in the USA: results from a randomised, double-blind, placebo-controlled, flexible-dose phase 3 trial.",
+     "sorttitle": "efficacy and safety of the muscarinic receptor agonist karxt xanomeline trospium in schizophrenia emergent 2 in the usa results from a randomised double blind placebo controlled flexible dose phase 3 trial",
+     "volume": "403",
+     "issue": "10422",
+     "pages": "160-170",
+     "lang": [
+      "eng"
+     ],
+     "nlmuniqueid": "2985213R",
+     "issn": "0140-6736",
+     "essn": "1474-547X",
+     "pubtype": [
+      "Randomized Controlled Trial",
+      "Clinical Trial, Phase III",
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+     ],
+     "recordstatus": "PubMed - indexed for MEDLINE",
+     "pubstatus": "256",
+     "articleids": [
+      {
+       "idtype": "pubmed",
+       "idtypen": 1,
+       "value": "38104575"
+      },
+      {
+       "idtype": "doi",
+       "idtypen": 3,
+       "value": "10.1016/S0140-6736(23)02190-6"
+      },
+      {
+       "idtype": "pii",
+       "idtypen": 4,
+       "value": "S0140-6736(23)02190-6"
+      }
+     ],
+     "history": [
+      {
+       "pubstatus": "received",
+       "date": "2023/07/13 00:00"
+      },
+      {
+       "pubstatus": "revised",
+       "date": "2023/09/20 00:00"
+      },
+      {
+       "pubstatus": "accepted",
+       "date": "2023/09/27 00:00"
+      },
+      {
+       "pubstatus": "medline",
+       "date": "2024/01/15 12:42"
+      },
+      {
+       "pubstatus": "pubmed",
+       "date": "2023/12/18 00:41"
+      },
+      {
+       "pubstatus": "entrez",
+       "date": "2023/12/17 18:53"
+      }
+     ],
+     "references": [
+      {
+       "refsource": "Lancet. 2024 Jan 13;403(10422):120-122. doi: 10.1016/S0140-6736(23)02415-7.",
+       "reftype": "Comment in",
+       "pmid": 38104578,
+       "note": ""
+      },
+      {
+       "refsource": "Lancet. 2024 Jan 13;403(10422):117. doi: 10.1016/S0140-6736(24)00047-3.",
+       "reftype": "Comment in",
+       "pmid": 38218604,
+       "note": ""
+      },
+      {
+       "refsource": "Lancet. 2024 Jun 1;403(10442):2380. doi: 10.1016/S0140-6736(24)01041-9.",
+       "reftype": "Erratum in",
+       "pmid": 38823993,
+       "note": ""
+      },
+      {
+       "refsource": "Lancet. 2024 Aug 10;404(10452):523-524. doi: 10.1016/S0140-6736(24)01268-6.",
+       "reftype": "Comment in",
+       "pmid": 39127474,
+       "note": ""
+      }
+     ],
+     "attributes": [
+      "Has Abstract"
+     ],
+     "pmcrefcount": "",
+     "fulljournalname": "Lancet (London, England)",
+     "elocationid": "doi: 10.1016/S0140-6736(23)02190-6",
+     "doctype": "citation",
+     "srccontriblist": [],
+     "booktitle": "",
+     "medium": "",
+     "edition": "",
+     "publisherlocation": "",
+     "publishername": "",
+     "srcdate": "",
+     "reportnumber": "",
+     "availablefromurl": "",
+     "locationlabel": "",
+     "doccontriblist": [],
+     "docdate": "",
+     "bookname": "",
+     "chapter": "",
+     "sortpubdate": "2024/01/13 00:00",
+     "sortfirstauthor": "Kaul I",
+     "vernaculartitle": ""
+    },
+    "uids": [
+     "38104575"
+    ]
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=38109916%2C39533115%2C37903483&retmode=json": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esummary",
+    "version": "0.3"
+   },
+   "result": {
+    "37903483": {
+     "uid": "37903483",
+     "pubdate": "2024",
+     "epubdate": "2023 Oct 30",
+     "source": "Am J Nephrol",
+     "authors": [
+      {
+       "name": "Tuttle KR",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Rossing P",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Hauske SJ",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Cronin L",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Hussain J",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "de Zeeuw D",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Heerspink HJL",
+       "authtype": "Author",
+       "clusterid": ""
+      }
+     ],
+     "lastauthor": "Heerspink HJL",
+     "title": "Methods Article for a Study Protocol: Study Design and Baseline Characteristics for Aldosterone Synthase Inhibition in Chronic Kidney Disease.",
+     "sorttitle": "methods article for a study protocol study design and baseline characteristics for aldosterone synthase inhibition in chronic kidney disease",
+     "volume": "55",
+     "issue": "2",
+     "pages": "262-272",
+     "lang": [
+      "eng"
+     ],
+     "nlmuniqueid": "8109361",
+     "issn": "0250-8095",
+     "essn": "1421-9670",
+     "pubtype": [
+      "Journal Article",
+      "Clinical Trial Protocol",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, P.H.S.",
+      "Research Support, Non-U.S. Gov't"
+     ],
+     "recordstatus": "PubMed - indexed for MEDLINE",
+     "pubstatus": "256",
+     "articleids": [
+      {
+       "idtype": "pubmed",
+       "idtypen": 1,
+       "value": "37903483"
+      },
+      {
+       "idtype": "doi",
+       "idtypen": 3,
+       "value": "10.1159/000534808"
+      },
+      {
+       "idtype": "pii",
+       "idtypen": 4,
+       "value": "000534808"
+      }
+     ],
+     "history": [
+      {
+       "pubstatus": "received",
+       "date": "2023/09/08 00:00"
+      },
+      {
+       "pubstatus": "accepted",
+       "date": "2023/10/20 00:00"
+      },
+      {
+       "pubstatus": "medline",
+       "date": "2024/04/04 06:45"
+      },
+      {
+       "pubstatus": "pubmed",
+       "date": "2023/10/31 00:42"
+      },
+      {
+       "pubstatus": "entrez",
+       "date": "2023/10/30 19:24"
+      }
+     ],
+     "references": [],
+     "attributes": [
+      "Has Abstract"
+     ],
+     "pmcrefcount": "",
+     "fulljournalname": "American journal of nephrology",
+     "elocationid": "doi: 10.1159/000534808",
+     "doctype": "citation",
+     "srccontriblist": [],
+     "booktitle": "",
+     "medium": "",
+     "edition": "",
+     "publisherlocation": "",
+     "publishername": "",
+     "srcdate": "",
+     "reportnumber": "",
+     "availablefromurl": "",
+     "locationlabel": "",
+     "doccontriblist": [],
+     "docdate": "",
+     "bookname": "",
+     "chapter": "",
+     "sortpubdate": "2024/01/01 00:00",
+     "sortfirstauthor": "Tuttle KR",
+     "vernaculartitle": ""
+    },
+    "38109916": {
+     "uid": "38109916",
+     "pubdate": "2024 Jan 27",
+     "epubdate": "2023 Dec 15",
+     "source": "Lancet",
+     "authors": [
+      {
+       "name": "Tuttle KR",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Hauske SJ",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Canziani ME",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Caramori ML",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Cherney D",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Cronin L",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Heerspink HJL",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Hugo C",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Nangaku M",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Rotter RC",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Silva A",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Shah SV",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Sun Z",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Urbach D",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "de Zeeuw D",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Rossing P",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "ASi in CKD group",
+       "authtype": "CollectiveName",
+       "clusterid": ""
+      }
+     ],
+     "lastauthor": "Rossing P",
+     "title": "Efficacy and safety of aldosterone synthase inhibition with and without empagliflozin for chronic kidney disease: a randomised, controlled, phase 2 trial.",
+     "sorttitle": "efficacy and safety of aldosterone synthase inhibition with and without empagliflozin for chronic kidney disease a randomised controlled phase 2 trial",
+     "volume": "403",
+     "issue": "10424",
+     "pages": "379-390",
+     "lang": [
+      "eng"
+     ],
+     "nlmuniqueid": "2985213R",
+     "issn": "0140-6736",
+     "essn": "1474-547X",
+     "pubtype": [
+      "Randomized Controlled Trial",
+      "Clinical Trial, Phase II",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+     ],
+     "recordstatus": "PubMed - indexed for MEDLINE",
+     "pubstatus": "256",
+     "articleids": [
+      {
+       "idtype": "pubmed",
+       "idtypen": 1,
+       "value": "38109916"
+      },
+      {
+       "idtype": "doi",
+       "idtypen": 3,
+       "value": "10.1016/S0140-6736(23)02408-X"
+      },
+      {
+       "idtype": "pii",
+       "idtypen": 4,
+       "value": "S0140-6736(23)02408-X"
+      }
+     ],
+     "history": [
+      {
+       "pubstatus": "received",
+       "date": "2023/10/05 00:00"
+      },
+      {
+       "pubstatus": "revised",
+       "date": "2023/10/20 00:00"
+      },
+      {
+       "pubstatus": "accepted",
+       "date": "2023/10/24 00:00"
+      },
+      {
+       "pubstatus": "medline",
+       "date": "2024/01/29 06:44"
+      },
+      {
+       "pubstatus": "pubmed",
+       "date": "2023/12/19 00:41"
+      },
+      {
+       "pubstatus": "entrez",
+       "date": "2023/12/18 18:54"
+      }
+     ],
+     "references": [
+      {
+       "refsource": "Lancet. 2024 Jan 27;403(10424):330-332. doi: 10.1016/S0140-6736(23)02542-4.",
+       "reftype": "Comment in",
+       "pmid": 38109915,
+       "note": ""
+      }
+     ],
+     "attributes": [
+      "Has Abstract"
+     ],
+     "pmcrefcount": "",
+     "fulljournalname": "Lancet (London, England)",
+     "elocationid": "doi: 10.1016/S0140-6736(23)02408-X",
+     "doctype": "citation",
+     "srccontriblist": [],
+     "booktitle": "",
+     "medium": "",
+     "edition": "",
+     "publisherlocation": "",
+     "publishername": "",
+     "srcdate": "",
+     "reportnumber": "",
+     "availablefromurl": "",
+     "locationlabel": "",
+     "doccontriblist": [],
+     "docdate": "",
+     "bookname": "",
+     "chapter": "",
+     "sortpubdate": "2024/01/27 00:00",
+     "sortfirstauthor": "Tuttle KR",
+     "vernaculartitle": ""
+    },
+    "39533115": {
+     "uid": "39533115",
+     "pubdate": "2025 May 30",
+     "epubdate": "",
+     "source": "Nephrol Dial Transplant",
+     "authors": [
+      {
+       "name": "Judge PK",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Tuttle KR",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Staplin N",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Hauske SJ",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Zhu D",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Sardell R",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Cronin L",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Green JB",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Agrawal N",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Arimoto R",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Mayne KJ",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Sammons E",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Brueckmann M",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Shah SV",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Rossing P",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Nangaku M",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Landray MJ",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Wanner C",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Baigent C",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Haynes R",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Herrington WG",
+       "authtype": "Author",
+       "clusterid": ""
+      }
+     ],
+     "lastauthor": "Herrington WG",
+     "title": "The potential for improving cardio-renal outcomes in chronic kidney disease with the aldosterone synthase inhibitor vicadrostat (BI 690517): a rationale for the EASi-KIDNEY trial.",
+     "sorttitle": "potential for improving cardio renal outcomes in chronic kidney disease with the aldosterone synthase inhibitor vicadrostat bi 690517 a rationale for the easi kidney trial",
+     "volume": "40",
+     "issue": "6",
+     "pages": "1175-1186",
+     "lang": [
+      "eng"
+     ],
+     "nlmuniqueid": "8706402",
+     "issn": "0931-0509",
+     "essn": "1460-2385",
+     "pubtype": [
+      "Clinical Trial Protocol",
+      "Journal Article"
+     ],
+     "recordstatus": "PubMed - indexed for MEDLINE",
+     "pubstatus": "4",
+     "articleids": [
+      {
+       "idtype": "pubmed",
+       "idtypen": 1,
+       "value": "39533115"
+      },
+      {
+       "idtype": "pmc",
+       "idtypen": 8,
+       "value": "PMC12209857"
+      },
+      {
+       "idtype": "pmcid",
+       "idtypen": 5,
+       "value": "pmc-id: PMC12209857;"
+      },
+      {
+       "idtype": "doi",
+       "idtypen": 3,
+       "value": "10.1093/ndt/gfae263"
+      },
+      {
+       "idtype": "pii",
+       "idtypen": 4,
+       "value": "7896419"
+      }
+     ],
+     "history": [
+      {
+       "pubstatus": "received",
+       "date": "2024/07/15 00:00"
+      },
+      {
+       "pubstatus": "medline",
+       "date": "2025/05/30 18:06"
+      },
+      {
+       "pubstatus": "pubmed",
+       "date": "2024/11/13 13:51"
+      },
+      {
+       "pubstatus": "entrez",
+       "date": "2024/11/12 23:55"
+      },
+      {
+       "pubstatus": "pmc-release",
+       "date": "2024/11/12 00:00"
+      }
+     ],
+     "references": [],
+     "attributes": [
+      "Has Abstract"
+     ],
+     "pmcrefcount": 93,
+     "fulljournalname": "Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association",
+     "elocationid": "doi: 10.1093/ndt/gfae263",
+     "doctype": "citation",
+     "srccontriblist": [],
+     "booktitle": "",
+     "medium": "",
+     "edition": "",
+     "publisherlocation": "",
+     "publishername": "",
+     "srcdate": "",
+     "reportnumber": "",
+     "availablefromurl": "",
+     "locationlabel": "",
+     "doccontriblist": [],
+     "docdate": "",
+     "bookname": "",
+     "chapter": "",
+     "sortpubdate": "2025/05/30 00:00",
+     "sortfirstauthor": "Judge PK",
+     "vernaculartitle": ""
+    },
+    "uids": [
+     "38109916",
+     "39533115",
+     "37903483"
+    ]
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=39796533&retmode=json": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esummary",
+    "version": "0.3"
+   },
+   "result": {
+    "39796533": {
+     "uid": "39796533",
+     "pubdate": "2024 Dec 30",
+     "epubdate": "2024 Dec 30",
+     "source": "Nutrients",
+     "authors": [
+      {
+       "name": "Barni S",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Pessina B",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Fioretti L",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Scarallo L",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Di Siena A",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Bramuzzo M",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Liccioli G",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Sarti L",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Tomei L",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Giovannini M",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Renzo S",
+       "authtype": "Author",
+       "clusterid": ""
+      },
+      {
+       "name": "Mori F",
+       "authtype": "Author",
+       "clusterid": ""
+      }
+     ],
+     "lastauthor": "Mori F",
+     "title": "Food Protein-Induced Allergic Proctocolitis: Real-World Experience from an Italian Cohort.",
+     "sorttitle": "food protein induced allergic proctocolitis real world experience from an italian cohort",
+     "volume": "17",
+     "issue": "1",
+     "pages": "",
+     "lang": [
+      "eng"
+     ],
+     "nlmuniqueid": "101521595",
+     "issn": "",
+     "essn": "2072-6643",
+     "pubtype": [
+      "Journal Article",
+      "Observational Study"
+     ],
+     "recordstatus": "PubMed - indexed for MEDLINE",
+     "pubstatus": "3",
+     "articleids": [
+      {
+       "idtype": "pubmed",
+       "idtypen": 1,
+       "value": "39796533"
+      },
+      {
+       "idtype": "pmc",
+       "idtypen": 8,
+       "value": "PMC11722936"
+      },
+      {
+       "idtype": "pmcid",
+       "idtypen": 5,
+       "value": "pmc-id: PMC11722936;"
+      },
+      {
+       "idtype": "doi",
+       "idtypen": 3,
+       "value": "10.3390/nu17010098"
+      },
+      {
+       "idtype": "pii",
+       "idtypen": 4,
+       "value": "nu17010098"
+      }
+     ],
+     "history": [
+      {
+       "pubstatus": "received",
+       "date": "2024/12/08 00:00"
+      },
+      {
+       "pubstatus": "revised",
+       "date": "2024/12/20 00:00"
+      },
+      {
+       "pubstatus": "accepted",
+       "date": "2024/12/25 00:00"
+      },
+      {
+       "pubstatus": "medline",
+       "date": "2025/01/11 14:00"
+      },
+      {
+       "pubstatus": "pubmed",
+       "date": "2025/01/11 13:59"
+      },
+      {
+       "pubstatus": "entrez",
+       "date": "2025/01/11 01:10"
+      },
+      {
+       "pubstatus": "pmc-release",
+       "date": "2024/12/30 00:00"
+      }
+     ],
+     "references": [],
+     "attributes": [
+      "Has Abstract"
+     ],
+     "pmcrefcount": 35,
+     "fulljournalname": "Nutrients",
+     "elocationid": "doi: 10.3390/nu17010098",
+     "doctype": "citation",
+     "srccontriblist": [],
+     "booktitle": "",
+     "medium": "",
+     "edition": "",
+     "publisherlocation": "",
+     "publishername": "",
+     "srcdate": "",
+     "reportnumber": "",
+     "availablefromurl": "",
+     "locationlabel": "",
+     "doccontriblist": [],
+     "docdate": "",
+     "bookname": "",
+     "chapter": "",
+     "sortpubdate": "2024/12/30 00:00",
+     "sortfirstauthor": "Barni S",
+     "vernaculartitle": ""
+    },
+    "uids": [
+     "39796533"
+    ]
+   }
+  }
+ }
+}

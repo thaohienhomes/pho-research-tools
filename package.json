@@ -1,0 +1,18 @@
+{
+  "name": "pho-research-tools",
+  "private": true,
+  "description": "Open-source MCP server that lets any AI assistant verify its references, check retractions, format citations and draw PRISMA 2020 diagrams against Crossref, PubMed and OpenAlex.",
+  "license": "MIT",
+  "packageManager": "pnpm@9.15.4",
+  "engines": { "node": ">=22.0.0" },
+  "scripts": {
+    "dev": "pnpm --filter @pho/mcp dev",
+    "start": "pnpm --filter @pho/mcp start",
+    "build": "pnpm --filter @pho/mcp build",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "pnpm": {
+    "overrides": { "zod": "3.25.76" }
+  }
+}
