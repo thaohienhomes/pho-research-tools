@@ -65,6 +65,8 @@ the plugin, `skills/` holds the skill, and `mcp.json` connects the `pho-research
   run **Developer: Reload Window**, and check under **Customize** that the plugin and the
   `pho-research` MCP server are listed.
 
+The plugin logo is [`assets/logo.svg`](assets/logo.svg). Support: support@pho.chat.
+
 ### skills.sh (Claude Code, Cursor, Codex, Gemini CLI and other agents)
 
 ```bash
@@ -115,6 +117,7 @@ A Dockerfile is in `apps/mcp/` (`docker build -f apps/mcp/Dockerfile -t pho-mcp 
 | `skills/verified-citations` | The Verified Citations Agent Skill. |
 | `.claude-plugin/`, `.mcp.json` | Claude Code plugin + one-plugin marketplace (skill and MCP server in one install). |
 | `plugin.json`, `mcp.json` | Agent Plugin manifest for Cursor and other Agent Plugins clients (skills found in `skills/`). |
+| `assets/logo.svg` | Plugin logo, a vector version of `apps/mcp/public/icon.png`. |
 | `server.json`, `glama.json` | MCP Registry entry (published by `.github/workflows/publish-mcp-registry.yml`) and Glama maintainer claim. |
 
 ```bash
