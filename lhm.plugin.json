@@ -4,6 +4,7 @@
   "cloudEndpoint": "https://mcp.pho.chat/mcp",
   "description": "Open-source MCP server that lets any AI assistant verify its references, check retractions, format citations and draw PRISMA 2020 diagrams against Crossref, PubMed and OpenAlex.",
   "homepage": "https://pho.chat/tools/mcp/",
+  "icon": "https://mcp.pho.chat/icon.png",
   "identifier": "thaohienhomes-pho-research-tools",
   "name": "Phở Research Tools",
   "prompts": [],
