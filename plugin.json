@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "verified-citations",
+  "version": "1.0.0",
+  "description": "Finds real papers, verifies every reference against Crossref, PubMed and OpenAlex before it is shown, formats the bibliography from the database record, and flags anything fabricated, wrong or retracted.",
+  "author": {
+    "name": "Phở",
+    "email": "support@pho.chat",
+    "url": "https://pho.chat/tools/"
+  },
+  "homepage": "https://pho.chat/tools/mcp/",
+  "repository": "https://github.com/thaohienhomes/pho-research-tools",
+  "license": "MIT",
+  "keywords": ["citations", "references", "hallucination", "crossref", "pubmed", "systematic-review", "prisma"]
+}

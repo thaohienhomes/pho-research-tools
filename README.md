@@ -53,6 +53,20 @@ The plugin adds the skill and connects the `pho-research` MCP server. Run `/mcp`
 the server shows as connected. From a local checkout, pass the folder path to
 `marketplace add` instead.
 
+### Cursor (Agent Plugin: skill + MCP server in one step)
+
+The repository root is an [Agent Plugin](https://agent-plugins.org): `plugin.json` names
+the plugin, `skills/` holds the skill, and `mcp.json` connects the `pho-research` server at
+`https://mcp.pho.chat/mcp`. Cursor loads it as-is:
+
+- **Teams and Enterprise:** Dashboard → Plugins & MCPs → Add Marketplace → Import from
+  Repo, and paste `https://github.com/thaohienhomes/pho-research-tools`.
+- **Local:** clone or copy this repository to `~/.cursor/plugins/local/verified-citations`,
+  run **Developer: Reload Window**, and check under **Customize** that the plugin and the
+  `pho-research` MCP server are listed.
+
+The plugin logo is [`assets/logo.svg`](assets/logo.svg). Support: support@pho.chat.
+
 ### skills.sh (Claude Code, Cursor, Codex, Gemini CLI and other agents)
 
 ```bash
@@ -102,6 +116,8 @@ A Dockerfile is in `apps/mcp/` (`docker build -f apps/mcp/Dockerfile -t pho-mcp 
 | `docs/samples/scholar-core` | Sample outputs, regenerated and checked by the test suite. |
 | `skills/verified-citations` | The Verified Citations Agent Skill. |
 | `.claude-plugin/`, `.mcp.json` | Claude Code plugin + one-plugin marketplace (skill and MCP server in one install). |
+| `plugin.json`, `mcp.json` | Agent Plugin manifest for Cursor and other Agent Plugins clients (skills found in `skills/`). |
+| `assets/logo.svg` | Plugin logo, a vector version of `apps/mcp/public/icon.png`. |
 | `server.json`, `glama.json` | MCP Registry entry (published by `.github/workflows/publish-mcp-registry.yml`) and Glama maintainer claim. |
 
 ```bash
