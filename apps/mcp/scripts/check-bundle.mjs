@@ -68,7 +68,7 @@ async function rpc(method, params) {
 
 await rpc('initialize', { protocolVersion: '2025-06-18', capabilities: {}, clientInfo: { name: 'check-bundle', version: '1' } });
 const { tools } = await rpc('tools/list', {});
-if (tools.length !== 5) fail(`expected 5 tools, got ${tools.map((t) => t.name).join(', ')}`);
+if (tools.length !== 9) fail(`expected 9 tools, got ${tools.map((t) => t.name).join(', ')}`);
 
 if (pngCapable) {
   const r = await rpc('tools/call', {

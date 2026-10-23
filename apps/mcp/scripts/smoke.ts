@@ -3,7 +3,7 @@
  *   pnpm --filter @pho/mcp smoke                       # http://localhost:8787/mcp
  *   pnpm --filter @pho/mcp smoke https://<host>/mcp    # a deployment
  *
- * Exits non-zero if any tool errors. Spends 5 of the daily tool-call allowance
+ * Exits non-zero if any tool errors. Spends 7 of the daily tool-call allowance
  * and 8 reference checks (3 verify_references, 3 format_citations, 2 check_retractions).
  */
 
@@ -41,6 +41,33 @@ const CALLS: { name: string; arguments: Record<string, unknown> }[] = [
         ],
         studiesIncluded: 24,
       },
+    },
+  },
+  {
+    name: 'find_evidence',
+    arguments: {
+      claim: 'Drinking coffee reduces the risk of type 2 diabetes',
+      query: 'coffee consumption type 2 diabetes risk',
+      max_results: 8,
+    },
+  },
+  {
+    name: 'find_datasets',
+    arguments: {
+      question: 'gene expression in triple-negative breast cancer',
+      keywords: 'triple negative breast cancer gene expression',
+      domain: 'genomics',
+    },
+  },
+  {
+    name: 'screening_log',
+    arguments: {
+      records: [
+        { id: '10.1000/a', screening: 'include', full_text: 'include' },
+        { id: '10.1000/b', screening: 'include', full_text: 'exclude', reason: 'Wrong population' },
+        { id: '10.1000/c', screening: 'exclude' },
+      ],
+      identification: { databases: 4, duplicatesRemoved: 1 },
     },
   },
 ];

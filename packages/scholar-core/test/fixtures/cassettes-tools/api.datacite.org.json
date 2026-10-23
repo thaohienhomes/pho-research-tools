@@ -1,0 +1,472 @@
+{
+ "https://api.datacite.org/dois/10.18129%2Fb9.bioc.looking4clusters?fields%5Bdois%5D=doi%2Ctitles%2Ccreators%2Cpublisher%2CpublicationYear%2Cdescriptions%2CrightsList%2CrelatedIdentifiers%2Csizes%2Cformats%2Csubjects%2Curl%2Cversion%2Ctypes": {
+  "status": 200,
+  "body": {
+   "data": {
+    "id": "10.18129/b9.bioc.looking4clusters",
+    "type": "dois",
+    "attributes": {
+     "doi": "10.18129/b9.bioc.looking4clusters",
+     "prefix": "10.18129",
+     "suffix": "b9.bioc.looking4clusters",
+     "identifiers": [],
+     "alternateIdentifiers": [],
+     "creators": [
+      {
+       "name": "David Barrios, Angela Villaverde, Carlos Prieto",
+       "affiliation": [],
+       "nameIdentifiers": []
+      }
+     ],
+     "titles": [
+      {
+       "title": "looking4clusters"
+      }
+     ],
+     "publisher": "Bioconductor",
+     "container": {},
+     "publicationYear": 2025,
+     "subjects": [],
+     "contributors": [],
+     "dates": [],
+     "language": null,
+     "types": {
+      "ris": "COMP",
+      "bibtex": "misc",
+      "citeproc": "article",
+      "schemaOrg": "SoftwareSourceCode",
+      "resourceTypeGeneral": "Software"
+     },
+     "relatedIdentifiers": [],
+     "relatedItems": [],
+     "sizes": [],
+     "formats": [],
+     "version": null,
+     "rightsList": [],
+     "descriptions": [],
+     "geoLocations": [],
+     "fundingReferences": [],
+     "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuMTgxMjkvQjkuQklPQy5MT09LSU5HNENMVVNURVJTPC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+RGF2aWQgQmFycmlvcywgQW5nZWxhIFZpbGxhdmVyZGUsIENhcmxvcyBQcmlldG88L2NyZWF0b3JOYW1lPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT5sb29raW5nNGNsdXN0ZXJzPC90aXRsZT4KICA8L3RpdGxlcz4KICA8cHVibGlzaGVyPkJpb2NvbmR1Y3RvcjwvcHVibGlzaGVyPgogIDxwdWJsaWNhdGlvblllYXI+MjAyNTwvcHVibGljYXRpb25ZZWFyPgogIDxyZXNvdXJjZVR5cGUgcmVzb3VyY2VUeXBlR2VuZXJhbD0iU29mdHdhcmUiLz4KICA8c2l6ZXMvPgogIDxmb3JtYXRzLz4KICA8dmVyc2lvbi8+CjwvcmVzb3VyY2U+Cg==",
+     "url": "https://bioconductor.org/packages/looking4clusters",
+     "contentUrl": null,
+     "metadataVersion": 0,
+     "schemaVersion": null,
+     "source": "api",
+     "isActive": true,
+     "state": "findable",
+     "reason": null,
+     "viewCount": 0,
+     "viewsOverTime": [],
+     "downloadCount": 0,
+     "downloadsOverTime": [],
+     "referenceCount": 0,
+     "citationCount": 0,
+     "citationsOverTime": [],
+     "partCount": 0,
+     "partOfCount": 0,
+     "versionCount": 0,
+     "versionOfCount": 0,
+     "created": "2025-10-03T11:42:13.000Z",
+     "registered": "2025-10-03T11:42:13.000Z",
+     "published": "2025",
+     "updated": "2025-10-03T11:42:13.000Z"
+    },
+    "relationships": {
+     "client": {
+      "data": {
+       "id": "nihod.bioc",
+       "type": "clients"
+      }
+     },
+     "provider": {
+      "data": {
+       "id": "nihod",
+       "type": "providers"
+      }
+     },
+     "media": {
+      "data": {
+       "id": "10.18129/b9.bioc.looking4clusters",
+       "type": "media"
+      }
+     },
+     "references": {
+      "data": []
+     },
+     "citations": {
+      "data": []
+     },
+     "parts": {
+      "data": []
+     },
+     "partOf": {
+      "data": []
+     },
+     "versions": {
+      "data": []
+     },
+     "versionOf": {
+      "data": []
+     }
+    }
+   }
+  }
+ },
+ "https://api.datacite.org/dois/10.18129%2Fb9.bioc.sctreeviz?fields%5Bdois%5D=doi%2Ctitles%2Ccreators%2Cpublisher%2CpublicationYear%2Cdescriptions%2CrightsList%2CrelatedIdentifiers%2Csizes%2Cformats%2Csubjects%2Curl%2Cversion%2Ctypes": {
+  "status": 200,
+  "body": {
+   "data": {
+    "id": "10.18129/b9.bioc.sctreeviz",
+    "type": "dois",
+    "attributes": {
+     "doi": "10.18129/b9.bioc.sctreeviz",
+     "prefix": "10.18129",
+     "suffix": "b9.bioc.sctreeviz",
+     "identifiers": [],
+     "alternateIdentifiers": [],
+     "creators": [
+      {
+       "name": "Jayaram Kancherla, Hector Corrada Bravo, Kazi Tasnim Zinat, Stephanie Hicks",
+       "affiliation": [],
+       "nameIdentifiers": []
+      }
+     ],
+     "titles": [
+      {
+       "title": "scTreeViz"
+      }
+     ],
+     "publisher": "Bioconductor",
+     "container": {},
+     "publicationYear": 2021,
+     "subjects": [],
+     "contributors": [],
+     "dates": [],
+     "language": null,
+     "types": {
+      "ris": "COMP",
+      "bibtex": "misc",
+      "citeproc": "article",
+      "schemaOrg": "SoftwareSourceCode",
+      "resourceTypeGeneral": "Software"
+     },
+     "relatedIdentifiers": [],
+     "relatedItems": [],
+     "sizes": [],
+     "formats": [],
+     "version": null,
+     "rightsList": [],
+     "descriptions": [],
+     "geoLocations": [],
+     "fundingReferences": [],
+     "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuMTgxMjkvQjkuQklPQy5TQ1RSRUVWSVo8L2lkZW50aWZpZXI+CiAgPGNyZWF0b3JzPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5KYXlhcmFtIEthbmNoZXJsYSwgSGVjdG9yIENvcnJhZGEgQnJhdm8sIEthemkgVGFzbmltIFppbmF0LCBTdGVwaGFuaWUgSGlja3M8L2NyZWF0b3JOYW1lPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT5zY1RyZWVWaXo8L3RpdGxlPgogIDwvdGl0bGVzPgogIDxwdWJsaXNoZXI+QmlvY29uZHVjdG9yPC9wdWJsaXNoZXI+CiAgPHB1YmxpY2F0aW9uWWVhcj4yMDIxPC9wdWJsaWNhdGlvblllYXI+CiAgPHJlc291cmNlVHlwZSByZXNvdXJjZVR5cGVHZW5lcmFsPSJTb2Z0d2FyZSIvPgogIDxzaXplcy8+CiAgPGZvcm1hdHMvPgogIDx2ZXJzaW9uLz4KPC9yZXNvdXJjZT4K",
+     "url": "https://bioconductor.org/packages/scTreeViz",
+     "contentUrl": null,
+     "metadataVersion": 0,
+     "schemaVersion": null,
+     "source": "ez",
+     "isActive": true,
+     "state": "findable",
+     "reason": null,
+     "viewCount": 0,
+     "viewsOverTime": [],
+     "downloadCount": 0,
+     "downloadsOverTime": [],
+     "referenceCount": 0,
+     "citationCount": 0,
+     "citationsOverTime": [],
+     "partCount": 0,
+     "partOfCount": 0,
+     "versionCount": 0,
+     "versionOfCount": 0,
+     "created": "2021-10-08T13:07:39.000Z",
+     "registered": "2021-10-08T13:07:39.000Z",
+     "published": "2021",
+     "updated": "2024-05-09T13:30:53.000Z"
+    },
+    "relationships": {
+     "client": {
+      "data": {
+       "id": "nihod.bioc",
+       "type": "clients"
+      }
+     },
+     "provider": {
+      "data": {
+       "id": "nihod",
+       "type": "providers"
+      }
+     },
+     "media": {
+      "data": {
+       "id": "10.18129/b9.bioc.sctreeviz",
+       "type": "media"
+      }
+     },
+     "references": {
+      "data": []
+     },
+     "citations": {
+      "data": []
+     },
+     "parts": {
+      "data": []
+     },
+     "partOf": {
+      "data": []
+     },
+     "versions": {
+      "data": []
+     },
+     "versionOf": {
+      "data": []
+     }
+    }
+   }
+  }
+ },
+ "https://api.datacite.org/dois/10.18129%2Fb9.bioc.simffpe?fields%5Bdois%5D=doi%2Ctitles%2Ccreators%2Cpublisher%2CpublicationYear%2Cdescriptions%2CrightsList%2CrelatedIdentifiers%2Csizes%2Cformats%2Csubjects%2Curl%2Cversion%2Ctypes": {
+  "status": 200,
+  "body": {
+   "data": {
+    "id": "10.18129/b9.bioc.simffpe",
+    "type": "dois",
+    "attributes": {
+     "doi": "10.18129/b9.bioc.simffpe",
+     "prefix": "10.18129",
+     "suffix": "b9.bioc.simffpe",
+     "identifiers": [],
+     "alternateIdentifiers": [],
+     "creators": [
+      {
+       "name": "Lanying Wei",
+       "affiliation": [],
+       "nameIdentifiers": []
+      }
+     ],
+     "titles": [
+      {
+       "title": "SimFFPE"
+      }
+     ],
+     "publisher": "Bioconductor",
+     "container": {},
+     "publicationYear": 2020,
+     "subjects": [],
+     "contributors": [],
+     "dates": [],
+     "language": null,
+     "types": {
+      "ris": "COMP",
+      "bibtex": "misc",
+      "citeproc": "article",
+      "schemaOrg": "SoftwareSourceCode",
+      "resourceTypeGeneral": "Software"
+     },
+     "relatedIdentifiers": [],
+     "relatedItems": [],
+     "sizes": [],
+     "formats": [],
+     "version": null,
+     "rightsList": [],
+     "descriptions": [],
+     "geoLocations": [],
+     "fundingReferences": [],
+     "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuMTgxMjkvQjkuQklPQy5TSU1GRlBFPC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+TGFueWluZyBXZWk8L2NyZWF0b3JOYW1lPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT5TaW1GRlBFPC90aXRsZT4KICA8L3RpdGxlcz4KICA8cHVibGlzaGVyPkJpb2NvbmR1Y3RvcjwvcHVibGlzaGVyPgogIDxwdWJsaWNhdGlvblllYXI+MjAyMDwvcHVibGljYXRpb25ZZWFyPgogIDxyZXNvdXJjZVR5cGUgcmVzb3VyY2VUeXBlR2VuZXJhbD0iU29mdHdhcmUiLz4KICA8c2l6ZXMvPgogIDxmb3JtYXRzLz4KICA8dmVyc2lvbi8+CjwvcmVzb3VyY2U+Cg==",
+     "url": "https://bioconductor.org/packages/SimFFPE",
+     "contentUrl": null,
+     "metadataVersion": 0,
+     "schemaVersion": null,
+     "source": "ez",
+     "isActive": true,
+     "state": "findable",
+     "reason": null,
+     "viewCount": 0,
+     "viewsOverTime": [],
+     "downloadCount": 0,
+     "downloadsOverTime": [],
+     "referenceCount": 0,
+     "citationCount": 1,
+     "citationsOverTime": [
+      {
+       "year": "2025",
+       "total": 1
+      }
+     ],
+     "partCount": 0,
+     "partOfCount": 0,
+     "versionCount": 0,
+     "versionOfCount": 0,
+     "created": "2020-09-09T10:20:04.000Z",
+     "registered": "2020-09-09T10:20:05.000Z",
+     "published": "2020",
+     "updated": "2025-05-26T17:15:36.000Z"
+    },
+    "relationships": {
+     "client": {
+      "data": {
+       "id": "nihod.bioc",
+       "type": "clients"
+      }
+     },
+     "provider": {
+      "data": {
+       "id": "nihod",
+       "type": "providers"
+      }
+     },
+     "media": {
+      "data": {
+       "id": "10.18129/b9.bioc.simffpe",
+       "type": "media"
+      }
+     },
+     "references": {
+      "data": []
+     },
+     "citations": {
+      "data": [
+       {
+        "id": "10.5524/100924",
+        "type": "dois"
+       }
+      ]
+     },
+     "parts": {
+      "data": []
+     },
+     "partOf": {
+      "data": []
+     },
+     "versions": {
+      "data": []
+     },
+     "versionOf": {
+      "data": []
+     }
+    }
+   }
+  }
+ },
+ "https://api.datacite.org/dois/10.18129%2Fb9.bioc.singlecelltk?fields%5Bdois%5D=doi%2Ctitles%2Ccreators%2Cpublisher%2CpublicationYear%2Cdescriptions%2CrightsList%2CrelatedIdentifiers%2Csizes%2Cformats%2Csubjects%2Curl%2Cversion%2Ctypes": {
+  "status": 200,
+  "body": {
+   "data": {
+    "id": "10.18129/b9.bioc.singlecelltk",
+    "type": "dois",
+    "attributes": {
+     "doi": "10.18129/b9.bioc.singlecelltk",
+     "prefix": "10.18129",
+     "suffix": "b9.bioc.singlecelltk",
+     "identifiers": [],
+     "alternateIdentifiers": [],
+     "creators": [
+      {
+       "name": "David Jenkins, Tyler Faits",
+       "nameType": "Personal",
+       "givenName": "Tyler Faits",
+       "familyName": "David Jenkins",
+       "affiliation": [],
+       "nameIdentifiers": []
+      }
+     ],
+     "titles": [
+      {
+       "title": "singleCellTK"
+      }
+     ],
+     "publisher": "Bioconductor",
+     "container": {},
+     "publicationYear": 2018,
+     "subjects": [],
+     "contributors": [],
+     "dates": [
+      {
+       "date": "2018",
+       "dateType": "Issued"
+      }
+     ],
+     "language": null,
+     "types": {
+      "ris": "COMP",
+      "bibtex": "misc",
+      "citeproc": "article",
+      "schemaOrg": "SoftwareSourceCode",
+      "resourceTypeGeneral": "Software"
+     },
+     "relatedIdentifiers": [],
+     "relatedItems": [],
+     "sizes": [],
+     "formats": [],
+     "version": null,
+     "rightsList": [],
+     "descriptions": [],
+     "geoLocations": [],
+     "fundingReferences": [],
+     "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIKICB4bWxuczp4c2k9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hLWluc3RhbmNlIgogIHhzaTpzY2hlbWFMb2NhdGlvbj0iaHR0cDovL2RhdGFjaXRlLm9yZy9zY2hlbWEva2VybmVsLTQKICAgIGh0dHA6Ly9zY2hlbWEuZGF0YWNpdGUub3JnL21ldGEva2VybmVsLTQvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC4xODEyOS9COS5CSU9DLlNJTkdMRUNFTExUSzwvaWRlbnRpZmllcj4KICA8Y3JlYXRvcnM+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPkRhdmlkIEplbmtpbnMsIFR5bGVyIEZhaXRzLCBFbW1hIEJyaWFycywgU2ViYXN0aWFuIENhcnJhc2NvLCBXLiBFdmFuPC9jcmVhdG9yTmFtZT4KICAgIDwvY3JlYXRvcj4KICA8L2NyZWF0b3JzPgogIDx0aXRsZXM+CiAgICA8dGl0bGU+c2luZ2xlQ2VsbFRLPC90aXRsZT4KICA8L3RpdGxlcz4KICA8cHVibGlzaGVyPkJpb2NvbmR1Y3RvcjwvcHVibGlzaGVyPgogIDxwdWJsaWNhdGlvblllYXI+MjAxODwvcHVibGljYXRpb25ZZWFyPgogIDxyZXNvdXJjZVR5cGUgcmVzb3VyY2VUeXBlR2VuZXJhbD0iU29mdHdhcmUiLz4KPC9yZXNvdXJjZT4K",
+     "url": "https://bioconductor.org/packages/singleCellTK",
+     "contentUrl": null,
+     "metadataVersion": 0,
+     "schemaVersion": "http://datacite.org/schema/kernel-4",
+     "source": "api",
+     "isActive": true,
+     "state": "findable",
+     "reason": null,
+     "viewCount": 0,
+     "viewsOverTime": [],
+     "downloadCount": 0,
+     "downloadsOverTime": [],
+     "referenceCount": 0,
+     "citationCount": 0,
+     "citationsOverTime": [],
+     "partCount": 0,
+     "partOfCount": 0,
+     "versionCount": 0,
+     "versionOfCount": 0,
+     "created": "2018-04-16T17:50:05.000Z",
+     "registered": "2018-04-16T17:50:06.000Z",
+     "published": "2018",
+     "updated": "2024-05-09T13:35:58.000Z"
+    },
+    "relationships": {
+     "client": {
+      "data": {
+       "id": "nihod.bioc",
+       "type": "clients"
+      }
+     },
+     "provider": {
+      "data": {
+       "id": "nihod",
+       "type": "providers"
+      }
+     },
+     "media": {
+      "data": {
+       "id": "10.18129/b9.bioc.singlecelltk",
+       "type": "media"
+      }
+     },
+     "references": {
+      "data": []
+     },
+     "citations": {
+      "data": []
+     },
+     "parts": {
+      "data": []
+     },
+     "partOf": {
+      "data": []
+     },
+     "versions": {
+      "data": []
+     },
+     "versionOf": {
+      "data": []
+     }
+    }
+   }
+  }
+ }
+}

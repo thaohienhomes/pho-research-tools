@@ -26,6 +26,22 @@ export function normalize(s: string): string {
     .trim();
 }
 
+/**
+ * A title as a reader should see it: Crossref keeps JATS markup in titles
+ * (`<i>T. gondii</i>`, `H<sub>2</sub>O`), which reads as raw HTML in text output.
+ */
+export function plainTitle(s: string): string {
+  return s
+    .replace(/<[^>]+>/g, '')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#0?39;|&apos;/g, "'")
+    .replace(/&amp;/g, '&')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 export function tokens(s: string): string[] {
   const n = normalize(s);
   return n ? n.split(' ') : [];

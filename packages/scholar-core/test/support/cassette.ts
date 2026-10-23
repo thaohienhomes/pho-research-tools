@@ -44,13 +44,123 @@ const DROP_KEYS = new Set([
   'clinical-trial-number',
   'review',
   'archive',
+  // Europe PMC `core` records: lists findEvidence never reads.
+  'authorList',
+  'authorIdList',
+  'investigatorList',
+  'meshHeadingList',
+  'chemicalList',
+  'keywordList',
+  'grantsList',
+  'fullTextUrlList',
+  'fullTextIdList',
+  'commentCorrectionList',
+  'subsetList',
+  'dbCrossReferenceList',
+  'tmAccessionTypeList',
+  'embargoDate',
 ]);
 
-export function sanitize(v: unknown): unknown {
-  if (Array.isArray(v)) return v.map(sanitize);
+/**
+ * Dataset repositories put `license` and `subject` to use, so they get their
+ * own list: only the bulky parts (file listings, feature schemas) go.
+ */
+const DATASET_HOSTS = new Set([
+  'huggingface.co',
+  'api.datacite.org',
+  'huggingscience.co',
+  'graphql.cryoetdataportal.czscience.com',
+]);
+const DATASET_DROP_KEYS = new Set([
+  'siblings',
+  'dataset_info',
+  'configs',
+  'model-index',
+  'widget',
+  'widgetData',
+  'safetensors',
+  'spaces',
+  'transformersInfo',
+  'config',
+]);
+
+/**
+ * CELLxGENE answers with every public collection at once. Only the labels the
+ * pipeline reads stay; ontology ids, contacts and version ids go.
+ */
+const CELLXGENE_DROP_KEYS = new Set([
+  'links',
+  'contact_email',
+  'contact_name',
+  'curator_name',
+  'collection_version_id',
+  'dataset_version_id',
+  'ontology_term_id',
+  'tissue_type',
+  'cell_type',
+  'development_stage',
+  'self_reported_ethnicity',
+  'sex',
+  'suspension_type',
+  'genetic_perturbation_strategy',
+  'perturbation_types',
+  'revising_in',
+  'revision_of',
+]);
+
+/**
+ * bio.tools records carry contacts (names, emails, ORCIDs), the owner's login
+ * and edit permissions; none of it is read, and none of it belongs in a
+ * committed file.
+ */
+const BIOTOOLS_DROP_KEYS = new Set([
+  'credit',
+  'owner',
+  'editPermission',
+  'relation',
+  'documentation',
+  'otherID',
+  'elixirPlatform',
+  'elixirNode',
+  'elixirCommunity',
+  'collectionID',
+  'biotoolsCURIE',
+  'validated',
+  'homepage_status',
+  'elixir_badge',
+  'confidence_flag',
+  'additionDate',
+  'cmd',
+  'note',
+  'metadata',
+]);
+
+/** GitHub answers with ~90 fields; the pipeline reads three. Everything else goes. */
+const GITHUB_KEEP = new Set(['archived', 'pushed_at', 'html_url', 'license', 'spdx_id']);
+
+export function sanitize(v: unknown, host = ''): unknown {
+  if (host === 'api.github.com') {
+    if (Array.isArray(v)) return v.map((x) => sanitize(x, host));
+    if (v && typeof v === 'object') {
+      const out: Record<string, unknown> = {};
+      for (const [k, val] of Object.entries(v))
+        if (GITHUB_KEEP.has(k)) out[k] = sanitize(val, host);
+      return out;
+    }
+    return v;
+  }
+  const drop =
+    host === 'bio.tools'
+      ? BIOTOOLS_DROP_KEYS
+      : host === 'api.cellxgene.cziscience.com'
+        ? CELLXGENE_DROP_KEYS
+        : DATASET_HOSTS.has(host)
+          ? DATASET_DROP_KEYS
+          : DROP_KEYS;
+  if (Array.isArray(v)) return v.map((x) => sanitize(x, host));
   if (v && typeof v === 'object') {
     const out: Record<string, unknown> = {};
-    for (const [k, val] of Object.entries(v)) if (!DROP_KEYS.has(k)) out[k] = sanitize(val);
+    for (const [k, val] of Object.entries(v)) if (!drop.has(k)) out[k] = sanitize(val, host);
     return out;
   }
   return v;
@@ -63,6 +173,13 @@ const GAP_MS: Record<string, number> = {
   'api.crossref.org': 350,
   'api.openalex.org': 150,
   'doi.org': 100,
+  'www.ebi.ac.uk': 250,
+  'huggingface.co': 300,
+  'api.datacite.org': 250,
+  'api.cellxgene.cziscience.com': 500,
+  'graphql.cryoetdataportal.czscience.com': 300,
+  'bio.tools': 500,
+  'api.github.com': 1000,
 };
 
 export interface Cassette {
@@ -100,7 +217,7 @@ export function openCassette(dir: string, opts: { contactEmail?: string } = {}):
 
   const http: HttpClient = async (req) => {
     const host = new URL(req.url).host;
-    const key = cacheKey(req.url);
+    const key = cacheKey(req.url, req.body);
     const t = tape(host);
     if (!used.has(host)) used.set(host, new Set());
     used.get(host)!.add(key);
@@ -111,10 +228,14 @@ export function openCassette(dir: string, opts: { contactEmail?: string } = {}):
       return { status: 0, body: null };
     }
     await throttle(host);
-    const res = await live(req);
+    // Runners share IPs, so GitHub's anonymous limit runs out; the key is not part of the cache key.
+    const token = host === 'api.github.com' ? process.env.GITHUB_TOKEN : undefined;
+    const res = await live(
+      token ? { ...req, headers: { ...req.headers, authorization: `Bearer ${token}` } } : req,
+    );
     // Only stable answers are recorded; a 429/5xx/timeout must be retried later.
     if (res.status === 200 || res.status === 404) {
-      t[key] = { status: res.status, body: sanitize(res.body) };
+      t[key] = { status: res.status, body: sanitize(res.body, host) };
       dirty.add(host);
     } else {
       misses.push(`${res.status} ${key}`);

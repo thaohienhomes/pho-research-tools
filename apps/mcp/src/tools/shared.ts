@@ -10,11 +10,15 @@ export const MAX_REFERENCES_PER_CALL = 50;
 export const MAX_REFERENCE_INPUT_CHARS = 100_000;
 
 export const quotaSchema = z.object({
-  plan: z.enum(['anon', 'free']),
+  plan: z.enum(['anon', 'free', 'pro']),
   metric: z.enum(['verifications', 'calls']),
   used: z.number().int(),
   limit: z.number().int(),
   resets: z.string(),
+  /** Present once 80% of the allowance is used: what the next plan up gives, and where to get it. */
+  upgrade: z.string().optional(),
+  /** Why `upgrade` is present: `low` near the limit, `intro` on an anonymous caller's first call of the day. */
+  hint: z.enum(['low', 'intro']).optional(),
 });
 
 export const linksSchema = z

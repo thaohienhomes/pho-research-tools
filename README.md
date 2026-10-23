@@ -1,8 +1,9 @@
 # Phở Research Tools
 
 **An open-source MCP server that lets any AI assistant check its own references.**
-It verifies citations, flags retractions, formats bibliographies and draws PRISMA 2020
-diagrams, using only open scholarly databases: Crossref, PubMed and OpenAlex.
+It verifies citations, flags retractions, finds the strongest evidence for a claim, formats
+bibliographies, runs PRISMA 2020 screening and finds open datasets and research software,
+using only open databases: Crossref, PubMed, OpenAlex, Europe PMC, DataCite, bio.tools and others.
 
 AI models invent references. This server gives Claude, ChatGPT, Cursor or any MCP client
 a way to look each one up in a public database before you trust it.
@@ -14,9 +15,14 @@ a way to look each one up in a public database before you trust it.
 | `search_papers` | Searches OpenAlex and PubMed. Every result has a DOI or PMID; retracted papers are left out and preprints are labelled. |
 | `format_citations` | APA 7, MLA 9, Chicago, Harvard, Vancouver, IEEE or AMA, or BibTeX, RIS and CSL-JSON, formatted from the real record. |
 | `prisma_flow_diagram` | A PRISMA 2020 flow diagram (PNG + SVG) with a check that the counts add up. |
+| `find_evidence` | The strongest evidence on a claim, ordered by level of evidence (guideline, meta-analysis, RCT and down), each with its conclusion quoted verbatim. |
+| `screening_log` | Turns screening decisions into PRISMA counts, a diagram and a CSV log, and lists the problems a reviewer would catch. |
+| `find_datasets` | Open datasets for a research question, with licence verdicts, verified source papers and a shareable brief. |
+| `find_tools` | Research software for a task from the bio.tools registry, with licence verdicts, verified papers, maintenance labels and install lines. |
 
-All five tools are read-only. Results are database lookups, not model opinions:
-`likely_fabricated` means the DOI is not registered or no matching record exists.
+All nine tools are read-only. Results are database lookups, not model opinions:
+`likely_fabricated` means the DOI is not registered or no matching record exists, and
+`find_evidence` never says whether a paper supports a claim; its quoted conclusion does.
 
 ## Use the hosted server (no install)
 

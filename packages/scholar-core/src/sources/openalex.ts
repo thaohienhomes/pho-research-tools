@@ -94,6 +94,18 @@ interface OpenAlexSearchWork extends OpenAlexWork {
   primary_location?: { source?: { display_name?: string | null; type?: string | null } | null } | null;
   open_access?: { is_oa?: boolean; oa_url?: string | null };
   cited_by_count?: number;
+  abstract_inverted_index?: Record<string, number[]> | null;
+}
+
+/** OpenAlex ships abstracts as word → positions; rebuild the running text. */
+export function abstractFromInvertedIndex(idx: Record<string, number[]> | null | undefined): string | undefined {
+  if (!idx) return undefined;
+  const words: string[] = [];
+  for (const [word, positions] of Object.entries(idx)) {
+    for (const p of positions) if (Number.isInteger(p) && p >= 0 && p < 5000) words[p] = word;
+  }
+  const text = words.filter((w) => w !== undefined).join(' ').replace(/\s+/g, ' ').trim();
+  return text || undefined;
 }
 
 export interface OpenAlexHit {
@@ -103,6 +115,8 @@ export interface OpenAlexHit {
   isOa: boolean;
   oaUrl?: string;
   citedByCount?: number;
+  /** Only when `withAbstract` was asked for and OpenAlex holds one. */
+  abstract?: string;
 }
 
 export interface OpenAlexSearchOptions {
@@ -114,6 +128,8 @@ export interface OpenAlexSearchOptions {
   openAccessOnly?: boolean;
   /** OpenAlex work types to keep (`review`, `article`…). */
   types?: string[];
+  /** Also return the abstract (adds `abstract_inverted_index` to the selected fields). */
+  withAbstract?: boolean;
 }
 
 /**
@@ -136,7 +152,7 @@ export async function openalexSearchWorks(
     search: query,
     filter: filters.join(','),
     'per-page': String(opts.perPage ?? 10),
-    select: `${SELECT},open_access,cited_by_count`,
+    select: `${SELECT},open_access,cited_by_count${opts.withAbstract ? ',abstract_inverted_index' : ''}`,
   });
   if (opts.apiKey) q.set('api_key', opts.apiKey);
   if (opts.contactEmail) q.set('mailto', opts.contactEmail);
@@ -147,12 +163,16 @@ export async function openalexSearchWorks(
   if (!Array.isArray(results)) return { ok: false, reason: 'error' };
   return {
     ok: true,
-    value: results.map((w) => ({
-      work: mapOpenAlexWork(w),
-      isPreprint: w.type === 'preprint' || w.primary_location?.source?.type === 'repository',
-      isOa: !!w.open_access?.is_oa,
-      ...(w.open_access?.oa_url ? { oaUrl: w.open_access.oa_url } : {}),
-      ...(typeof w.cited_by_count === 'number' ? { citedByCount: w.cited_by_count } : {}),
-    })),
+    value: results.map((w) => {
+      const abstract = opts.withAbstract ? abstractFromInvertedIndex(w.abstract_inverted_index) : undefined;
+      return {
+        work: mapOpenAlexWork(w),
+        isPreprint: w.type === 'preprint' || w.primary_location?.source?.type === 'repository',
+        isOa: !!w.open_access?.is_oa,
+        ...(w.open_access?.oa_url ? { oaUrl: w.open_access.oa_url } : {}),
+        ...(typeof w.cited_by_count === 'number' ? { citedByCount: w.cited_by_count } : {}),
+        ...(abstract ? { abstract } : {}),
+      };
+    }),
   };
 }

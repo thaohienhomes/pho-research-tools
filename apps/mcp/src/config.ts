@@ -29,6 +29,10 @@ const EnvSchema = z.object({
   SCHOLAR_CONTACT_EMAIL: optionalString,
   PUBMED_API_KEY: optionalString,
   OPENALEX_API_KEY: optionalString,
+  /** Hugging Face read token: higher Hub rate limits for find_datasets. Optional. */
+  HF_TOKEN: optionalString,
+  /** GitHub token: lifts the anonymous rate limit on find_tools' maintenance lookups. Optional. */
+  GITHUB_TOKEN: optionalString,
   POSTHOG_API_KEY: optionalString,
   POSTHOG_HOST: optionalString,
   /** Salt for hashing IP + client into the anonymous quota subject. */
@@ -43,11 +47,23 @@ const EnvSchema = z.object({
    */
   OAUTH_ISSUER: optionalString,
   /** References checked per calendar month (UTC) by a signed-in Phở account. */
-  QUOTA_USER_VERIFICATIONS_PER_MONTH: int(300),
+  QUOTA_USER_VERIFICATIONS_PER_MONTH: int(1000),
   /** Tool calls of any kind per calendar month (UTC) by a signed-in Phở account. */
-  QUOTA_USER_CALLS_PER_MONTH: int(3000),
+  QUOTA_USER_CALLS_PER_MONTH: int(6000),
+  /** References checked per calendar month (UTC) by an account on a paid Phở plan. */
+  QUOTA_PRO_VERIFICATIONS_PER_MONTH: int(3000),
+  /** Tool calls of any kind per calendar month (UTC) by an account on a paid Phở plan. */
+  QUOTA_PRO_CALLS_PER_MONTH: int(30000),
   /** Shown when a quota runs out. */
   UPGRADE_URL: optionalString,
+  SIGN_IN_GUIDE_URL: optionalString,
+  /**
+   * Comma-separated client names (`claude`, `chatgpt`…). When an anonymous
+   * caller from one of these clients is out of allowance, /mcp answers 401 so
+   * the client runs sign-in on the connector it already has, instead of the
+   * user adding a second connector. Unset = off: the quota message only.
+   */
+  SIGN_IN_ON_ANON_LIMIT: optionalString,
   /** Trust X-Forwarded-For (set to 1 behind Vercel / Caddy / a load balancer). */
   TRUST_PROXY: optionalString,
   /** Set by Vercel on every deployment. */
@@ -61,6 +77,8 @@ export interface Config {
   contactEmail?: string;
   pubmedApiKey?: string;
   openalexApiKey?: string;
+  hfToken?: string;
+  githubToken?: string;
   posthogApiKey?: string;
   posthogHost: string;
   quotaSalt: string;
@@ -70,8 +88,14 @@ export interface Config {
     anonCallsPerDay: number;
     userVerificationsPerMonth: number;
     userCallsPerMonth: number;
+    proVerificationsPerMonth: number;
+    proCallsPerMonth: number;
   };
   upgradeUrl: string;
+  /** Public page that shows how to switch a connector to the sign-in address. */
+  signInGuideUrl: string;
+  /** Clients whose anonymous callers get a 401 sign-in challenge once out of allowance. */
+  signInOnAnonLimit: string[];
   trustProxy: boolean;
 }
 
@@ -106,6 +130,8 @@ export function loadConfig(env: Record<string, string | undefined> = process.env
     contactEmail: e.SCHOLAR_CONTACT_EMAIL,
     pubmedApiKey: e.PUBMED_API_KEY,
     openalexApiKey: e.OPENALEX_API_KEY,
+    hfToken: e.HF_TOKEN,
+    githubToken: e.GITHUB_TOKEN,
     posthogApiKey: e.POSTHOG_API_KEY,
     posthogHost: (e.POSTHOG_HOST ?? 'https://us.i.posthog.com').replace(/\/+$/, ''),
     quotaSalt: quotaSalt(e.QUOTA_SALT, env),
@@ -115,8 +141,15 @@ export function loadConfig(env: Record<string, string | undefined> = process.env
       anonCallsPerDay: e.QUOTA_ANON_CALLS_PER_DAY,
       userVerificationsPerMonth: e.QUOTA_USER_VERIFICATIONS_PER_MONTH,
       userCallsPerMonth: e.QUOTA_USER_CALLS_PER_MONTH,
+      proVerificationsPerMonth: e.QUOTA_PRO_VERIFICATIONS_PER_MONTH,
+      proCallsPerMonth: e.QUOTA_PRO_CALLS_PER_MONTH,
     },
     upgradeUrl: e.UPGRADE_URL ?? 'https://pho.chat/pricing',
+    signInGuideUrl: e.SIGN_IN_GUIDE_URL ?? 'https://pho.chat/tools/mcp/#sign-in',
+    signInOnAnonLimit: (e.SIGN_IN_ON_ANON_LIMIT ?? '')
+      .split(',')
+      .map((s) => s.trim().toLowerCase())
+      .filter(Boolean),
     // Vercel's edge overwrites X-Forwarded-For with the real client address,
     // so it is trustworthy there by default. Anywhere else it must be opted in.
     trustProxy: e.TRUST_PROXY === undefined ? e.VERCEL === '1' : e.TRUST_PROXY === '1' || e.TRUST_PROXY === 'true',

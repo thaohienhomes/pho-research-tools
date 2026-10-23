@@ -14,8 +14,8 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "record": "SCHOLAR_RECORD=missing vitest run --no-file-parallelism test/quality.test.ts test/search.test.ts",
-    "eval:live": "SCHOLAR_LIVE=1 vitest run --no-file-parallelism test/quality.test.ts test/search.test.ts",
+    "record": "SCHOLAR_RECORD=missing vitest run --no-file-parallelism test/quality.test.ts test/search.test.ts test/evidence.test.ts test/datasets.test.ts test/tools.test.ts",
+    "eval:live": "SCHOLAR_LIVE=1 vitest run --no-file-parallelism test/quality.test.ts test/search.test.ts test/evidence.test.ts test/datasets.test.ts test/tools.test.ts",
     "samples": "SCHOLAR_WRITE_SAMPLES=1 vitest run test/samples.test.ts"
   },
   "dependencies": {

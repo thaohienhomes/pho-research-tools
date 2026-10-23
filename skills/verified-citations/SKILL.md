@@ -12,7 +12,8 @@ order on papers that do exist. This skill makes every reference you show the use
 a public database has confirmed.
 
 It relies on the **Phở Research Tools** MCP server. Its tools are `search_papers`,
-`verify_references`, `format_citations`, `check_retractions` and `prisma_flow_diagram`.
+`find_evidence`, `verify_references`, `format_citations`, `check_retractions`,
+`prisma_flow_diagram`, `screening_log`, `find_datasets` and `find_tools`.
 If those tools are not available, see "Without the tools" at the end.
 
 ## The rule
@@ -35,6 +36,13 @@ When you need evidence for a claim or a topic, search instead of recalling:
 
 Read the abstract before citing a paper for a specific claim. A title that sounds right is
 not evidence that the paper supports the sentence.
+
+When the question is whether a specific claim holds ("does X reduce Y?"), use
+`find_evidence` instead. Pass the claim, and `query` with English keywords when the claim is
+long or not in English. It returns real papers ordered by level of evidence (guideline,
+meta-analysis, systematic review, RCT, other trial, observational study and down), each with
+its conclusion copied verbatim. The tool does not judge stance: count a paper as support or
+contradiction only when its quoted conclusion says so, and quote the sentence you rely on.
 
 ### 2. Verify with `verify_references` before showing anything
 
@@ -86,6 +94,21 @@ For a list of DOIs where only retractions matter, `check_retractions` is faster.
 For a PRISMA 2020 flow diagram, call `prisma_flow_diagram` with the record counts. It
 returns the diagram and a warning for every box whose numbers do not add up. Show those
 warnings; never adjust the user's counts silently.
+
+When the user has the screening decisions themselves (one row per record, with the
+title/abstract decision, the full-text decision and the reason for each exclusion), call
+`screening_log` instead. It counts every box from the rows, so the diagram always matches
+the decisions, and returns a CSV log for the review appendix plus the problems a reviewer
+would catch (exclusions without a reason, records still waiting, duplicate ids). Report
+those problems to the user.
+
+## Data and software
+
+When the user needs open data or research software for their question, use `find_datasets`
+or `find_tools`. Both return only records from the repositories' own metadata, with a
+licence verdict and the source paper checked for retractions. Explain the fit from the
+`why` field, say plainly when nothing matched, and note that licence verdicts are not legal
+advice. Cite a dataset or tool with the citation the tool returns, not one you write.
 
 ## Without the tools
 

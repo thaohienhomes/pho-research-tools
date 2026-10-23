@@ -179,6 +179,29 @@ function clean(s: string | undefined): string | undefined {
   return out ? out : undefined;
 }
 
+/**
+ * Nature/Cell style lists the last author after `&` with initials after the
+ * surname ("Rothe, R., Timofte, R. & Van Gool, L. DEX: …"). The period after
+ * that author's last initial ends the author list, even though it looks like
+ * one more initial in a run.
+ */
+function endsNatureAuthorList(sentenceSoFar: string, next: string): boolean {
+  if (/^\s+\p{Lu}\./u.test(next)) return false; // another initial follows
+  const last = /&\s*([^&]+)$/u.exec(sentenceSoFar)?.[1];
+  return !!last && /^[\p{L}'’ -]+,\s*(?:\p{Lu}\.?[\s-]*)*\p{Lu}$/u.test(last.trim());
+}
+
+/**
+ * A conference paper in Nature style puts the proceedings after the title as a
+ * lowercase "in" sentence: "Title. in 2015 IEEE International Conference … (IEEE, 2015)".
+ * Split it off so the venue is not read as part of the title.
+ */
+function splitInVenue(title: string): [string, string | undefined] {
+  const m = /([.?!])\s+[Ii]n:?\s+(?=\S)/u.exec(title);
+  if (!m || m.index < 8) return [title, undefined];
+  return [title.slice(0, m.index + (m[1] === '.' ? 0 : 1)), title.slice(m.index + m[0].length)];
+}
+
 /** Split at sentence ends: `. ` followed by an uppercase letter or digit. Initials (`J. `) are not ends. */
 function sentences(s: string): string[] {
   const out: string[] = [];
@@ -194,7 +217,8 @@ function sentences(s: string): string[] {
     if (
       m[1] === '.' &&
       (/(?:^|[.,]\s?)\p{Lu}$/u.test(before) ||
-        (/(?:^|\s)\p{Lu}$/u.test(before) && /^\s+\p{Lu}\./u.test(s.slice(end + 1))))
+        (/(?:^|\s)\p{Lu}$/u.test(before) && /^\s+\p{Lu}\./u.test(s.slice(end + 1)))) &&
+      !endsNatureAuthorList(s.slice(start, end), s.slice(end + 1))
     ) {
       continue;
     }
@@ -279,10 +303,12 @@ export function parseTextReference(raw: string, index: number): ParsedRef {
   }
   // A Chicago-style bare year sentence right after the authors: "Smith, J. 2020."
   if (parts[i] && /^(1[89]\d\d|20\d\d)[a-z]?$/.test(parts[i]!.trim())) i++;
-  const title = clean(parts[i]);
+  const [titlePart, venue] = splitInVenue(parts[i] ?? '');
+  const title = clean(titlePart);
   const tail = parts.slice(i + 1).join('. ');
   let journal: string | undefined;
-  if (locIdx > i + 1) journal = clean(parts.slice(i + 1, locIdx).join('. '));
+  if (venue) journal = clean(venue.replace(/\s*\([^)]*\b(?:1[89]\d\d|20\d\d)\)[.\s]*$/u, ''));
+  else if (locIdx > i + 1) journal = clean(parts.slice(i + 1, locIdx).join('. '));
   else if (locIdx === -1 && parts[i + 1]) journal = clean(/^([^,0-9]+)/.exec(parts[i + 1]!)?.[1]);
   else if (locIdx === i + 1) journal = clean(/^([^0-9;]+?)\s*(?:1[89]\d\d|20\d\d)/.exec(parts[i + 1]!)?.[1]);
   const year = Number(YEAR.exec(tail)?.[1] ?? YEAR.exec(body)?.[1]) || undefined;
@@ -417,6 +443,16 @@ function parseReferenceText(input: string): ParsedRef[] {
       const json = JSON.parse(text) as unknown;
       const items = Array.isArray(json) ? json : [json];
       if (items.every((x) => x && typeof x === 'object')) return items.map((it, i) => fromCsl(it as CslItem, i));
+      // A JSON array of strings is a list with one reference per element. Clients
+      // sometimes send a list this way; read as text it became one long reference.
+      if (Array.isArray(json) && items.every((x) => typeof x === 'string' || (x && typeof x === 'object'))) {
+        return items
+          .filter((x) => typeof x !== 'string' || x.trim() !== '')
+          .slice(0, MAX_REFERENCES)
+          .map((it, i) =>
+            typeof it === 'string' ? parseTextReference(it.trim().slice(0, MAX_REFERENCE_CHARS), i) : fromCsl(it as CslItem, i),
+          );
+      }
     } catch {
       /* not JSON — fall through to text */
     }

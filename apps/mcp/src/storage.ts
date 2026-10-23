@@ -28,10 +28,46 @@ export interface UsageStore {
    * Never over-grants: two parallel requests cannot both receive the last unit.
    */
   take(subject: string, metric: QuotaMetric, units: number, limit: number, day: string, plan?: QuotaPlan): Promise<Grant>;
+  /** Units already used in the window starting on `day`, without taking any. */
+  peek(subject: string, metric: QuotaMetric, day: string): Promise<number>;
 }
 
-/** `anon`: per network, per day. `free`: a signed-in Phở account, per month. Paid plans come later. */
-export type QuotaPlan = 'anon' | 'free';
+/** `anon`: per network, per day. `free`: a signed-in Phở account, per month. `pro`: a paid Phở plan, per month. */
+export type QuotaPlan = 'anon' | 'free' | 'pro';
+
+/** Is this Clerk user on a paid Phở plan? Undefined when it could not be told. */
+export type PaidPlanLookup = (clerkUserId: string) => Promise<boolean | undefined>;
+
+/** Tiers that carry the Pro allowance. `users.tier` is kept current by the payment webhooks. */
+const PAID_TIERS = new Set(['plus', 'max', 'medical']);
+const PLAN_CACHE_MS = 5 * 60 * 1000;
+const PLAN_CACHE_MAX = 5000;
+
+/**
+ * Reads `users.tier` for one account. The MCP database role needs
+ * `GRANT SELECT (clerk_id, tier) ON users TO pho_mcp` (see
+ * packages/database/drizzle/manual/2026-10-19_research_tools_paid_plan.sql).
+ * Until that grant exists the query fails, the lookup answers undefined, and
+ * the caller keeps the free signed-in allowance.
+ */
+export function createPgPaidPlanLookup(sql: Sql): PaidPlanLookup {
+  const cache = new Map<string, { paid: boolean; until: number }>();
+  return async (clerkUserId) => {
+    const now = Date.now();
+    const hit = cache.get(clerkUserId);
+    if (hit && hit.until > now) return hit.paid;
+    try {
+      const rows = (await sql`SELECT tier FROM users WHERE clerk_id = ${clerkUserId} LIMIT 1`) as { tier: string }[];
+      const paid = PAID_TIERS.has(rows[0]?.tier ?? 'free');
+      if (cache.size >= PLAN_CACHE_MAX) cache.clear();
+      cache.set(clerkUserId, { paid, until: now + PLAN_CACHE_MS });
+      return paid;
+    } catch (err) {
+      console.error('[mcp] plan lookup failed, using the free allowance', err);
+      return undefined;
+    }
+  };
+}
 
 export function createMemoryUsageStore(): UsageStore {
   const used = new Map<string, number>();
@@ -50,6 +86,9 @@ export function createMemoryUsageStore(): UsageStore {
       const granted = Math.max(0, Math.min(units, limit - before));
       used.set(key, before + granted);
       return { granted, used: before + granted, limit };
+    },
+    async peek(subject, metric, day) {
+      return used.get(`${subject}|${metric}|${day}`) ?? 0;
     },
   };
 }
@@ -115,6 +154,12 @@ export function createPgUsageStore(sql: Sql): UsageStore {
       );
       return { granted: Number(row?.last_grant ?? 0), used: Number(row?.used ?? 0), limit };
     },
+    async peek(subject, metric, day) {
+      const rows = (await sql`
+        SELECT used FROM rt_usage WHERE subject = ${subject} AND day = ${day}::date AND metric = ${metric}
+      `) as { used: number }[];
+      return Number(rows[0]?.used ?? 0);
+    },
   };
 }
 
@@ -145,9 +190,9 @@ export function createPgCache(sql: Sql): ScholarCache {
   };
 }
 
-export function createPgStorage(databaseUrl: string): { usage: UsageStore; cache: ScholarCache } {
+export function createPgStorage(databaseUrl: string): { usage: UsageStore; cache: ScholarCache; paidPlan: PaidPlanLookup } {
   const sql = neon(databaseUrl);
-  return { usage: createPgUsageStore(sql), cache: createPgCache(sql) };
+  return { usage: createPgUsageStore(sql), cache: createPgCache(sql), paidPlan: createPgPaidPlanLookup(sql) };
 }
 
 /** UTC calendar day, the anonymous quota window. */
