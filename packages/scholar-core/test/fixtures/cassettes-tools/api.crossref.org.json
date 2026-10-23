@@ -1,0 +1,1617 @@
+{
+ "https://api.crossref.org/works/10.1093%2Fbioinformatics%2Fbtae109": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "reference-count": 39,
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "3",
+    "short-container-title": [],
+    "published-print": {
+     "date-parts": [
+      [
+       2024,
+       3,
+       4
+      ]
+     ]
+    },
+    "DOI": "10.1093/bioinformatics/btae109",
+    "type": "journal-article",
+    "created": {
+     "date-parts": [
+      [
+       2024,
+       2,
+       22
+      ]
+     ],
+     "date-time": "2024-02-22T17:21:15Z",
+     "timestamp": 1708622475000
+    },
+    "source": "Crossref",
+    "title": [
+     "CryoTransformer: a transformer model for picking protein particles from cryo-EM micrographs"
+    ],
+    "prefix": "10.1093",
+    "volume": "40",
+    "author": [
+     {
+      "given": "Ashwin",
+      "family": "Dhakal",
+      "sequence": "first",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Rajan",
+      "family": "Gyawali",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Liguo",
+      "family": "Wang",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Jianlin",
+      "family": "Cheng",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "member": "286",
+    "published-online": {
+     "date-parts": [
+      [
+       2024,
+       2,
+       24
+      ]
+     ]
+    },
+    "container-title": [
+     "Bioinformatics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "subtitle": [],
+    "editor": [
+     {
+      "given": "Arne",
+      "family": "Elofsson",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "editor"
+       }
+      ]
+     }
+    ],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2024,
+       2,
+       24
+      ]
+     ]
+    },
+    "journal-issue": {
+     "issue": "3",
+     "published-print": {
+      "date-parts": [
+       [
+        2024,
+        3,
+        4
+       ]
+      ]
+     }
+    },
+    "URL": "https://doi.org/10.1093/bioinformatics/btae109",
+    "relation": {
+     "has-preprint": [
+      {
+       "id-type": "doi",
+       "id": "10.1101/2023.10.19.563155",
+       "asserted-by": "object"
+      }
+     ]
+    },
+    "ISSN": [
+     "1367-4811"
+    ],
+    "issn-type": [
+     {
+      "value": "1367-4811",
+      "type": "electronic"
+     }
+    ],
+    "published-other": {
+     "date-parts": [
+      [
+       2024,
+       3,
+       1
+      ]
+     ]
+    },
+    "published": {
+     "date-parts": [
+      [
+       2024,
+       2,
+       24
+      ]
+     ]
+    },
+    "article-number": "btae109"
+   }
+  }
+ },
+ "https://api.crossref.org/works/10.1101%2F2025.01.14.25320518": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "posted": {
+     "date-parts": [
+      [
+       2025,
+       1,
+       14
+      ]
+     ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 22,
+    "publisher": "openRxiv",
+    "short-container-title": [],
+    "accepted": {
+     "date-parts": [
+      [
+       2025,
+       1,
+       14
+      ]
+     ]
+    },
+    "DOI": "10.1101/2025.01.14.25320518",
+    "type": "posted-content",
+    "created": {
+     "date-parts": [
+      [
+       2025,
+       1,
+       14
+      ]
+     ],
+     "date-time": "2025-01-14T17:55:12Z",
+     "timestamp": 1736877312000
+    },
+    "source": "Crossref",
+    "title": [
+     "cocci-call: a species-aware variant identification pipeline for\n                  <i>Coccidioides</i>\n                  spp. in genomic epidemiology"
+    ],
+    "prefix": "10.64898",
+    "author": [
+     {
+      "given": "Marco",
+      "family": "Marchetti",
+      "sequence": "first",
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "given": "Emanuel M.",
+      "family": "Fonseca",
+      "sequence": "additional",
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "given": "Kimberly E.",
+      "family": "Hanson",
+      "sequence": "additional",
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "given": "Bridget",
+      "family": "Barker",
+      "sequence": "additional",
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "given": "Katharine S.",
+      "family": "Walter",
+      "sequence": "additional",
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "member": "54368",
+    "container-title": [],
+    "original-title": [],
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2025,
+       1,
+       14
+      ]
+     ]
+    },
+    "URL": "https://doi.org/10.1101/2025.01.14.25320518",
+    "relation": {},
+    "published": {
+     "date-parts": [
+      [
+       2025,
+       1,
+       14
+      ]
+     ]
+    },
+    "subtype": "preprint"
+   }
+  }
+ },
+ "https://api.crossref.org/works/10.1101%2Fgr.092981.109": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "reference-count": 31,
+    "publisher": "Cold Spring Harbor Laboratory",
+    "issue": "9",
+    "short-container-title": [
+     "Genome Res."
+    ],
+    "published-print": {
+     "date-parts": [
+      [
+       2009,
+       9
+      ]
+     ]
+    },
+    "DOI": "10.1101/gr.092981.109",
+    "type": "journal-article",
+    "created": {
+     "date-parts": [
+      [
+       2009,
+       8,
+       6
+      ]
+     ],
+     "date-time": "2009-08-06T01:30:21Z",
+     "timestamp": 1249522221000
+    },
+    "page": "1586-1592",
+    "source": "Crossref",
+    "title": [
+     "Sensitive and accurate detection of copy number variants using read depth of coverage"
+    ],
+    "prefix": "10.1101",
+    "volume": "19",
+    "author": [
+     {
+      "given": "Seungtai",
+      "family": "Yoon",
+      "sequence": "first",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Zhenyu",
+      "family": "Xuan",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Vladimir",
+      "family": "Makarov",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Kenny",
+      "family": "Ye",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Jonathan",
+      "family": "Sebat",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "member": "246",
+    "published-online": {
+     "date-parts": [
+      [
+       2009,
+       8,
+       5
+      ]
+     ]
+    },
+    "container-title": [
+     "Genome Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2009,
+       8,
+       5
+      ]
+     ]
+    },
+    "journal-issue": {
+     "issue": "9",
+     "published-online": {
+      "date-parts": [
+       [
+        2009,
+        9,
+        1
+       ]
+      ]
+     },
+     "published-print": {
+      "date-parts": [
+       [
+        2009,
+        9
+       ]
+      ]
+     }
+    },
+    "alternative-id": [
+     "10.1101/gr.092981.109"
+    ],
+    "URL": "https://doi.org/10.1101/gr.092981.109",
+    "relation": {},
+    "ISSN": [
+     "1088-9051"
+    ],
+    "issn-type": [
+     {
+      "value": "1088-9051",
+      "type": "print"
+     }
+    ],
+    "published": {
+     "date-parts": [
+      [
+       2009,
+       8,
+       5
+      ]
+     ]
+    }
+   }
+  }
+ },
+ "https://api.crossref.org/works/10.1186%2FS12859-020-03948-X": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "reference-count": 55,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "short-container-title": [
+     "BMC Bioinformatics"
+    ],
+    "published-print": {
+     "date-parts": [
+      [
+       2021,
+       12
+      ]
+     ]
+    },
+    "DOI": "10.1186/s12859-020-03948-x",
+    "type": "journal-article",
+    "created": {
+     "date-parts": [
+      [
+       2021,
+       2,
+       8
+      ]
+     ],
+     "date-time": "2021-02-08T17:44:17Z",
+     "timestamp": 1612806257000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "title": [
+     "DRPnet: automated particle picking in cryo-electron micrographs using deep regression"
+    ],
+    "prefix": "10.1186",
+    "volume": "22",
+    "author": [
+     {
+      "given": "Nguyen Phuoc",
+      "family": "Nguyen",
+      "sequence": "first",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Ilker",
+      "family": "Ersoy",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Jacob",
+      "family": "Gotberg",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Filiz",
+      "family": "Bunyak",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Tommi A.",
+      "family": "White",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "member": "297",
+    "published-online": {
+     "date-parts": [
+      [
+       2021,
+       2,
+       8
+      ]
+     ]
+    },
+    "container-title": [
+     "BMC Bioinformatics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2021,
+       2,
+       8
+      ]
+     ]
+    },
+    "journal-issue": {
+     "issue": "1",
+     "published-print": {
+      "date-parts": [
+       [
+        2021,
+        12
+       ]
+      ]
+     }
+    },
+    "alternative-id": [
+     "3948"
+    ],
+    "URL": "https://doi.org/10.1186/s12859-020-03948-x",
+    "relation": {
+     "has-preprint": [
+      {
+       "id-type": "doi",
+       "id": "10.1101/616169",
+       "asserted-by": "object"
+      }
+     ]
+    },
+    "ISSN": [
+     "1471-2105"
+    ],
+    "issn-type": [
+     {
+      "value": "1471-2105",
+      "type": "electronic"
+     }
+    ],
+    "published": {
+     "date-parts": [
+      [
+       2021,
+       2,
+       8
+      ]
+     ]
+    },
+    "article-number": "55"
+   }
+  }
+ },
+ "https://api.crossref.org/works/10.1186%2FS12859-025-06320-Z": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "reference-count": 39,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "short-container-title": [
+     "BMC Bioinformatics"
+    ],
+    "DOI": "10.1186/s12859-025-06320-z",
+    "type": "journal-article",
+    "created": {
+     "date-parts": [
+      [
+       2025,
+       12,
+       17
+      ]
+     ],
+     "date-time": "2025-12-17T13:25:22Z",
+     "timestamp": 1765977922000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "title": [
+     "CIA: unveiling cellular identities with cluster-independent annotation in single-cell RNA sequencing data for comprehensive cell type characterization and exploration"
+    ],
+    "prefix": "10.1186",
+    "volume": "27",
+    "author": [
+     {
+      "given": "Ivan",
+      "family": "Ferrari",
+      "sequence": "first",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Mattia",
+      "family": "Battistella",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Francesca",
+      "family": "Vincenti",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Andrea",
+      "family": "Gobbini",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Federico",
+      "family": "Marini",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Samuele",
+      "family": "Notarbartolo",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Jole",
+      "family": "Costanza",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Stefano",
+      "family": "Biffo",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Renata",
+      "family": "Grifantini",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Sergio",
+      "family": "Abrignani",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Eugenia",
+      "family": "Galeota",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "member": "297",
+    "published-online": {
+     "date-parts": [
+      [
+       2025,
+       12,
+       17
+      ]
+     ]
+    },
+    "container-title": [
+     "BMC Bioinformatics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2025,
+       12,
+       17
+      ]
+     ]
+    },
+    "journal-issue": {
+     "issue": "1",
+     "published-online": {
+      "date-parts": [
+       [
+        2026,
+        12
+       ]
+      ]
+     }
+    },
+    "alternative-id": [
+     "6320"
+    ],
+    "URL": "https://doi.org/10.1186/s12859-025-06320-z",
+    "relation": {},
+    "ISSN": [
+     "1471-2105"
+    ],
+    "issn-type": [
+     {
+      "value": "1471-2105",
+      "type": "electronic"
+     }
+    ],
+    "published": {
+     "date-parts": [
+      [
+       2025,
+       12,
+       17
+      ]
+     ]
+    },
+    "article-number": "38"
+   }
+  }
+ },
+ "https://api.crossref.org/works/10.1186%2Fs12864-018-4772-0": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "reference-count": 32,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "short-container-title": [
+     "BMC Genomics"
+    ],
+    "published-print": {
+     "date-parts": [
+      [
+       2018,
+       12
+      ]
+     ]
+    },
+    "DOI": "10.1186/s12864-018-4772-0",
+    "type": "journal-article",
+    "created": {
+     "date-parts": [
+      [
+       2018,
+       6,
+       18
+      ]
+     ],
+     "date-time": "2018-06-18T21:22:51Z",
+     "timestamp": 1529356971000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "title": [
+     "Slingshot: cell lineage and pseudotime inference for single-cell transcriptomics"
+    ],
+    "prefix": "10.1186",
+    "volume": "19",
+    "author": [
+     {
+      "given": "Kelly",
+      "family": "Street",
+      "sequence": "first",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Davide",
+      "family": "Risso",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Russell B.",
+      "family": "Fletcher",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Diya",
+      "family": "Das",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "John",
+      "family": "Ngai",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Nir",
+      "family": "Yosef",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Elizabeth",
+      "family": "Purdom",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Sandrine",
+      "family": "Dudoit",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "member": "297",
+    "published-online": {
+     "date-parts": [
+      [
+       2018,
+       6,
+       19
+      ]
+     ]
+    },
+    "container-title": [
+     "BMC Genomics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2018,
+       6,
+       19
+      ]
+     ]
+    },
+    "journal-issue": {
+     "issue": "1",
+     "published-print": {
+      "date-parts": [
+       [
+        2018,
+        12
+       ]
+      ]
+     }
+    },
+    "alternative-id": [
+     "4772"
+    ],
+    "URL": "https://doi.org/10.1186/s12864-018-4772-0",
+    "relation": {
+     "has-preprint": [
+      {
+       "id-type": "doi",
+       "id": "10.1101/128843",
+       "asserted-by": "object"
+      }
+     ]
+    },
+    "ISSN": [
+     "1471-2164"
+    ],
+    "issn-type": [
+     {
+      "value": "1471-2164",
+      "type": "electronic"
+     }
+    ],
+    "published": {
+     "date-parts": [
+      [
+       2018,
+       6,
+       19
+      ]
+     ]
+    },
+    "article-number": "477"
+   }
+  }
+ },
+ "https://api.crossref.org/works/10.1186%2Fs13059-020-02054-8": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "reference-count": 25,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "short-container-title": [
+     "Genome Biol"
+    ],
+    "published-print": {
+     "date-parts": [
+      [
+       2020,
+       12
+      ]
+     ]
+    },
+    "DOI": "10.1186/s13059-020-02054-8",
+    "type": "journal-article",
+    "created": {
+     "date-parts": [
+      [
+       2020,
+       6,
+       8
+      ]
+     ],
+     "date-time": "2020-06-08T08:04:32Z",
+     "timestamp": 1591603472000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "title": [
+     "CB2 improves power of cell detection in droplet-based single-cell RNA sequencing data"
+    ],
+    "prefix": "10.1186",
+    "volume": "21",
+    "author": [
+     {
+      "given": "Zijian",
+      "family": "Ni",
+      "sequence": "first",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Shuyang",
+      "family": "Chen",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Jared",
+      "family": "Brown",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Christina",
+      "family": "Kendziorski",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "member": "297",
+    "published-online": {
+     "date-parts": [
+      [
+       2020,
+       6,
+       8
+      ]
+     ]
+    },
+    "container-title": [
+     "Genome Biology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2020,
+       6,
+       8
+      ]
+     ]
+    },
+    "journal-issue": {
+     "issue": "1",
+     "published-print": {
+      "date-parts": [
+       [
+        2020,
+        12
+       ]
+      ]
+     }
+    },
+    "alternative-id": [
+     "2054"
+    ],
+    "URL": "https://doi.org/10.1186/s13059-020-02054-8",
+    "relation": {},
+    "ISSN": [
+     "1474-760X"
+    ],
+    "issn-type": [
+     {
+      "value": "1474-760X",
+      "type": "electronic"
+     }
+    ],
+    "published": {
+     "date-parts": [
+      [
+       2020,
+       6,
+       8
+      ]
+     ]
+    },
+    "article-number": "137"
+   }
+  }
+ },
+ "https://api.crossref.org/works/10.18129%2FB9.bioc.SimFFPE": {
+  "status": 404,
+  "body": null
+ },
+ "https://api.crossref.org/works/10.18129%2FB9.bioc.looking4clusters": {
+  "status": 404,
+  "body": null
+ },
+ "https://api.crossref.org/works/10.18129%2FB9.bioc.scTreeViz": {
+  "status": 404,
+  "body": null
+ },
+ "https://api.crossref.org/works/10.18129%2FB9.bioc.singleCellTK": {
+  "status": 404,
+  "body": null
+ },
+ "https://api.crossref.org/works/10.3390%2FGENES10090666": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "reference-count": 34,
+    "publisher": "MDPI AG",
+    "issue": "9",
+    "short-container-title": [
+     "Genes"
+    ],
+    "DOI": "10.3390/genes10090666",
+    "type": "journal-article",
+    "created": {
+     "date-parts": [
+      [
+       2019,
+       8,
+       30
+      ]
+     ],
+     "date-time": "2019-08-30T10:31:17Z",
+     "timestamp": 1567161077000
+    },
+    "page": "666",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "title": [
+     "A Super-Clustering Approach for Fully Automated Single Particle Picking in Cryo-EM"
+    ],
+    "prefix": "10.3390",
+    "volume": "10",
+    "author": [
+     {
+      "given": "Adil",
+      "family": "Al-Azzawi",
+      "sequence": "first",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Anes",
+      "family": "Ouadou",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "John J.",
+      "family": "Tanner",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Jianlin",
+      "family": "Cheng",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "member": "1968",
+    "published-online": {
+     "date-parts": [
+      [
+       2019,
+       8,
+       30
+      ]
+     ]
+    },
+    "container-title": [
+     "Genes"
+    ],
+    "original-title": [],
+    "language": "en",
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2019,
+       8,
+       30
+      ]
+     ]
+    },
+    "journal-issue": {
+     "issue": "9",
+     "published-online": {
+      "date-parts": [
+       [
+        2019,
+        9
+       ]
+      ]
+     }
+    },
+    "alternative-id": [
+     "genes10090666"
+    ],
+    "URL": "https://doi.org/10.3390/genes10090666",
+    "relation": {},
+    "ISSN": [
+     "2073-4425"
+    ],
+    "issn-type": [
+     {
+      "value": "2073-4425",
+      "type": "electronic"
+     }
+    ],
+    "published": {
+     "date-parts": [
+      [
+       2019,
+       8,
+       30
+      ]
+     ]
+    }
+   }
+  }
+ },
+ "https://api.crossref.org/works/10.64898%2F2026.08.24.746754": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "posted": {
+     "date-parts": [
+      [
+       2026,
+       8,
+       26
+      ]
+     ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 43,
+    "publisher": "openRxiv",
+    "short-container-title": [],
+    "accepted": {
+     "date-parts": [
+      [
+       2026,
+       8,
+       27
+      ]
+     ]
+    },
+    "DOI": "10.64898/2026.08.24.746754",
+    "type": "posted-content",
+    "created": {
+     "date-parts": [
+      [
+       2026,
+       8,
+       27
+      ]
+     ],
+     "date-time": "2026-08-27T01:20:17Z",
+     "timestamp": 1787793617000
+    },
+    "source": "Crossref",
+    "title": [
+     "HIDE-Deconv: A hierarchical deconvolution framework for multiscale characterization of cellular remodeling"
+    ],
+    "prefix": "10.64898",
+    "author": [
+     {
+      "given": "Dennis",
+      "family": "Voelkl",
+      "sequence": "first",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Sarah",
+      "family": "Bolz",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Austin",
+      "family": "Rayford",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Thomas",
+      "family": "Sterr",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Malte",
+      "family": "Mensching-Buhr",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Nicole",
+      "family": "Seifert",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Julia",
+      "family": "Arp",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Jana",
+      "family": "Tauschke",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Laurenz",
+      "family": "Engel",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Cornelia",
+      "family": "Schuster",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Thomas",
+      "family": "Stevenson",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Helena U.",
+      "family": "Zacharias",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Michael",
+      "family": "Altenbuchinger",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Franziska",
+      "family": "Görtler",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "member": "54368",
+    "container-title": [],
+    "original-title": [],
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2026,
+       8,
+       26
+      ]
+     ]
+    },
+    "URL": "https://doi.org/10.64898/2026.08.24.746754",
+    "relation": {},
+    "published": {
+     "date-parts": [
+      [
+       2026,
+       8,
+       26
+      ]
+     ]
+    },
+    "subtype": "preprint"
+   }
+  }
+ }
+}

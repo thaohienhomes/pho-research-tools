@@ -69,6 +69,34 @@ export function isRetractionType(type: string): boolean {
   return RETRACTION_TYPES.has(type);
 }
 
+function noticeRank(type: string): number {
+  if (RETRACTION_TYPES.has(type)) return 0;
+  if (CONCERN_TYPES.has(type)) return 1;
+  if (CORRECTION_TYPES.has(type)) return 2;
+  return 3;
+}
+
+/**
+ * The one notice a one-line summary should name: a retraction if there is
+ * any, else an expression of concern, else a correction; the newest within
+ * that rank (undated counts as oldest, ties keep list order). List order is
+ * whatever Crossref returned, so `notices[0]` named Wakefield's 2004
+ * correction instead of its 2010 retraction.
+ */
+export function summaryNotice<T extends { type: string; date?: string }>(notices: readonly T[]): T | undefined {
+  let best: T | undefined;
+  for (const n of notices) {
+    if (!best) {
+      best = n;
+      continue;
+    }
+    const rank = noticeRank(n.type);
+    const bestRank = noticeRank(best.type);
+    if (rank < bestRank || (rank === bestRank && (n.date ?? '') > (best.date ?? ''))) best = n;
+  }
+  return best;
+}
+
 interface CrossrefUpdate {
   DOI?: string;
   type?: string;
@@ -90,10 +118,23 @@ function toIsoDate(updated: CrossrefUpdate['updated']): string | undefined {
  * itself, which would label the paper as a notice).
  */
 export function parseUpdatedBy(message: unknown): RetractionNotice[] {
-  const updates = (message as { 'updated-by'?: CrossrefUpdate[] } | null)?.['updated-by'];
+  const m = message as { 'updated-by'?: CrossrefUpdate[]; DOI?: unknown } | null;
+  const updates = m?.['updated-by'];
   if (!Array.isArray(updates)) return [];
+  const self = typeof m?.DOI === 'string' ? normalizeDoi(m.DOI) : null;
   return updates
     .filter((u): u is CrossrefUpdate => typeof u?.type === 'string')
+    // A "new version" that points at the paper's own DOI is the publisher
+    // re-depositing the same article (PLOS does this), not a correction notice.
+    // Only version bumps: a retraction issued in place under the same DOI stays.
+    .filter(
+      (u) =>
+        !(
+          self &&
+          /^new_(version|edition)$/i.test(String(u.type)) &&
+          normalizeDoi(String(u.DOI ?? '')) === self
+        ),
+    )
     .map((u) => {
       const date = toIsoDate(u.updated);
       return {

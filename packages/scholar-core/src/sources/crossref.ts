@@ -11,6 +11,7 @@ import {
   parseUpdatedBy,
   withTitleNotice,
 } from '../retractions';
+import { plainTitle } from '../text';
 import type { Author, Work } from '../types';
 
 interface CrossrefAuthor {
@@ -71,7 +72,7 @@ function yearOf(d?: CrossrefDate): number | undefined {
 }
 
 export function mapCrossrefWork(m: CrossrefMessage): Work {
-  const title = (m.title?.[0] ?? '').replace(/\s+/g, ' ').trim();
+  const title = plainTitle(m.title?.[0] ?? '');
   const authors: Author[] = (m.author ?? [])
     .map((a) => ({ family: (a.family ?? a.name ?? '').trim(), ...(a.given ? { given: a.given.trim() } : {}) }))
     .filter((a) => a.family);

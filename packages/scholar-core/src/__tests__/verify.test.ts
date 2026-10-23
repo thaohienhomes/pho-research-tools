@@ -55,6 +55,19 @@ describe('verifyReferences', () => {
     expect(http.calls.some((u) => u.includes('works?'))).toBe(false);
   });
 
+  it('flags a citation that puts a co-author first', async () => {
+    const http = fakeHttp([[/works\/10\.1038\/nature14539/, { status: 200, body: lecun() }]]);
+    const [r] = await verifyReferences(
+      'Hinton G, LeCun Y, Bengio Y. Deep learning. Nature. 2015;521(7553):436-444. doi:10.1038/nature14539',
+      { http },
+    );
+    expect(r!.status).toBe('verified_with_corrections');
+    const m = r!.mismatches.find((x) => x.field === 'authors');
+    expect(m?.cited).toBe('Hinton');
+    expect(m?.found).toContain('LeCun');
+    expect(m?.found).toContain('author 3');
+  });
+
   it('reports a wrong year as a correction, with the value it found', async () => {
     const http = fakeHttp([[/works\/10\.1038\/nature14539/, { status: 200, body: lecun() }]]);
     const [r] = await verifyReferences(

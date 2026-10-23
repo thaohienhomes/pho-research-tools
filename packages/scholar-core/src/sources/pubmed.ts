@@ -153,6 +153,29 @@ export async function pubmedByDoi(
 }
 
 /**
+ * Ranked PMIDs for a full PubMed query, without fetching summaries. Used when
+ * another source hydrates the records (Europe PMC, for abstracts).
+ */
+export async function pubmedSearchIds(
+  http: HttpClient,
+  term: string,
+  opts: PubmedOptions & { retmax?: number } = {},
+): Promise<LookupOutcome<string[]>> {
+  const q = new URLSearchParams({
+    ...common(opts),
+    term,
+    retmax: String(opts.retmax ?? 10),
+    sort: 'relevance',
+  });
+  const res = await http({ url: `${EUTILS}/esearch.fcgi?${q.toString()}` });
+  if (res.status === 429) return { ok: false, reason: 'rate_limited' };
+  if (res.status !== 200) return { ok: false, reason: 'error' };
+  const ids = (res.body as { esearchresult?: { idlist?: string[] } } | null)?.esearchresult?.idlist;
+  if (!Array.isArray(ids)) return { ok: false, reason: 'error' };
+  return { ok: true, value: ids };
+}
+
+/**
  * Search with a full PubMed query (the caller's words plus filter clauses),
  * then fetch the summaries. Unlike `pubmedSearchTitle`, the term is a real
  * query and keeps its syntax.

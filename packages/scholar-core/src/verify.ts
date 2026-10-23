@@ -75,11 +75,17 @@ interface Scored {
 
 const NOTICE_TITLE = /^\s*(retraction|correction|erratum|corrigendum|expression of concern|notice of retraction)\b/i;
 
+/** The cited first author is on the record (any of its first ten authors): evidence of the same paper. */
 function firstAuthorMatches(ref: ParsedRef, work: Work): boolean {
   const cited = ref.authors[0]?.family;
   if (!cited || work.authors.length === 0) return false;
+  return authorPosition(cited, work) >= 0;
+}
+
+/** Where a cited surname sits in the record's author list (0 = first, -1 = absent). */
+function authorPosition(cited: string, work: Work): number {
   const c = foldName(cited);
-  return work.authors.slice(0, 10).some((a) => {
+  return work.authors.slice(0, 10).findIndex((a) => {
     const f = foldName(a.family);
     return f === c || (f.length > 3 && c.length > 3 && (f.includes(c) || c.includes(f)));
   });
@@ -170,6 +176,16 @@ function mismatchesFor(ref: ParsedRef, work: Work, s: Scored): FieldMismatch[] {
   }
   if (ref.authors[0] && work.authors.length > 0 && !s.author && !recordAuthorInRaw(ref, work)) {
     out.push({ field: 'authors', cited: ref.authors[0].family, found: fmtAuthor(work) });
+  } else if (ref.authors[0] && s.author) {
+    // The cited first author is on the paper, but not first: a wrong author order.
+    const pos = authorPosition(ref.authors[0].family, work);
+    if (pos > 0) {
+      out.push({
+        field: 'authors',
+        cited: ref.authors[0].family,
+        found: `${fmtAuthor(work)} (first author; ${work.authors[pos]!.family} is author ${pos + 1})`,
+      });
+    }
   }
   if (ref.year != null && work.years.length > 0 && !s.year) {
     out.push({ field: 'year', cited: String(ref.year), found: work.years.join(' / ') });

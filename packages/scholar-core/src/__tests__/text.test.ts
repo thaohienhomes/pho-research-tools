@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { journalMatches, pagesMatch, parsePages, stripStatusPrefix, titleSimilarity } from '../text';
+import { journalMatches, pagesMatch, parsePages, plainTitle, stripStatusPrefix, titleSimilarity } from '../text';
 
 describe('titleSimilarity', () => {
   it('is 1 for the same title modulo case and punctuation', () => {
@@ -43,5 +43,13 @@ describe('pages', () => {
     expect(pagesMatch('436-44', '436-444')).toBe(true);
     expect(pagesMatch('437-444', '436-444')).toBe(false);
     expect(pagesMatch('e124', 'e124')).toBe(true);
+  });
+});
+
+describe('plainTitle', () => {
+  it('drops the JATS markup Crossref keeps in titles', () => {
+    expect(plainTitle('A screen in <i>T. gondii</i> and H<sub>2</sub>O &amp; more')).toBe(
+      'A screen in T. gondii and H2O & more',
+    );
   });
 });

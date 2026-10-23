@@ -22,6 +22,36 @@ describe('parseReferences', () => {
     expect(r!.authors[0]).toMatchObject({ family: 'LeCun' });
   });
 
+  // Nature-style conference papers (FAHR-Face, Lancet Digit Health 2026): the
+  // whole string used to become the title, so the DOI record's real title
+  // never matched and 11 real papers came back as "likely fabricated".
+  it('reads a Nature-style conference reference', () => {
+    const [r] = parseReferences(
+      'Rothe, R., Timofte, R. & Van Gool, L. DEX: Deep EXpectation of apparent age from a single image. in 2015 IEEE International Conference on Computer Vision Workshop (ICCVW) (IEEE, 2015). doi:10.1109/iccvw.2015.41.',
+    );
+    expect(r).toMatchObject({
+      title: 'DEX: Deep EXpectation of apparent age from a single image',
+      journal: '2015 IEEE International Conference on Computer Vision Workshop (ICCVW)',
+      year: 2015,
+      doi: '10.1109/iccvw.2015.41',
+    });
+    expect(r!.authors[0]).toMatchObject({ family: 'Rothe' });
+  });
+
+  it('ends a Nature-style author list at the last initial after "&"', () => {
+    const [r] = parseReferences(
+      'Han, H., Otto, C. & Jain, A. K. Age estimation from face images: Human vs. machine performance. in 2013 International Conference on Biometrics (ICB) (IEEE, 2013).',
+    );
+    expect(r!.title).toBe('Age estimation from face images: Human vs. machine performance');
+  });
+
+  it('keeps a question mark that ends the title before the venue', () => {
+    const [r] = parseReferences(
+      'Rathgeb, C., Dogan, D. & Busch, C. Plastic Surgery: An Obstacle for Deep Face Recognition? in 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW) (IEEE, 2020).',
+    );
+    expect(r!.title).toBe('Plastic Surgery: An Obstacle for Deep Face Recognition?');
+  });
+
   it('reads an APA reference', () => {
     const [r] = parseReferences(
       'Kahneman, D., & Tversky, A. (1979). Prospect theory: An analysis of decision under risk. Econometrica, 47(2), 263–291.',
@@ -49,6 +79,15 @@ describe('parseReferences', () => {
   it('reads a bare DOI list', () => {
     const refs = parseReferences('https://doi.org/10.1038/NATURE14539\ndoi:10.1136/bmj.n71');
     expect(refs.map((r) => r.doi)).toEqual(['10.1038/nature14539', '10.1136/bmj.n71']);
+  });
+
+  it('reads a JSON array of strings as one reference per element', () => {
+    const refs = parseReferences(
+      JSON.stringify(['10.1038/nature14539', '', 'LeCun Y, Bengio Y, Hinton G. Deep learning. Nature. 2015;521:436-44.']),
+    );
+    expect(refs).toHaveLength(2);
+    expect(refs[0]).toMatchObject({ index: 0, doi: '10.1038/nature14539' });
+    expect(refs[1]).toMatchObject({ index: 1, year: 2015 });
   });
 
   it('never invents a field', () => {

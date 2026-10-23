@@ -12,7 +12,7 @@ import type { CallToolResult } from '@modelcontextprotocol/sdk/types.js';
 import type { HttpClient } from '@pho/scholar-core';
 import { describe, expect, it } from 'vitest';
 import { createRecordingAnalytics } from '../analytics';
-import { createApp } from '../app';
+import { createApp, TOOL_NAMES } from '../app';
 import { identifyCaller, quotaKey } from '../caller';
 import { loadConfig } from '../config';
 import { decodePrismaPayload } from '../prisma-link';
@@ -22,11 +22,15 @@ import { openCassette } from '../../../../packages/scholar-core/test/support/cas
 const CORE = join(__dirname, '..', '..', '..', '..', 'packages', 'scholar-core');
 const verifyCassette = openCassette(join(CORE, 'test', 'fixtures', 'cassettes'));
 const searchCassette = openCassette(join(CORE, 'test', 'fixtures', 'cassettes-search'));
+const evidenceCassette = openCassette(join(CORE, 'test', 'fixtures', 'cassettes-evidence'));
 
 /** Answer from whichever cassette recorded the URL. */
 const recorded: HttpClient = async (req) => {
-  const a = await verifyCassette.http(req);
-  return a.status !== 0 ? a : searchCassette.http(req);
+  for (const c of [verifyCassette, searchCassette]) {
+    const a = await c.http(req);
+    if (a.status !== 0) return a;
+  }
+  return evidenceCassette.http(req);
 };
 
 const fixtures = JSON.parse(readFileSync(join(CORE, 'test', 'fixtures', 'references.json'), 'utf8')) as {
@@ -37,11 +41,11 @@ const ref = (id: string) => fixtures.find((r) => r.id === id)!.input;
 
 const REFS = ['correct-01', 'injected-12', 'fabricated-01', 'retracted-01'].map(ref).join('\n\n');
 
-function setup(env: Record<string, string> = {}, userAgent = 'claude-ai/1.0') {
+function setup(env: Record<string, string> = {}, userAgent = 'claude-ai/1.0', http: HttpClient = recorded) {
   const analytics = createRecordingAnalytics();
   const app = createApp({
     config: loadConfig({ PUBLIC_URL: 'https://tools.test', ...env }),
-    http: recorded,
+    http,
     usage: createMemoryUsageStore(),
     analytics,
   });
@@ -60,16 +64,22 @@ function setup(env: Record<string, string> = {}, userAgent = 'claude-ai/1.0') {
 const text = (r: CallToolResult) => r.content.map((c) => (c.type === 'text' ? c.text : '')).join('\n');
 
 describe('tools/list', () => {
-  it('lists the five read-only tools with input and output schemas', async () => {
+  it('lists the nine read-only tools with input and output schemas', async () => {
     const client = await setup().connect();
     const { tools } = await client.listTools();
     expect(tools.map((t) => t.name).sort()).toEqual([
       'check_retractions',
+      'find_datasets',
+      'find_evidence',
+      'find_tools',
       'format_citations',
       'prisma_flow_diagram',
+      'screening_log',
       'search_papers',
       'verify_references',
     ]);
+    // The sign-in check in app.ts only reacts to names in this set.
+    expect([...TOOL_NAMES].sort()).toEqual(tools.map((t) => t.name).sort());
     for (const t of tools) {
       expect(t.title, t.name).toBeTruthy();
       expect(t.annotations?.readOnlyHint, t.name).toBe(true);
@@ -104,6 +114,8 @@ describe('verify_references', () => {
     expect(s.references[2]!.corrected).toBeUndefined();
     expect(s.summary).toMatchObject({ total: 4, verified: 1, likely_fabricated: 1, retracted: 1, not_checked: 0 });
     expect(text(r)).toMatch(/Checked 4 of 4 references/);
+    // The fix is in the text too, for clients that show only the text.
+    expect(text(r)).toMatch(/- pages: cited ".*", record has ".*585/);
 
     // Analytics: counts and labels only, never the references themselves.
     const ev = analytics.events.at(-1)!;
@@ -187,6 +199,80 @@ describe('search_papers', () => {
   });
 });
 
+describe('find_evidence', () => {
+  it('lists real papers on a claim, strongest evidence first, with their conclusions', async () => {
+    const { connect, analytics } = setup();
+    const client = await connect();
+    // Same arguments as scholar-core's evidence quality test, so the recording covers it.
+    const r = (await client.callTool({
+      name: 'find_evidence',
+      arguments: {
+        claim: 'Drinking coffee reduces the risk of type 2 diabetes.',
+        query: 'coffee consumption type 2 diabetes risk',
+      },
+    })) as CallToolResult;
+    expect(r.isError).toBeFalsy();
+    const s = r.structuredContent as {
+      papers: { level: string; doi?: string; pmid?: string; conclusion?: string }[];
+      by_level: Record<string, number>;
+    };
+    expect(s.papers.length).toBeGreaterThanOrEqual(5);
+    for (const p of s.papers) expect(p.doi || p.pmid).toBeTruthy();
+    expect(['guideline', 'meta-analysis', 'systematic-review']).toContain(s.papers[0]!.level);
+    expect(text(r)).toMatch(/strongest evidence first/);
+    expect(text(r)).toMatch(/Conclusion: "/);
+    const ev = analytics.events.at(-1)!;
+    expect(ev).toMatchObject({ tool_name: 'find_evidence', result_status: 'ok' });
+    // The claim is the user's words: analytics never carries it.
+    expect(JSON.stringify(ev)).not.toMatch(/coffee/i);
+  });
+
+  it('asks for keywords when the claim has nothing to search for', async () => {
+    const client = await setup().connect();
+    const r = (await client.callTool({ name: 'find_evidence', arguments: { claim: 'is it so?' } })) as CallToolResult;
+    expect(r.isError).toBe(true);
+    expect(text(r)).toMatch(/query/);
+  });
+});
+
+describe('screening_log', () => {
+  it('counts the PRISMA boxes from the decisions and returns the CSV log', async () => {
+    const { connect, analytics } = setup();
+    const client = await connect();
+    const r = (await client.callTool({
+      name: 'screening_log',
+      arguments: {
+        identification: { databases: 12, duplicatesRemoved: 2 },
+        records: [
+          ...Array.from({ length: 6 }, (_, i) => ({ id: `pmid:${i}`, screening: 'exclude', reason: 'Not an RCT' })),
+          { id: 'pmid:10', screening: 'include', full_text: 'include' },
+          { id: 'pmid:11', screening: 'include', full_text: 'exclude', reason: 'Wrong population' },
+          { id: 'pmid:12', screening: 'include', full_text: 'exclude' },
+          { id: 'pmid:13', screening: 'include', full_text: 'not_retrieved' },
+        ],
+      },
+    })) as CallToolResult;
+    expect(r.isError).toBeFalsy();
+    expect(r.content[0]!.type).toBe('image');
+    const s = r.structuredContent as {
+      warnings: unknown[];
+      screening: { full_text_reasons: { name: string; n: number }[]; issues: { code: string }[]; csv: string };
+      counts: Record<string, { value?: number }>;
+    };
+    expect(s.counts.recordsScreened?.value).toBe(10);
+    expect(s.counts.studiesIncluded?.value).toBe(1);
+    expect(s.warnings).toEqual([]);
+    expect(s.screening.full_text_reasons).toEqual([
+      { name: 'Reason not recorded', n: 1 },
+      { name: 'Wrong population', n: 1 },
+    ]);
+    expect(s.screening.issues.map((i) => i.code)).toEqual(['missing_reason']);
+    expect(s.screening.csv.split('\r\n')).toHaveLength(12);
+    expect(text(r)).toMatch(/10 records screened: 6 excluded/);
+    expect(analytics.events.at(-1)).toMatchObject({ tool_name: 'screening_log', result_status: 'ok' });
+  });
+});
+
 describe('check_retractions', () => {
   it('reports a retracted DOI and a clean one', async () => {
     const client = await setup().connect();
@@ -209,6 +295,49 @@ describe('check_retractions', () => {
     const s = r.structuredContent as { results: unknown[]; quota: { used: number } };
     expect(s.results).toHaveLength(1);
     expect(s.quota.used).toBe(1);
+  });
+
+  describe('summary line names the most serious notice, list stays as Crossref sent it', () => {
+    const WAKEFIELD = '10.1016/s0140-6736(97)11096-0';
+    // Notices as live Crossref returned them for Wakefield 1998 (2026-10-18).
+    const CORRECTION = { DOI: '10.1016/s0140-6736(04)15715-2', type: 'correction', label: 'Correction', source: 'retraction-watch', updated: { 'date-parts': [[2004, 3, 6]] } };
+    const RETRACTION = { DOI: '10.1016/s0140-6736(10)60175-4', type: 'retraction', label: 'Retraction', source: 'retraction-watch', updated: { 'date-parts': [[2010, 2, 6]] } };
+    const CONCERN = { DOI: '10.1016/s0140-6736(09)00001-0', type: 'expression_of_concern', label: 'Expression of Concern', source: 'publisher', updated: { 'date-parts': [[2009, 1, 1]] } };
+
+    const crossrefWith = (updatedBy: object[]): HttpClient => async () => ({
+      status: 200,
+      body: {
+        status: 'ok',
+        'message-type': 'work',
+        message: { DOI: WAKEFIELD, title: ['Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder in children'], 'updated-by': updatedBy },
+      },
+    });
+
+    async function run(updatedBy: object[]) {
+      const client = await setup({}, 'claude-ai/1.0', crossrefWith(updatedBy)).connect();
+      const r = (await client.callTool({ name: 'check_retractions', arguments: { dois: [WAKEFIELD] } })) as CallToolResult;
+      const s = r.structuredContent as { results: { status: string; notices: { type: string }[] }[] };
+      return { line: text(r).split('\n')[0]!, result: s.results[0]! };
+    }
+
+    it('[correction, retraction] → retraction', async () => {
+      const { line, result } = await run([CORRECTION, RETRACTION]);
+      expect(line).toBe(`- ${WAKEFIELD}: RETRACTED (Retraction, 2010-02-06, https://doi.org/10.1016/s0140-6736(10)60175-4)`);
+      expect(result.status).toBe('retracted');
+      expect(result.notices.map((n) => n.type)).toEqual(['correction', 'retraction']);
+    });
+
+    it('[expression of concern, retraction] → retraction', async () => {
+      const { line, result } = await run([CONCERN, RETRACTION]);
+      expect(line).toBe(`- ${WAKEFIELD}: RETRACTED (Retraction, 2010-02-06, https://doi.org/10.1016/s0140-6736(10)60175-4)`);
+      expect(result.notices.map((n) => n.type)).toEqual(['expression_of_concern', 'retraction']);
+    });
+
+    it('[correction] → correction', async () => {
+      const { line, result } = await run([CORRECTION]);
+      expect(line).toBe(`- ${WAKEFIELD}: corrected (Correction, 2004-03-06, https://doi.org/10.1016/s0140-6736(04)15715-2)`);
+      expect(result.notices.map((n) => n.type)).toEqual(['correction']);
+    });
   });
 
   it('rejects a blank DOI instead of skipping it', async () => {
@@ -293,6 +422,19 @@ describe('HTTP surface', () => {
       headers: { 'x-forwarded-host': 'evil.example', 'x-forwarded-proto': 'https' },
     });
     expect(((await res.json()) as { mcp_endpoint: string }).mcp_endpoint).toBe('https://tools.test/mcp');
+  });
+
+  it('does not charge a repeat retraction check of the same DOI', async () => {
+    const SURGISPHERE = '10.1016/S0140-6736(20)31180-6';
+    const { connect } = setup({ QUOTA_ANON_VERIFICATIONS_PER_DAY: '1' });
+    const client = await connect();
+    const first = (await client.callTool({ name: 'check_retractions', arguments: { dois: [SURGISPHERE] } })) as CallToolResult;
+    expect(first.isError).toBeFalsy();
+    const again = (await client.callTool({ name: 'check_retractions', arguments: { dois: [`https://doi.org/${SURGISPHERE.toLowerCase()}`] } })) as CallToolResult;
+    expect(again.isError).toBeFalsy();
+    expect(text(again)).toMatch(/RETRACTED/);
+    expect(text(again)).toMatch(/checked earlier this hour/);
+    expect((again.structuredContent as { quota: { used: number } }).quota.used).toBe(1);
   });
 
   it('caps calls per day for one caller', async () => {
@@ -397,9 +539,9 @@ describe('config', () => {
 
 describe('all outbound calls were recorded', () => {
   it('has no cassette misses', () => {
-    // A miss returns status 0; the verify cassette is tried first, so its misses
-    // are expected whenever the search cassette answered.
-    const unanswered = searchCassette.misses.filter((u) => verifyCassette.misses.includes(u));
+    // A miss returns status 0; cassettes are tried in order, so only a URL that
+    // the last one (evidence) also missed went unanswered.
+    const unanswered = evidenceCassette.misses;
     expect(unanswered, unanswered.join("\n")).toEqual([]);
   });
 });

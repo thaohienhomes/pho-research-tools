@@ -20,6 +20,7 @@ export const VERIFY_DESCRIPTION = [
   'Input: a pasted reference list in any common style (APA, Vancouver, numbered, mixed), BibTeX, RIS, CSL-JSON, or one DOI per line.',
   'Each reference gets exactly one status: verified, verified_with_corrections (real paper, some details wrong; corrected metadata included), likely_fabricated (no such paper exists), not_found (could not be confirmed either way), retracted, or ambiguous (several papers fit).',
   'likely_fabricated, not_found and ambiguous mean the reference could not be confirmed as a real paper; retracted means the paper exists but has been withdrawn.',
+  'Retractions, expressions of concern and corrections are already checked here, so there is no need to call check_retractions on the same references afterwards.',
   `At most ${MAX_REFERENCES_PER_CALL} references per call.`,
 ].join(' ');
 
@@ -139,7 +140,7 @@ export function inputProblem(
 type Row = ReturnType<typeof referenceRow> | ReturnType<typeof notCheckedRow>;
 type Summary = z.infer<typeof verifyOutputSchema.summary>;
 
-function textReport(rows: Row[], s: Summary, info: QuotaInfo) {
+function textReport(ctx: ToolContext, rows: Row[], s: Summary, info: QuotaInfo) {
   const head =
     `Checked ${s.total - s.not_checked} of ${s.total} references: ${s.verified} verified, ` +
     `${s.verified_with_corrections} real with errors, ${s.likely_fabricated} likely fabricated, ` +
@@ -149,7 +150,10 @@ function textReport(rows: Row[], s: Summary, info: QuotaInfo) {
   const lines = rows.map((r) => {
     const links: { doi?: string; pubmed?: string } = r.links;
     const link = links.doi ?? links.pubmed ?? '';
-    return `${r.index}. ${STATUS_MARK[r.status] ?? ''} ${r.status}: ${r.summary}${link ? ` ${link}` : ''}`;
+    const head = `${r.index}. ${STATUS_MARK[r.status] ?? ''} ${r.status}: ${r.summary}${link ? ` ${link}` : ''}`;
+    // The fixes themselves, so a reader of the text alone can correct the citation.
+    const fixes = r.mismatches.map((m) => `   - ${m.field}: cited "${truncate(m.cited, 200)}", record has "${truncate(m.found, 200)}"`);
+    return [head, ...fixes].join('\n');
   });
   return [head, '', ...lines, '', quotaLine(info)].join('\n');
 }
@@ -191,7 +195,7 @@ export function registerVerifyReferences(server: McpServer, ctx: ToolContext): v
           not_checked: summary.not_checked,
         });
         return {
-          content: [{ type: 'text', text: textReport(rows, summary, v.info) }],
+          content: [{ type: 'text', text: textReport(ctx, rows, summary, v.info) }],
           structuredContent: { summary, references: rows, quota: v.info },
         };
       }),

@@ -13,11 +13,19 @@
 export interface HttpRequest {
   url: string;
   headers?: Record<string, string>;
+  /** `text`: return the raw body as a string (for llms.txt-style indexes). Default `json`. */
+  expect?: 'json' | 'text';
+  /**
+   * A JSON request body. Its presence makes the request a POST (GraphQL
+   * endpoints such as the CryoET Data Portal accept nothing else). It is part
+   * of the cache key, so two queries to one URL never share an answer.
+   */
+  body?: string;
 }
 
 export interface HttpResponse {
   status: number;
-  /** Parsed JSON, or `null` when the body was not JSON. */
+  /** Parsed JSON, or `null` when the body was not JSON. The raw string when the request asked for `text`. */
   body: unknown;
 }
 
@@ -55,15 +63,25 @@ export function createFetchHttp(opts: FetchHttpOptions = {}): HttpClient {
   async function once(req: HttpRequest): Promise<HttpResponse & { retryAfterMs?: number }> {
     try {
       const res = await doFetch(req.url, {
-        headers: { accept: 'application/json', 'user-agent': ua, ...req.headers },
+        ...(req.body !== undefined ? { method: 'POST', body: req.body } : {}),
+        headers: {
+          accept: req.expect === 'text' ? 'text/plain' : 'application/json',
+          'user-agent': ua,
+          ...(req.body !== undefined ? { 'content-type': 'application/json' } : {}),
+          ...req.headers,
+        },
         signal: AbortSignal.timeout(timeoutMs),
       });
       const text = await res.text();
       let body: unknown = null;
-      try {
-        body = text ? JSON.parse(text) : null;
-      } catch {
-        body = null;
+      if (req.expect === 'text') {
+        body = text;
+      } else {
+        try {
+          body = text ? JSON.parse(text) : null;
+        } catch {
+          body = null;
+        }
       }
       const ra = Number(res.headers.get('retry-after'));
       return {
@@ -108,7 +126,7 @@ export function withCache(
   ttlFor: (url: string) => number = () => DEFAULT_CACHE_TTL_SECONDS,
 ): HttpClient {
   return async (req) => {
-    const key = cacheKey(req.url);
+    const key = cacheKey(req.url, req.body);
     try {
       const hit = await cache.get(key);
       if (hit) return hit;
@@ -130,17 +148,21 @@ export function withCache(
 /**
  * Credentials and contact params are stripped from the key so that two
  * deployments with different keys share entries, and so a key never lands in
- * a cache table.
+ * a cache table. A POST body is appended after `#`, which no URL carries to
+ * the server, so a GET and a POST to the same URL can never collide.
  */
-export function cacheKey(url: string): string {
+export function cacheKey(url: string, body?: string): string {
+  let key = url;
   try {
     const u = new URL(url);
     for (const p of ['mailto', 'api_key', 'email', 'tool']) u.searchParams.delete(p);
     u.searchParams.sort();
-    return u.toString();
+    u.hash = '';
+    key = u.toString();
   } catch {
-    return url;
+    /* keep the raw url */
   }
+  return body === undefined ? key : `${key}#${body}`;
 }
 
 /** In-process cache for tests and single-process use. */

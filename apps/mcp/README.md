@@ -10,11 +10,16 @@ references. It wraps `@pho/scholar-core` and exposes five read-only tools:
 | `search_papers` | Searches OpenAlex and PubMed. Every result has a DOI or PMID; retracted papers are left out and preprints are labelled. |
 | `check_retractions` | Retraction, expression-of-concern and correction notices for a list of DOIs. |
 | `prisma_flow_diagram` | Draws a PRISMA 2020 flow diagram (PNG + SVG + links) and checks that the counts add up. |
+| `find_evidence` | Finds the strongest published evidence on a claim (PubMed, a high-evidence PubMed pass, OpenAlex), ordered by level of evidence, each paper with the conclusion quoted verbatim from its abstract. It does not judge stance; the assistant reads the conclusions. No model call. |
+| `screening_log` | Turns per-record screening decisions into PRISMA 2020 counts, the flow diagram and a CSV screening log, and flags missing exclusion reasons, pending full-text decisions and duplicate ids. |
+| `find_datasets` | Finds open datasets (and optionally models) for a research question across DataCite, NCBI GEO, CZ CELLxGENE Discover, the CZ CryoET Data Portal and Hugging Face, with a plain-language licence verdict, the source paper checked against Crossref/PubMed, citations, a load snippet and a signed shareable brief page (`/brief/<token>`, stored nowhere). |
 
 No account is needed. Anonymous use has a daily allowance per caller: 30
 reference checks and 200 tool calls by default. Signing in with a free Phở
-account raises that to 300 reference checks and 3,000 tool calls a month, the
-same allowance from any network.
+account raises that to 1,000 reference checks and 6,000 tool calls a month, the
+same allowance from any network. An account on a paid Phở plan (Pro, Founder
+Lifetime, or a legacy paid plan, read from `users.tier`) gets 3,000 reference
+checks and 30,000 tool calls a month.
 
 There are two addresses for the same tools:
 

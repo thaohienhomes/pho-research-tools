@@ -8,7 +8,15 @@
 
 import type { Caller } from './caller';
 
-export type ResultStatus = 'ok' | 'partial' | 'quota_exceeded' | 'invalid_input' | 'upstream_unavailable' | 'error';
+export type ResultStatus =
+  | 'ok'
+  | 'partial'
+  | 'quota_exceeded'
+  /** An anonymous caller out of allowance was sent to sign in on the same connector (HTTP 401). */
+  | 'sign_in_requested'
+  | 'invalid_input'
+  | 'upstream_unavailable'
+  | 'error';
 
 /** Tool-specific counts and labels: references, results, warnings. Numbers and enums only. */
 export type EventProps = Record<string, string | number | boolean | undefined>;
@@ -20,11 +28,19 @@ export interface ToolEvent {
   props?: EventProps;
 }
 
-export interface Analytics {
-  track(caller: Caller, event: ToolEvent): Promise<void>;
+/** Events from the public brief page: `rt_brief_viewed`, `rt_brief_citation_copied`… */
+export interface PageEvent {
+  name: string;
+  props?: EventProps;
 }
 
-export const noopAnalytics: Analytics = { async track() {} };
+export interface Analytics {
+  track(caller: Caller, event: ToolEvent): Promise<void>;
+  /** An event with no caller (a public page view). Counted without a person profile. */
+  page(event: PageEvent): Promise<void>;
+}
+
+export const noopAnalytics: Analytics = { async track() {}, async page() {} };
 
 /**
  * Let `work` finish after the response is sent. On Vercel the function would
@@ -59,6 +75,7 @@ export function createPosthogAnalytics(apiKey: string, host: string, fetchImpl: 
               latency_ms: event.latency_ms,
               client: caller.client,
               auth: caller.auth,
+              plan: caller.auth === 'user' ? (caller.paid ? 'pro' : 'free') : 'anon',
               surface: 'mcp',
               $process_person_profile: false,
             },
@@ -69,16 +86,38 @@ export function createPosthogAnalytics(apiKey: string, host: string, fetchImpl: 
         // Analytics never breaks a tool call.
       }
     },
+    async page(event) {
+      try {
+        await fetchImpl(`${host}/capture/`, {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({
+            api_key: apiKey,
+            event: event.name,
+            distinct_id: 'rt_brief_page',
+            properties: { ...event.props, surface: 'brief_page', $process_person_profile: false },
+          }),
+          signal: AbortSignal.timeout(1500),
+        });
+      } catch {
+        // Analytics never breaks a page.
+      }
+    },
   };
 }
 
 /** In-memory sink for tests. */
-export function createRecordingAnalytics(): Analytics & { events: (ToolEvent & { client: string })[] } {
+export function createRecordingAnalytics(): Analytics & { events: (ToolEvent & { client: string })[]; pages: PageEvent[] } {
   const events: (ToolEvent & { client: string })[] = [];
+  const pages: PageEvent[] = [];
   return {
     events,
+    pages,
     async track(caller, event) {
       events.push({ ...event, client: caller.client });
+    },
+    async page(event) {
+      pages.push(event);
     },
   };
 }

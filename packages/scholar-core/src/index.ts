@@ -40,6 +40,7 @@ export {
   checkRetraction,
   checkRetractions,
   classifyNotices,
+  summaryNotice,
   normalizeDoi,
   titleMarksRetraction,
   type RetractionCheck,
@@ -86,3 +87,73 @@ export {
   type ResolvedCount,
   type NamedCount,
 } from './prisma';
+
+export {
+  findEvidence,
+  evidenceLevel,
+  conclusionOf,
+  keywordsFromClaim,
+  EVIDENCE_LEVELS,
+  EVIDENCE_LABELS,
+  type EvidenceLevel,
+  type EvidenceFilters,
+  type EvidenceOptions,
+  type EvidencePaper,
+  type EvidenceResult,
+} from './evidence';
+
+export {
+  screeningLog,
+  type ScreeningRecord,
+  type ScreeningIdentification,
+  type ScreeningIssue,
+  type ScreeningResult,
+  type ScreeningDecision,
+  type FullTextDecision,
+} from './screening';
+
+export {
+  licenceVerdict,
+  normalizeLicence,
+  LICENCE_LABELS,
+  OPEN_VERDICTS,
+  type LicenceVerdict,
+  type LicenceInfo,
+} from './licence';
+
+export {
+  findDatasets,
+  datasetTerms,
+  relevanceOf,
+  loadSnippet,
+  DATASET_DOMAINS,
+  INTENDED_USES,
+  MAX_DATASET_RESULTS,
+  MIN_RELEVANCE,
+  SOURCE_NAMES,
+  type DatasetDomain,
+  type IntendedUse,
+  type DatasetSource,
+  type MatchLevel,
+  type PaperStatus,
+  type DatasetQuery,
+  type DatasetOptions,
+  type DatasetPaper,
+  type DatasetResult,
+  type DatasetLookup,
+  type DatasetsResult,
+} from './datasets';
+
+export {
+  findTools,
+  toolTerms,
+  installFrom,
+  healthOf,
+  MAX_TOOL_RESULTS,
+  type ToolQuery,
+  type ToolOptions,
+  type ToolInstall,
+  type ToolHealth,
+  type ToolResult,
+  type ToolsResult,
+} from './tools';

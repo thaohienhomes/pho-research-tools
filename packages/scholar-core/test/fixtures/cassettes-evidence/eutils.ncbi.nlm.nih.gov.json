@@ -1,0 +1,386 @@
+{
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=15&retmode=json&sort=relevance&term=%28coffee+consumption+type+2+diabetes+risk%29": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "321",
+    "retmax": "15",
+    "retstart": "0",
+    "idlist": [
+     "29558518",
+     "36940600",
+     "38879999",
+     "40626862",
+     "33418132",
+     "34455881",
+     "38963648",
+     "37076174",
+     "15998896",
+     "19088789",
+     "29590460",
+     "28675917",
+     "28826374",
+     "33374338",
+     "42473796"
+    ],
+    "translationset": [
+     {
+      "from": "coffee",
+      "to": "\"coffee\"[Supplementary Concept] OR \"coffee\"[All Fields] OR \"coffee\"[MeSH Terms] OR \"coffee's\"[All Fields] OR \"coffees\"[All Fields]"
+     },
+     {
+      "from": "consumption",
+      "to": "\"consumptions\"[All Fields] OR \"economics\"[MeSH Terms] OR \"economics\"[All Fields] OR \"consumption\"[All Fields]"
+     },
+     {
+      "from": "type 2 diabetes",
+      "to": "\"diabetes mellitus, type 2\"[MeSH Terms] OR \"type 2 diabetes mellitus\"[All Fields] OR \"type 2 diabetes\"[All Fields]"
+     },
+     {
+      "from": "risk",
+      "to": "\"risk\"[MeSH Terms] OR \"risk\"[All Fields]"
+     }
+    ],
+    "querytranslation": "(\"coffee\"[Supplementary Concept] OR \"coffee\"[All Fields] OR \"coffee\"[MeSH Terms] OR \"coffee s\"[All Fields] OR \"coffees\"[All Fields]) AND (\"consumptions\"[All Fields] OR \"economics\"[MeSH Terms] OR \"economics\"[All Fields] OR \"consumption\"[All Fields]) AND (\"diabetes mellitus, type 2\"[MeSH Terms] OR \"type 2 diabetes mellitus\"[All Fields] OR \"type 2 diabetes\"[All Fields]) AND (\"risk\"[MeSH Terms] OR \"risk\"[All Fields])"
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=15&retmode=json&sort=relevance&term=%28ivermectin+COVID-19+treatment%29": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "652",
+    "retmax": "15",
+    "retstart": "0",
+    "idlist": [
+     "35584459",
+     "35694631",
+     "36374218",
+     "32293834",
+     "36516102",
+     "35422425",
+     "34687900",
+     "38908535",
+     "36516104",
+     "34145166",
+     "35726131",
+     "33389725",
+     "35870876",
+     "35225114",
+     "34318930"
+    ],
+    "translationset": [
+     {
+      "from": "ivermectin",
+      "to": "\"ivermectin\"[Supplementary Concept] OR \"ivermectin\"[All Fields] OR \"ivermectin\"[MeSH Terms] OR \"ivermectine\"[All Fields] OR \"ivermectin's\"[All Fields] OR \"ivermectins\"[All Fields]"
+     },
+     {
+      "from": "COVID-19",
+      "to": "(\"COVID-19\" OR \"COVID19\" OR \"COVID-19\"[MeSH Terms] OR \"COVID-19 Vaccines\" OR \"COVID-19 Vaccines\"[MeSH Terms] OR \"COVID-19 serotherapy\" OR \"COVID-19 serotherapy\"[MeSH Terms] OR \"COVID-19 Nucleic Acid Testing\" OR \"covid-19 nucleic acid testing\"[MeSH Terms] OR \"COVID-19 Serological Testing\" OR \"covid-19 serological testing\"[MeSH Terms] OR \"COVID-19 Testing\" OR \"covid-19 testing\"[MeSH Terms] OR \"SARS-CoV-2\" OR \"SARSCoV2\" OR \"SARSCoV-2\" OR \"SARS-CoV2\" OR \"sars-cov-2\"[MeSH Terms] OR \"Severe Acute Respiratory Syndrome Coronavirus 2\" OR \"2019 NCOV\" OR ((\"coronavirus\"[MeSH Terms] OR \"coronavirus\" OR \"COV\" OR \"NCOV\") AND 2019/11/01[PDAT] : 3000/12/31[PDAT]))"
+     },
+     {
+      "from": "treatment",
+      "to": "\"therapeutics\"[MeSH Terms] OR \"therapeutics\"[All Fields] OR \"treatments\"[All Fields] OR \"therapy\"[Subheading] OR \"therapy\"[All Fields] OR \"treatment\"[All Fields] OR \"treatment's\"[All Fields]"
+     }
+    ],
+    "querytranslation": "(\"ivermectin\"[Supplementary Concept] OR \"ivermectin\"[All Fields] OR \"ivermectin\"[MeSH Terms] OR \"ivermectine\"[All Fields] OR \"ivermectin s\"[All Fields] OR \"ivermectins\"[All Fields]) AND (\"covid 19\"[All Fields] OR \"covid19\"[All Fields] OR \"covid 19\"[MeSH Terms] OR \"covid 19 vaccines\"[All Fields] OR \"covid 19 vaccines\"[MeSH Terms] OR \"covid 19 serotherapy\"[All Fields] OR \"covid 19 serotherapy\"[MeSH Terms] OR \"covid 19 nucleic acid testing\"[All Fields] OR \"covid 19 nucleic acid testing\"[MeSH Terms] OR \"covid 19 serological testing\"[All Fields] OR \"covid 19 serological testing\"[MeSH Terms] OR \"covid 19 testing\"[All Fields] OR \"covid 19 testing\"[MeSH Terms] OR \"sars cov 2\"[All Fields] OR \"sarscov2\"[All Fields] OR \"sarscov 2\"[All Fields] OR \"sars cov2\"[All Fields] OR \"sars cov 2\"[MeSH Terms] OR \"severe acute respiratory syndrome coronavirus 2\"[All Fields] OR \"2019 ncov\"[All Fields] OR ((\"coronavirus\"[MeSH Terms] OR \"coronavirus\"[All Fields] OR \"cov\"[All Fields] OR \"ncov\"[All Fields]) AND 2019/11/01:3000/12/31[Date - Publication])) AND (\"therapeutics\"[MeSH Terms] OR \"therapeutics\"[All Fields] OR \"treatments\"[All Fields] OR \"therapy\"[MeSH Subheading] OR \"therapy\"[All Fields] OR \"treatment\"[All Fields] OR \"treatment s\"[All Fields])"
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=15&retmode=json&sort=relevance&term=%28metformin+lower+cancer+risk+diabetes%29": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "527",
+    "retmax": "15",
+    "retstart": "0",
+    "idlist": [
+     "33194937",
+     "40329601",
+     "38926749",
+     "38161305",
+     "38967919",
+     "39834076",
+     "39790228",
+     "40239706",
+     "37227368",
+     "24847880",
+     "39141075",
+     "36604960",
+     "26824829",
+     "38518387",
+     "37552417"
+    ],
+    "translationset": [
+     {
+      "from": "metformin",
+      "to": "\"metformin\"[Supplementary Concept] OR \"metformin\"[All Fields] OR \"metformin\"[MeSH Terms] OR \"metformine\"[All Fields] OR \"metformin's\"[All Fields] OR \"metformins\"[All Fields]"
+     },
+     {
+      "from": "lower",
+      "to": "\"lower\"[All Fields] OR \"lowered\"[All Fields] OR \"lowering\"[All Fields] OR \"lowerings\"[All Fields] OR \"lowers\"[All Fields]"
+     },
+     {
+      "from": "cancer",
+      "to": "\"cancer's\"[All Fields] OR \"cancerated\"[All Fields] OR \"canceration\"[All Fields] OR \"cancerization\"[All Fields] OR \"cancerized\"[All Fields] OR \"cancerous\"[All Fields] OR \"neoplasms\"[MeSH Terms] OR \"neoplasms\"[All Fields] OR \"cancer\"[All Fields] OR \"cancers\"[All Fields]"
+     },
+     {
+      "from": "risk",
+      "to": "\"risk\"[MeSH Terms] OR \"risk\"[All Fields]"
+     },
+     {
+      "from": "diabetes",
+      "to": "\"diabete\"[All Fields] OR \"diabetes mellitus\"[MeSH Terms] OR (\"diabetes\"[All Fields] AND \"mellitus\"[All Fields]) OR \"diabetes mellitus\"[All Fields] OR \"diabetes\"[All Fields] OR \"diabetes insipidus\"[MeSH Terms] OR (\"diabetes\"[All Fields] AND \"insipidus\"[All Fields]) OR \"diabetes insipidus\"[All Fields] OR \"diabetic\"[All Fields] OR \"diabetics\"[All Fields] OR \"diabets\"[All Fields]"
+     }
+    ],
+    "querytranslation": "(\"metformin\"[Supplementary Concept] OR \"metformin\"[All Fields] OR \"metformin\"[MeSH Terms] OR \"metformine\"[All Fields] OR \"metformin s\"[All Fields] OR \"metformins\"[All Fields]) AND (\"lower\"[All Fields] OR \"lowered\"[All Fields] OR \"lowering\"[All Fields] OR \"lowerings\"[All Fields] OR \"lowers\"[All Fields]) AND (\"cancer s\"[All Fields] OR \"cancerated\"[All Fields] OR \"canceration\"[All Fields] OR \"cancerization\"[All Fields] OR \"cancerized\"[All Fields] OR \"cancerous\"[All Fields] OR \"neoplasms\"[MeSH Terms] OR \"neoplasms\"[All Fields] OR \"cancer\"[All Fields] OR \"cancers\"[All Fields]) AND (\"risk\"[MeSH Terms] OR \"risk\"[All Fields]) AND (\"diabete\"[All Fields] OR \"diabetes mellitus\"[MeSH Terms] OR (\"diabetes\"[All Fields] AND \"mellitus\"[All Fields]) OR \"diabetes mellitus\"[All Fields] OR \"diabetes\"[All Fields] OR \"diabetes insipidus\"[MeSH Terms] OR (\"diabetes\"[All Fields] AND \"insipidus\"[All Fields]) OR \"diabetes insipidus\"[All Fields] OR \"diabetic\"[All Fields] OR \"diabetics\"[All Fields] OR \"diabets\"[All Fields])"
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=15&retmode=json&sort=relevance&term=%28vitamin+D+supplementation+fracture+prevention+older+adults%29": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "702",
+    "retmax": "15",
+    "retstart": "0",
+    "idlist": [
+     "29279934",
+     "35939577",
+     "33170239",
+     "11176917",
+     "36287374",
+     "12424871",
+     "26510847",
+     "38892706",
+     "32759193",
+     "38691368",
+     "22972103",
+     "17720017",
+     "38180112",
+     "28925664",
+     "38997531"
+    ],
+    "translationset": [
+     {
+      "from": "vitamin D",
+      "to": "\"vitamin d\"[Supplementary Concept] OR \"vitamin d\"[All Fields] OR \"ergocalciferols\"[Supplementary Concept] OR \"ergocalciferols\"[All Fields] OR \"vitamin d\"[MeSH Terms] OR \"ergocalciferols\"[MeSH Terms]"
+     },
+     {
+      "from": "supplementation",
+      "to": "\"supplemental\"[All Fields] OR \"supplementating\"[All Fields] OR \"supplementation\"[All Fields] OR \"supplementation's\"[All Fields] OR \"supplementations\"[All Fields] OR \"supplemention\"[All Fields]"
+     },
+     {
+      "from": "fracture",
+      "to": "\"fractur\"[All Fields] OR \"fractural\"[All Fields] OR \"fracture's\"[All Fields] OR \"fractures, bone\"[MeSH Terms] OR (\"fractures\"[All Fields] AND \"bone\"[All Fields]) OR \"bone fractures\"[All Fields] OR \"fracture\"[All Fields] OR \"fractured\"[All Fields] OR \"fractures\"[All Fields] OR \"fracturing\"[All Fields]"
+     },
+     {
+      "from": "prevention",
+      "to": "\"prevent\"[All Fields] OR \"preventability\"[All Fields] OR \"preventable\"[All Fields] OR \"preventative\"[All Fields] OR \"preventatively\"[All Fields] OR \"preventatives\"[All Fields] OR \"prevented\"[All Fields] OR \"preventing\"[All Fields] OR \"prevention and control\"[Subheading] OR (\"prevention\"[All Fields] AND \"control\"[All Fields]) OR \"prevention and control\"[All Fields] OR \"prevention\"[All Fields] OR \"prevention's\"[All Fields] OR \"preventions\"[All Fields] OR \"preventive\"[All Fields] OR \"preventively\"[All Fields] OR \"preventives\"[All Fields] OR \"prevents\"[All Fields]"
+     },
+     {
+      "from": "older adults",
+      "to": "\"aged\"[MeSH Terms] OR \"aged\"[All Fields] OR (\"older\"[All Fields] AND \"adults\"[All Fields]) OR \"older adults\"[All Fields]"
+     }
+    ],
+    "querytranslation": "(\"vitamin d\"[Supplementary Concept] OR \"vitamin d\"[All Fields] OR \"ergocalciferols\"[Supplementary Concept] OR \"ergocalciferols\"[All Fields] OR \"vitamin d\"[MeSH Terms] OR \"ergocalciferols\"[MeSH Terms]) AND (\"supplemental\"[All Fields] OR \"supplementating\"[All Fields] OR \"supplementation\"[All Fields] OR \"supplementation s\"[All Fields] OR \"supplementations\"[All Fields] OR \"supplemention\"[All Fields]) AND (\"fractur\"[All Fields] OR \"fractural\"[All Fields] OR \"fracture s\"[All Fields] OR \"fractures, bone\"[MeSH Terms] OR (\"fractures\"[All Fields] AND \"bone\"[All Fields]) OR \"bone fractures\"[All Fields] OR \"fracture\"[All Fields] OR \"fractured\"[All Fields] OR \"fractures\"[All Fields] OR \"fracturing\"[All Fields]) AND (\"prevent\"[All Fields] OR \"preventability\"[All Fields] OR \"preventable\"[All Fields] OR \"preventative\"[All Fields] OR \"preventatively\"[All Fields] OR \"preventatives\"[All Fields] OR \"prevented\"[All Fields] OR \"preventing\"[All Fields] OR \"prevention and control\"[MeSH Subheading] OR (\"prevention\"[All Fields] AND \"control\"[All Fields]) OR \"prevention and control\"[All Fields] OR \"prevention\"[All Fields] OR \"prevention s\"[All Fields] OR \"preventions\"[All Fields] OR \"preventive\"[All Fields] OR \"preventively\"[All Fields] OR \"preventives\"[All Fields] OR \"prevents\"[All Fields]) AND (\"aged\"[MeSH Terms] OR \"aged\"[All Fields] OR (\"older\"[All Fields] AND \"adults\"[All Fields]) OR \"older adults\"[All Fields])"
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=9&retmode=json&sort=relevance&term=%28coffee+consumption+type+2+diabetes+risk%29+AND+%28%22meta-analysis%22%5Bpt%5D+OR+systematic%5Bsb%5D+OR+guideline%5Bpt%5D+OR+%22practice+guideline%22%5Bpt%5D+OR+%22randomized+controlled+trial%22%5Bpt%5D%29": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "39",
+    "retmax": "9",
+    "retstart": "0",
+    "idlist": [
+     "28826374",
+     "29558518",
+     "33418132",
+     "27547387",
+     "17998023",
+     "29590460",
+     "29514721",
+     "15998896",
+     "16399494"
+    ],
+    "translationset": [
+     {
+      "from": "coffee",
+      "to": "\"coffee\"[Supplementary Concept] OR \"coffee\"[All Fields] OR \"coffee\"[MeSH Terms] OR \"coffee's\"[All Fields] OR \"coffees\"[All Fields]"
+     },
+     {
+      "from": "consumption",
+      "to": "\"consumptions\"[All Fields] OR \"economics\"[MeSH Terms] OR \"economics\"[All Fields] OR \"consumption\"[All Fields]"
+     },
+     {
+      "from": "type 2 diabetes",
+      "to": "\"diabetes mellitus, type 2\"[MeSH Terms] OR \"type 2 diabetes mellitus\"[All Fields] OR \"type 2 diabetes\"[All Fields]"
+     },
+     {
+      "from": "risk",
+      "to": "\"risk\"[MeSH Terms] OR \"risk\"[All Fields]"
+     }
+    ],
+    "querytranslation": "(\"coffee\"[Supplementary Concept] OR \"coffee\"[All Fields] OR \"coffee\"[MeSH Terms] OR \"coffee s\"[All Fields] OR \"coffees\"[All Fields]) AND (\"consumptions\"[All Fields] OR \"economics\"[MeSH Terms] OR \"economics\"[All Fields] OR \"consumption\"[All Fields]) AND (\"diabetes mellitus, type 2\"[MeSH Terms] OR \"type 2 diabetes mellitus\"[All Fields] OR \"type 2 diabetes\"[All Fields]) AND (\"risk\"[MeSH Terms] OR \"risk\"[All Fields]) AND (\"meta-analysis\"[Publication Type] OR \"systematic\"[Filter] OR \"guideline\"[Publication Type] OR \"practice guideline\"[Publication Type] OR \"randomized controlled trial\"[Publication Type])"
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=9&retmode=json&sort=relevance&term=%28ivermectin+COVID-19+treatment%29+AND+%28%22meta-analysis%22%5Bpt%5D+OR+systematic%5Bsb%5D+OR+guideline%5Bpt%5D+OR+%22practice+guideline%22%5Bpt%5D+OR+%22randomized+controlled+trial%22%5Bpt%5D%29": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "93",
+    "retmax": "9",
+    "retstart": "0",
+    "idlist": [
+     "39863946",
+     "32533071",
+     "37302406",
+     "39039459",
+     "34318930",
+     "38908535",
+     "38510038",
+     "34573986",
+     "34570241"
+    ],
+    "translationset": [
+     {
+      "from": "ivermectin",
+      "to": "\"ivermectin\"[Supplementary Concept] OR \"ivermectin\"[All Fields] OR \"ivermectin\"[MeSH Terms] OR \"ivermectine\"[All Fields] OR \"ivermectin's\"[All Fields] OR \"ivermectins\"[All Fields]"
+     },
+     {
+      "from": "COVID-19",
+      "to": "(\"COVID-19\" OR \"COVID19\" OR \"COVID-19\"[MeSH Terms] OR \"COVID-19 Vaccines\" OR \"COVID-19 Vaccines\"[MeSH Terms] OR \"COVID-19 serotherapy\" OR \"COVID-19 serotherapy\"[MeSH Terms] OR \"COVID-19 Nucleic Acid Testing\" OR \"covid-19 nucleic acid testing\"[MeSH Terms] OR \"COVID-19 Serological Testing\" OR \"covid-19 serological testing\"[MeSH Terms] OR \"COVID-19 Testing\" OR \"covid-19 testing\"[MeSH Terms] OR \"SARS-CoV-2\" OR \"SARSCoV2\" OR \"SARSCoV-2\" OR \"SARS-CoV2\" OR \"sars-cov-2\"[MeSH Terms] OR \"Severe Acute Respiratory Syndrome Coronavirus 2\" OR \"2019 NCOV\" OR ((\"coronavirus\"[MeSH Terms] OR \"coronavirus\" OR \"COV\" OR \"NCOV\") AND 2019/11/01[PDAT] : 3000/12/31[PDAT]))"
+     },
+     {
+      "from": "treatment",
+      "to": "\"therapeutics\"[MeSH Terms] OR \"therapeutics\"[All Fields] OR \"treatments\"[All Fields] OR \"therapy\"[Subheading] OR \"therapy\"[All Fields] OR \"treatment\"[All Fields] OR \"treatment's\"[All Fields]"
+     }
+    ],
+    "querytranslation": "(\"ivermectin\"[Supplementary Concept] OR \"ivermectin\"[All Fields] OR \"ivermectin\"[MeSH Terms] OR \"ivermectine\"[All Fields] OR \"ivermectin s\"[All Fields] OR \"ivermectins\"[All Fields]) AND (\"covid 19\"[All Fields] OR \"covid19\"[All Fields] OR \"covid 19\"[MeSH Terms] OR \"covid 19 vaccines\"[All Fields] OR \"covid 19 vaccines\"[MeSH Terms] OR \"covid 19 serotherapy\"[All Fields] OR \"covid 19 serotherapy\"[MeSH Terms] OR \"covid 19 nucleic acid testing\"[All Fields] OR \"covid 19 nucleic acid testing\"[MeSH Terms] OR \"covid 19 serological testing\"[All Fields] OR \"covid 19 serological testing\"[MeSH Terms] OR \"covid 19 testing\"[All Fields] OR \"covid 19 testing\"[MeSH Terms] OR \"sars cov 2\"[All Fields] OR \"sarscov2\"[All Fields] OR \"sarscov 2\"[All Fields] OR \"sars cov2\"[All Fields] OR \"sars cov 2\"[MeSH Terms] OR \"severe acute respiratory syndrome coronavirus 2\"[All Fields] OR \"2019 ncov\"[All Fields] OR ((\"coronavirus\"[MeSH Terms] OR \"coronavirus\"[All Fields] OR \"cov\"[All Fields] OR \"ncov\"[All Fields]) AND 2019/11/01:3000/12/31[Date - Publication])) AND (\"therapeutics\"[MeSH Terms] OR \"therapeutics\"[All Fields] OR \"treatments\"[All Fields] OR \"therapy\"[MeSH Subheading] OR \"therapy\"[All Fields] OR \"treatment\"[All Fields] OR \"treatment s\"[All Fields]) AND (\"meta-analysis\"[Publication Type] OR \"systematic\"[Filter] OR \"guideline\"[Publication Type] OR \"practice guideline\"[Publication Type] OR \"randomized controlled trial\"[Publication Type])"
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=9&retmode=json&sort=relevance&term=%28metformin+lower+cancer+risk+diabetes%29+AND+%28%22meta-analysis%22%5Bpt%5D+OR+systematic%5Bsb%5D+OR+guideline%5Bpt%5D+OR+%22practice+guideline%22%5Bpt%5D+OR+%22randomized+controlled+trial%22%5Bpt%5D%29": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "90",
+    "retmax": "9",
+    "retstart": "0",
+    "idlist": [
+     "32046384",
+     "39834076",
+     "42295772",
+     "24837144",
+     "42196179",
+     "31067706",
+     "23886298",
+     "31818523",
+     "29183107"
+    ],
+    "translationset": [
+     {
+      "from": "metformin",
+      "to": "\"metformin\"[Supplementary Concept] OR \"metformin\"[All Fields] OR \"metformin\"[MeSH Terms] OR \"metformine\"[All Fields] OR \"metformin's\"[All Fields] OR \"metformins\"[All Fields]"
+     },
+     {
+      "from": "lower",
+      "to": "\"lower\"[All Fields] OR \"lowered\"[All Fields] OR \"lowering\"[All Fields] OR \"lowerings\"[All Fields] OR \"lowers\"[All Fields]"
+     },
+     {
+      "from": "cancer",
+      "to": "\"cancer's\"[All Fields] OR \"cancerated\"[All Fields] OR \"canceration\"[All Fields] OR \"cancerization\"[All Fields] OR \"cancerized\"[All Fields] OR \"cancerous\"[All Fields] OR \"neoplasms\"[MeSH Terms] OR \"neoplasms\"[All Fields] OR \"cancer\"[All Fields] OR \"cancers\"[All Fields]"
+     },
+     {
+      "from": "risk",
+      "to": "\"risk\"[MeSH Terms] OR \"risk\"[All Fields]"
+     },
+     {
+      "from": "diabetes",
+      "to": "\"diabete\"[All Fields] OR \"diabetes mellitus\"[MeSH Terms] OR (\"diabetes\"[All Fields] AND \"mellitus\"[All Fields]) OR \"diabetes mellitus\"[All Fields] OR \"diabetes\"[All Fields] OR \"diabetes insipidus\"[MeSH Terms] OR (\"diabetes\"[All Fields] AND \"insipidus\"[All Fields]) OR \"diabetes insipidus\"[All Fields] OR \"diabetic\"[All Fields] OR \"diabetics\"[All Fields] OR \"diabets\"[All Fields]"
+     }
+    ],
+    "querytranslation": "(\"metformin\"[Supplementary Concept] OR \"metformin\"[All Fields] OR \"metformin\"[MeSH Terms] OR \"metformine\"[All Fields] OR \"metformin s\"[All Fields] OR \"metformins\"[All Fields]) AND (\"lower\"[All Fields] OR \"lowered\"[All Fields] OR \"lowering\"[All Fields] OR \"lowerings\"[All Fields] OR \"lowers\"[All Fields]) AND (\"cancer s\"[All Fields] OR \"cancerated\"[All Fields] OR \"canceration\"[All Fields] OR \"cancerization\"[All Fields] OR \"cancerized\"[All Fields] OR \"cancerous\"[All Fields] OR \"neoplasms\"[MeSH Terms] OR \"neoplasms\"[All Fields] OR \"cancer\"[All Fields] OR \"cancers\"[All Fields]) AND (\"risk\"[MeSH Terms] OR \"risk\"[All Fields]) AND (\"diabete\"[All Fields] OR \"diabetes mellitus\"[MeSH Terms] OR (\"diabetes\"[All Fields] AND \"mellitus\"[All Fields]) OR \"diabetes mellitus\"[All Fields] OR \"diabetes\"[All Fields] OR \"diabetes insipidus\"[MeSH Terms] OR (\"diabetes\"[All Fields] AND \"insipidus\"[All Fields]) OR \"diabetes insipidus\"[All Fields] OR \"diabetic\"[All Fields] OR \"diabetics\"[All Fields] OR \"diabets\"[All Fields]) AND (\"meta-analysis\"[Publication Type] OR \"systematic\"[Filter] OR \"guideline\"[Publication Type] OR \"practice guideline\"[Publication Type] OR \"randomized controlled trial\"[Publication Type])"
+   }
+  }
+ },
+ "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=9&retmode=json&sort=relevance&term=%28vitamin+D+supplementation+fracture+prevention+older+adults%29+AND+%28%22meta-analysis%22%5Bpt%5D+OR+systematic%5Bsb%5D+OR+guideline%5Bpt%5D+OR+%22practice+guideline%22%5Bpt%5D+OR+%22randomized+controlled+trial%22%5Bpt%5D%29": {
+  "status": 200,
+  "body": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "222",
+    "retmax": "9",
+    "retstart": "0",
+    "idlist": [
+     "34910151",
+     "29279934",
+     "40259289",
+     "22972103",
+     "26510847",
+     "16481635",
+     "35939577",
+     "36705288",
+     "38180112"
+    ],
+    "translationset": [
+     {
+      "from": "vitamin D",
+      "to": "\"vitamin d\"[Supplementary Concept] OR \"vitamin d\"[All Fields] OR \"ergocalciferols\"[Supplementary Concept] OR \"ergocalciferols\"[All Fields] OR \"vitamin d\"[MeSH Terms] OR \"ergocalciferols\"[MeSH Terms]"
+     },
+     {
+      "from": "supplementation",
+      "to": "\"supplemental\"[All Fields] OR \"supplementating\"[All Fields] OR \"supplementation\"[All Fields] OR \"supplementation's\"[All Fields] OR \"supplementations\"[All Fields] OR \"supplemention\"[All Fields]"
+     },
+     {
+      "from": "fracture",
+      "to": "\"fractur\"[All Fields] OR \"fractural\"[All Fields] OR \"fracture's\"[All Fields] OR \"fractures, bone\"[MeSH Terms] OR (\"fractures\"[All Fields] AND \"bone\"[All Fields]) OR \"bone fractures\"[All Fields] OR \"fracture\"[All Fields] OR \"fractured\"[All Fields] OR \"fractures\"[All Fields] OR \"fracturing\"[All Fields]"
+     },
+     {
+      "from": "prevention",
+      "to": "\"prevent\"[All Fields] OR \"preventability\"[All Fields] OR \"preventable\"[All Fields] OR \"preventative\"[All Fields] OR \"preventatively\"[All Fields] OR \"preventatives\"[All Fields] OR \"prevented\"[All Fields] OR \"preventing\"[All Fields] OR \"prevention and control\"[Subheading] OR (\"prevention\"[All Fields] AND \"control\"[All Fields]) OR \"prevention and control\"[All Fields] OR \"prevention\"[All Fields] OR \"prevention's\"[All Fields] OR \"preventions\"[All Fields] OR \"preventive\"[All Fields] OR \"preventively\"[All Fields] OR \"preventives\"[All Fields] OR \"prevents\"[All Fields]"
+     },
+     {
+      "from": "older adults",
+      "to": "\"aged\"[MeSH Terms] OR \"aged\"[All Fields] OR (\"older\"[All Fields] AND \"adults\"[All Fields]) OR \"older adults\"[All Fields]"
+     }
+    ],
+    "querytranslation": "(\"vitamin d\"[Supplementary Concept] OR \"vitamin d\"[All Fields] OR \"ergocalciferols\"[Supplementary Concept] OR \"ergocalciferols\"[All Fields] OR \"vitamin d\"[MeSH Terms] OR \"ergocalciferols\"[MeSH Terms]) AND (\"supplemental\"[All Fields] OR \"supplementating\"[All Fields] OR \"supplementation\"[All Fields] OR \"supplementation s\"[All Fields] OR \"supplementations\"[All Fields] OR \"supplemention\"[All Fields]) AND (\"fractur\"[All Fields] OR \"fractural\"[All Fields] OR \"fracture s\"[All Fields] OR \"fractures, bone\"[MeSH Terms] OR (\"fractures\"[All Fields] AND \"bone\"[All Fields]) OR \"bone fractures\"[All Fields] OR \"fracture\"[All Fields] OR \"fractured\"[All Fields] OR \"fractures\"[All Fields] OR \"fracturing\"[All Fields]) AND (\"prevent\"[All Fields] OR \"preventability\"[All Fields] OR \"preventable\"[All Fields] OR \"preventative\"[All Fields] OR \"preventatively\"[All Fields] OR \"preventatives\"[All Fields] OR \"prevented\"[All Fields] OR \"preventing\"[All Fields] OR \"prevention and control\"[MeSH Subheading] OR (\"prevention\"[All Fields] AND \"control\"[All Fields]) OR \"prevention and control\"[All Fields] OR \"prevention\"[All Fields] OR \"prevention s\"[All Fields] OR \"preventions\"[All Fields] OR \"preventive\"[All Fields] OR \"preventively\"[All Fields] OR \"preventives\"[All Fields] OR \"prevents\"[All Fields]) AND (\"aged\"[MeSH Terms] OR \"aged\"[All Fields] OR (\"older\"[All Fields] AND \"adults\"[All Fields]) OR \"older adults\"[All Fields]) AND (\"meta-analysis\"[Publication Type] OR \"systematic\"[Filter] OR \"guideline\"[Publication Type] OR \"practice guideline\"[Publication Type] OR \"randomized controlled trial\"[Publication Type])"
+   }
+  }
+ }
+}

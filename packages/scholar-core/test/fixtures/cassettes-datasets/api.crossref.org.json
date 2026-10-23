@@ -1,0 +1,4488 @@
+{
+ "https://api.crossref.org/works/10.1002%2Fmet.2092": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "reference-count": 81,
+    "publisher": "Wiley",
+    "issue": "5",
+    "short-container-title": [
+     "Meteorological Applications"
+    ],
+    "published-print": {
+     "date-parts": [
+      [
+       2022,
+       9
+      ]
+     ]
+    },
+    "DOI": "10.1002/met.2092",
+    "type": "journal-article",
+    "created": {
+     "date-parts": [
+      [
+       2022,
+       10,
+       5
+      ]
+     ],
+     "date-time": "2022-10-05T05:51:59Z",
+     "timestamp": 1664949119000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "title": [
+     "Towards a convection‐permitting regional reanalysis over the Italian domain"
+    ],
+    "prefix": "10.1002",
+    "volume": "29",
+    "author": [
+     {
+      "given": "Ines Maria Luisa",
+      "family": "Cerenzia",
+      "sequence": "first",
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "given": "Antonio",
+      "family": "Giordani",
+      "sequence": "additional",
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "given": "Tiziana",
+      "family": "Paccagnella",
+      "sequence": "additional",
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "given": "Andrea",
+      "family": "Montani",
+      "sequence": "additional",
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "member": "311",
+    "published-online": {
+     "date-parts": [
+      [
+       2022,
+       10,
+       4
+      ]
+     ]
+    },
+    "container-title": [
+     "Meteorological Applications"
+    ],
+    "original-title": [],
+    "language": "en",
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2022,
+       9
+      ]
+     ]
+    },
+    "journal-issue": {
+     "issue": "5",
+     "published-print": {
+      "date-parts": [
+       [
+        2022,
+        9
+       ]
+      ]
+     }
+    },
+    "alternative-id": [
+     "10.1002/met.2092"
+    ],
+    "URL": "https://doi.org/10.1002/met.2092",
+    "relation": {},
+    "ISSN": [
+     "1350-4827",
+     "1469-8080"
+    ],
+    "issn-type": [
+     {
+      "value": "1350-4827",
+      "type": "print"
+     },
+     {
+      "value": "1469-8080",
+      "type": "electronic"
+     }
+    ],
+    "published": {
+     "date-parts": [
+      [
+       2022,
+       9
+      ]
+     ]
+    },
+    "article-number": "e2092"
+   }
+  }
+ },
+ "https://api.crossref.org/works/10.1016%2Fj.cell.2022.11.005": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "reference-count": 106,
+    "publisher": "Elsevier BV",
+    "issue": "25",
+    "short-container-title": [
+     "Cell"
+    ],
+    "published-print": {
+     "date-parts": [
+      [
+       2022,
+       12
+      ]
+     ]
+    },
+    "DOI": "10.1016/j.cell.2022.11.005",
+    "type": "journal-article",
+    "created": {
+     "date-parts": [
+      [
+       2022,
+       12,
+       8
+      ]
+     ],
+     "date-time": "2022-12-08T10:33:34Z",
+     "timestamp": 1670495614000
+    },
+    "page": "4841-4860.e25",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "title": [
+     "A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulators of epithelial fates"
+    ],
+    "prefix": "10.1016",
+    "volume": "185",
+    "author": [
+     {
+      "given": "Peng",
+      "family": "He",
+      "sequence": "first",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Kyungtae",
+      "family": "Lim",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Dawei",
+      "family": "Sun",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Jan Patrick",
+      "family": "Pett",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Quitz",
+      "family": "Jeng",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Krzysztof",
+      "family": "Polanski",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Ziqi",
+      "family": "Dong",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Liam",
+      "family": "Bolt",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Laura",
+      "family": "Richardson",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Lira",
+      "family": "Mamanova",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Monika",
+      "family": "Dabrowska",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Anna",
+      "family": "Wilbrey-Clark",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Elo",
+      "family": "Madissoon",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Zewen Kelvin",
+      "family": "Tuong",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Emma",
+      "family": "Dann",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Chenqu",
+      "family": "Suo",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Isaac",
+      "family": "Goh",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Masahiro",
+      "family": "Yoshida",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Marko Z.",
+      "family": "Nikolić",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Sam M.",
+      "family": "Janes",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Xiaoling",
+      "family": "He",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Roger A.",
+      "family": "Barker",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Sarah A.",
+      "family": "Teichmann",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "John C.",
+      "family": "Marioni",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Kerstin B.",
+      "family": "Meyer",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Emma L.",
+      "family": "Rawlins",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "member": "78",
+    "container-title": [
+     "Cell"
+    ],
+    "original-title": [],
+    "language": "en",
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2022,
+       12
+      ]
+     ]
+    },
+    "journal-issue": {
+     "issue": "25",
+     "published-print": {
+      "date-parts": [
+       [
+        2022,
+        12
+       ]
+      ]
+     }
+    },
+    "alternative-id": [
+     "S0092867422014155"
+    ],
+    "URL": "https://doi.org/10.1016/j.cell.2022.11.005",
+    "relation": {
+     "has-preprint": [
+      {
+       "id-type": "doi",
+       "id": "10.1101/2022.01.11.474933",
+       "asserted-by": "object"
+      }
+     ]
+    },
+    "ISSN": [
+     "0092-8674"
+    ],
+    "issn-type": [
+     {
+      "value": "0092-8674",
+      "type": "print"
+     }
+    ],
+    "published": {
+     "date-parts": [
+      [
+       2022,
+       12
+      ]
+     ]
+    }
+   }
+  }
+ },
+ "https://api.crossref.org/works/10.1016%2Fj.labinv.2023.100258": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "reference-count": 34,
+    "publisher": "Elsevier BV",
+    "issue": "12",
+    "short-container-title": [
+     "Laboratory Investigation"
+    ],
+    "published-print": {
+     "date-parts": [
+      [
+       2023,
+       12
+      ]
+     ]
+    },
+    "DOI": "10.1016/j.labinv.2023.100258",
+    "type": "journal-article",
+    "created": {
+     "date-parts": [
+      [
+       2023,
+       10,
+       7
+      ]
+     ],
+     "date-time": "2023-10-07T11:07:30Z",
+     "timestamp": 1696676850000
+    },
+    "page": "100258",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "title": [
+     "Spatial Transcriptomics Reveal Pitfalls and Opportunities for the Detection of Rare High-Plasticity Breast Cancer Subtypes"
+    ],
+    "prefix": "10.1016",
+    "volume": "103",
+    "author": [
+     {
+      "given": "Angèle",
+      "family": "Coutant",
+      "sequence": "first",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Vincent",
+      "family": "Cockenpot",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Lauriane",
+      "family": "Muller",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Cyril",
+      "family": "Degletagne",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Roxane",
+      "family": "Pommier",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Laurie",
+      "family": "Tonon",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Maude",
+      "family": "Ardin",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Marie-Cécile",
+      "family": "Michallet",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Christophe",
+      "family": "Caux",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Marie",
+      "family": "Laurent",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Anne-Pierre",
+      "family": "Morel",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Pierre",
+      "family": "Saintigny",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Alain",
+      "family": "Puisieux",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Maria",
+      "family": "Ouzounova",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Pierre",
+      "family": "Martinez",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "member": "78",
+    "container-title": [
+     "Laboratory Investigation"
+    ],
+    "original-title": [],
+    "language": "en",
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2023,
+       12
+      ]
+     ]
+    },
+    "journal-issue": {
+     "issue": "12",
+     "published-print": {
+      "date-parts": [
+       [
+        2023,
+        12
+       ]
+      ]
+     }
+    },
+    "alternative-id": [
+     "S0023683723002015"
+    ],
+    "URL": "https://doi.org/10.1016/j.labinv.2023.100258",
+    "relation": {
+     "has-preprint": [
+      {
+       "id-type": "doi",
+       "id": "10.1101/2023.04.24.538061",
+       "asserted-by": "object"
+      }
+     ]
+    },
+    "ISSN": [
+     "0023-6837"
+    ],
+    "issn-type": [
+     {
+      "value": "0023-6837",
+      "type": "print"
+     }
+    ],
+    "published": {
+     "date-parts": [
+      [
+       2023,
+       12
+      ]
+     ]
+    },
+    "article-number": "100258"
+   }
+  }
+ },
+ "https://api.crossref.org/works/10.1038%2Fs41586-020-2922-4": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "reference-count": 50,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "7835",
+    "short-container-title": [
+     "Nature"
+    ],
+    "published-print": {
+     "date-parts": [
+      [
+       2020,
+       11,
+       26
+      ]
+     ]
+    },
+    "DOI": "10.1038/s41586-020-2922-4",
+    "type": "journal-article",
+    "created": {
+     "date-parts": [
+      [
+       2020,
+       11,
+       18
+      ]
+     ],
+     "date-time": "2020-11-18T12:02:56Z",
+     "timestamp": 1605700976000
+    },
+    "page": "619-625",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "title": [
+     "A molecular cell atlas of the human lung from single-cell RNA sequencing"
+    ],
+    "prefix": "10.1038",
+    "volume": "587",
+    "author": [
+     {
+      "given": "Kyle J.",
+      "family": "Travaglini",
+      "sequence": "first",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Ahmad N.",
+      "family": "Nabhan",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Lolita",
+      "family": "Penland",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Rahul",
+      "family": "Sinha",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Astrid",
+      "family": "Gillich",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Rene V.",
+      "family": "Sit",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Stephen",
+      "family": "Chang",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Stephanie D.",
+      "family": "Conley",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Yasuo",
+      "family": "Mori",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Jun",
+      "family": "Seita",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Gerald J.",
+      "family": "Berry",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Joseph B.",
+      "family": "Shrager",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Ross J.",
+      "family": "Metzger",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Christin S.",
+      "family": "Kuo",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Norma",
+      "family": "Neff",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Irving L.",
+      "family": "Weissman",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Stephen R.",
+      "family": "Quake",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Mark A.",
+      "family": "Krasnow",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "member": "297",
+    "published-online": {
+     "date-parts": [
+      [
+       2020,
+       11,
+       18
+      ]
+     ]
+    },
+    "container-title": [
+     "Nature"
+    ],
+    "original-title": [],
+    "language": "en",
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2020,
+       11,
+       18
+      ]
+     ]
+    },
+    "journal-issue": {
+     "issue": "7835",
+     "published-print": {
+      "date-parts": [
+       [
+        2020,
+        11,
+        26
+       ]
+      ]
+     }
+    },
+    "alternative-id": [
+     "2922"
+    ],
+    "URL": "https://doi.org/10.1038/s41586-020-2922-4",
+    "relation": {
+     "has-preprint": [
+      {
+       "id-type": "doi",
+       "id": "10.1101/742320",
+       "asserted-by": "object"
+      }
+     ]
+    },
+    "ISSN": [
+     "0028-0836",
+     "1476-4687"
+    ],
+    "issn-type": [
+     {
+      "value": "0028-0836",
+      "type": "print"
+     },
+     {
+      "value": "1476-4687",
+      "type": "electronic"
+     }
+    ],
+    "published": {
+     "date-parts": [
+      [
+       2020,
+       11,
+       18
+      ]
+     ]
+    }
+   }
+  }
+ },
+ "https://api.crossref.org/works/10.1038%2Fs41591-023-02327-2": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "reference-count": 117,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "6",
+    "short-container-title": [
+     "Nat Med"
+    ],
+    "published-print": {
+     "date-parts": [
+      [
+       2023,
+       6
+      ]
+     ]
+    },
+    "DOI": "10.1038/s41591-023-02327-2",
+    "type": "journal-article",
+    "created": {
+     "date-parts": [
+      [
+       2023,
+       6,
+       8
+      ]
+     ],
+     "date-time": "2023-06-08T12:01:46Z",
+     "timestamp": 1686225706000
+    },
+    "page": "1563-1577",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "title": [
+     "An integrated cell atlas of the lung in health and disease"
+    ],
+    "prefix": "10.1038",
+    "volume": "29",
+    "author": [
+     {
+      "given": "Lisa",
+      "family": "Sikkema",
+      "sequence": "first",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Ciro",
+      "family": "Ramírez-Suástegui",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Daniel C.",
+      "family": "Strobl",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Tessa E.",
+      "family": "Gillett",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Luke",
+      "family": "Zappia",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Elo",
+      "family": "Madissoon",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Nikolay S.",
+      "family": "Markov",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Laure-Emmanuelle",
+      "family": "Zaragosi",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Yuge",
+      "family": "Ji",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Meshal",
+      "family": "Ansari",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Marie-Jeanne",
+      "family": "Arguel",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Leonie",
+      "family": "Apperloo",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Martin",
+      "family": "Banchero",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Christophe",
+      "family": "Bécavin",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Marijn",
+      "family": "Berg",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Evgeny",
+      "family": "Chichelnitskiy",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Mei-i",
+      "family": "Chung",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Antoine",
+      "family": "Collin",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Aurore C. A.",
+      "family": "Gay",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Janine",
+      "family": "Gote-Schniering",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Baharak",
+      "family": "Hooshiar Kashani",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Kemal",
+      "family": "Inecik",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Manu",
+      "family": "Jain",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Theodore S.",
+      "family": "Kapellos",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Tessa M.",
+      "family": "Kole",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Sylvie",
+      "family": "Leroy",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Christoph H.",
+      "family": "Mayr",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Amanda J.",
+      "family": "Oliver",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Michael",
+      "family": "von Papen",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Lance",
+      "family": "Peter",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Chase J.",
+      "family": "Taylor",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Thomas",
+      "family": "Walzthoeni",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Chuan",
+      "family": "Xu",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Linh T.",
+      "family": "Bui",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Carlo",
+      "family": "De Donno",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Leander",
+      "family": "Dony",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Alen",
+      "family": "Faiz",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Minzhe",
+      "family": "Guo",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Austin J.",
+      "family": "Gutierrez",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Lukas",
+      "family": "Heumos",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Ni",
+      "family": "Huang",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Ignacio L.",
+      "family": "Ibarra",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Nathan D.",
+      "family": "Jackson",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Preetish",
+      "family": "Kadur Lakshminarasimha Murthy",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Mohammad",
+      "family": "Lotfollahi",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Tracy",
+      "family": "Tabib",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Carlos",
+      "family": "Talavera-López",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Kyle J.",
+      "family": "Travaglini",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Anna",
+      "family": "Wilbrey-Clark",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Kaylee B.",
+      "family": "Worlock",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Masahiro",
+      "family": "Yoshida",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "name": "Lung Biological Network Consortium",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Yuexin",
+      "family": "Chen",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "James S.",
+      "family": "Hagood",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Ahmed",
+      "family": "Agami",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Peter",
+      "family": "Horvath",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Joakim",
+      "family": "Lundeberg",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Charles-Hugo",
+      "family": "Marquette",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Gloria",
+      "family": "Pryhuber",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Chistos",
+      "family": "Samakovlis",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Xin",
+      "family": "Sun",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Lorraine B.",
+      "family": "Ware",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Kun",
+      "family": "Zhang",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Maarten",
+      "family": "van den Berge",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Yohan",
+      "family": "Bossé",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Tushar J.",
+      "family": "Desai",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Oliver",
+      "family": "Eickelberg",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Naftali",
+      "family": "Kaminski",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Mark A.",
+      "family": "Krasnow",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Robert",
+      "family": "Lafyatis",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Marko Z.",
+      "family": "Nikolic",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Joseph E.",
+      "family": "Powell",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Jayaraj",
+      "family": "Rajagopal",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Mauricio",
+      "family": "Rojas",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Orit",
+      "family": "Rozenblatt-Rosen",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Max A.",
+      "family": "Seibold",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Dean",
+      "family": "Sheppard",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Douglas P.",
+      "family": "Shepherd",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Don D.",
+      "family": "Sin",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Wim",
+      "family": "Timens",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Alexander M.",
+      "family": "Tsankov",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Jeffrey",
+      "family": "Whitsett",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Yan",
+      "family": "Xu",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Nicholas E.",
+      "family": "Banovich",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Pascal",
+      "family": "Barbry",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Thu Elizabeth",
+      "family": "Duong",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Christine S.",
+      "family": "Falk",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Kerstin B.",
+      "family": "Meyer",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Jonathan A.",
+      "family": "Kropski",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Dana",
+      "family": "Pe’er",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Herbert B.",
+      "family": "Schiller",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Purushothama Rao",
+      "family": "Tata",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Joachim L.",
+      "family": "Schultze",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Sara A.",
+      "family": "Teichmann",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Alexander V.",
+      "family": "Misharin",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Martijn C.",
+      "family": "Nawijn",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Malte D.",
+      "family": "Luecken",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Fabian J.",
+      "family": "Theis",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "member": "297",
+    "published-online": {
+     "date-parts": [
+      [
+       2023,
+       6,
+       8
+      ]
+     ]
+    },
+    "container-title": [
+     "Nature Medicine"
+    ],
+    "original-title": [],
+    "language": "en",
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2023,
+       6
+      ]
+     ]
+    },
+    "journal-issue": {
+     "issue": "6",
+     "published-print": {
+      "date-parts": [
+       [
+        2023,
+        6
+       ]
+      ]
+     }
+    },
+    "alternative-id": [
+     "2327"
+    ],
+    "URL": "https://doi.org/10.1038/s41591-023-02327-2",
+    "relation": {
+     "has-preprint": [
+      {
+       "id-type": "doi",
+       "id": "10.1101/2022.03.10.483747",
+       "asserted-by": "object"
+      },
+      {
+       "id-type": "doi",
+       "id": "10.21203/rs.3.rs-1438584/v1",
+       "asserted-by": "object"
+      }
+     ]
+    },
+    "ISSN": [
+     "1078-8956",
+     "1546-170X"
+    ],
+    "issn-type": [
+     {
+      "value": "1078-8956",
+      "type": "print"
+     },
+     {
+      "value": "1546-170X",
+      "type": "electronic"
+     }
+    ],
+    "published": {
+     "date-parts": [
+      [
+       2023,
+       6
+      ]
+     ]
+    }
+   }
+  }
+ },
+ "https://api.crossref.org/works/10.1038%2Fs41597-025-04381-6": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "reference-count": 38,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "short-container-title": [
+     "Sci Data"
+    ],
+    "DOI": "10.1038/s41597-025-04381-6",
+    "type": "journal-article",
+    "created": {
+     "date-parts": [
+      [
+       2025,
+       1,
+       22
+      ]
+     ],
+     "date-time": "2025-01-22T12:24:24Z",
+     "timestamp": 1737548664000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "title": [
+     "Integrated cancer cell-specific single-cell RNA-seq datasets of immune checkpoint blockade-treated patients"
+    ],
+    "prefix": "10.1038",
+    "volume": "12",
+    "author": [
+     {
+      "given": "Mahnoor N.",
+      "family": "Gondal",
+      "sequence": "first",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Marcin",
+      "family": "Cieslik",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Arul M.",
+      "family": "Chinnaiyan",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "member": "297",
+    "published-online": {
+     "date-parts": [
+      [
+       2025,
+       1,
+       22
+      ]
+     ]
+    },
+    "container-title": [
+     "Scientific Data"
+    ],
+    "original-title": [],
+    "language": "en",
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2025,
+       1,
+       22
+      ]
+     ]
+    },
+    "journal-issue": {
+     "issue": "1",
+     "published-online": {
+      "date-parts": [
+       [
+        2025,
+        12
+       ]
+      ]
+     }
+    },
+    "alternative-id": [
+     "4381"
+    ],
+    "URL": "https://doi.org/10.1038/s41597-025-04381-6",
+    "relation": {
+     "references": [
+      {
+       "id-type": "doi",
+       "id": "10.5281/ZENODO.10407125",
+       "asserted-by": "subject"
+      }
+     ],
+     "has-preprint": [
+      {
+       "id-type": "doi",
+       "id": "10.1101/2024.01.17.576110",
+       "asserted-by": "object"
+      }
+     ]
+    },
+    "ISSN": [
+     "2052-4463"
+    ],
+    "issn-type": [
+     {
+      "value": "2052-4463",
+      "type": "electronic"
+     }
+    ],
+    "published": {
+     "date-parts": [
+      [
+       2025,
+       1,
+       22
+      ]
+     ]
+    },
+    "article-number": "139"
+   }
+  }
+ },
+ "https://api.crossref.org/works/10.1073%2Fpnas.1518952113": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "reference-count": 71,
+    "publisher": "National Academy of Sciences",
+    "issue": "13",
+    "short-container-title": [
+     "Proc. Natl. Acad. Sci. U.S.A."
+    ],
+    "published-print": {
+     "date-parts": [
+      [
+       2016,
+       3,
+       29
+      ]
+     ]
+    },
+    "DOI": "10.1073/pnas.1518952113",
+    "type": "journal-article",
+    "created": {
+     "date-parts": [
+      [
+       2016,
+       3,
+       14
+      ]
+     ],
+     "date-time": "2016-03-14T23:24:27Z",
+     "timestamp": 1457997867000
+    },
+    "update-policy": "https://doi.org/10.1073/pnas.cm10313",
+    "source": "Crossref",
+    "title": [
+     "Diverse high-torque bacterial flagellar motors assemble wider stator rings using a conserved protein scaffold"
+    ],
+    "prefix": "10.1073",
+    "volume": "113",
+    "author": [
+     {
+      "given": "Morgan",
+      "family": "Beeby",
+      "sequence": "first",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Deborah A.",
+      "family": "Ribardo",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Caitlin A.",
+      "family": "Brennan",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Edward G.",
+      "family": "Ruby",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Grant J.",
+      "family": "Jensen",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "David R.",
+      "family": "Hendrixson",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "member": "341",
+    "published-online": {
+     "date-parts": [
+      [
+       2016,
+       3,
+       14
+      ]
+     ]
+    },
+    "updated-by": [
+     {
+      "DOI": "10.1073/pnas.1605597113",
+      "type": "correction",
+      "label": "Correction",
+      "source": "publisher",
+      "updated": {
+       "date-parts": [
+        [
+         2016,
+         5,
+         2
+        ]
+       ],
+       "date-time": "2016-05-02T00:00:00Z",
+       "timestamp": 1462147200000
+      }
+     }
+    ],
+    "container-title": [
+     "Proceedings of the National Academy of Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2016,
+       3,
+       14
+      ]
+     ]
+    },
+    "journal-issue": {
+     "issue": "13",
+     "published-print": {
+      "date-parts": [
+       [
+        2016,
+        3,
+        29
+       ]
+      ]
+     }
+    },
+    "alternative-id": [
+     "10.1073/pnas.1518952113"
+    ],
+    "URL": "https://doi.org/10.1073/pnas.1518952113",
+    "relation": {},
+    "ISSN": [
+     "0027-8424",
+     "1091-6490"
+    ],
+    "issn-type": [
+     {
+      "value": "0027-8424",
+      "type": "print"
+     },
+     {
+      "value": "1091-6490",
+      "type": "electronic"
+     }
+    ],
+    "published": {
+     "date-parts": [
+      [
+       2016,
+       3,
+       14
+      ]
+     ]
+    }
+   }
+  }
+ },
+ "https://api.crossref.org/works/10.1080%2F01443615.2026.2736876": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "reference-count": 38,
+    "publisher": "Informa UK Limited",
+    "issue": "1",
+    "short-container-title": [
+     "Journal of Obstetrics and Gynaecology"
+    ],
+    "published-print": {
+     "date-parts": [
+      [
+       2026,
+       12,
+       31
+      ]
+     ]
+    },
+    "DOI": "10.1080/01443615.2026.2736876",
+    "type": "journal-article",
+    "created": {
+     "date-parts": [
+      [
+       2026,
+       9,
+       24
+      ]
+     ],
+     "date-time": "2026-09-24T12:41:07Z",
+     "timestamp": 1790253667000
+    },
+    "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+    "source": "Crossref",
+    "title": [
+     "Prognostic value of ZEB1 and its association with miR-7641 in triple-negative breast cancer: a correlative and in vitro study"
+    ],
+    "prefix": "10.1080",
+    "volume": "46",
+    "author": [
+     {
+      "given": "Wentian",
+      "family": "Zheng",
+      "sequence": "first",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Dongxing",
+      "family": "Xu",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Huan",
+      "family": "Yang",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "member": "301",
+    "published-online": {
+     "date-parts": [
+      [
+       2026,
+       9,
+       24
+      ]
+     ]
+    },
+    "container-title": [
+     "Journal of Obstetrics and Gynaecology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2026,
+       9,
+       24
+      ]
+     ]
+    },
+    "journal-issue": {
+     "issue": "1",
+     "published-print": {
+      "date-parts": [
+       [
+        2026,
+        12,
+        31
+       ]
+      ]
+     }
+    },
+    "alternative-id": [
+     "10.1080/01443615.2026.2736876"
+    ],
+    "URL": "https://doi.org/10.1080/01443615.2026.2736876",
+    "relation": {},
+    "ISSN": [
+     "0144-3615",
+     "1364-6893"
+    ],
+    "issn-type": [
+     {
+      "value": "0144-3615",
+      "type": "print"
+     },
+     {
+      "value": "1364-6893",
+      "type": "electronic"
+     }
+    ],
+    "published": {
+     "date-parts": [
+      [
+       2026,
+       9,
+       24
+      ]
+     ]
+    },
+    "article-number": "2736876"
+   }
+  }
+ },
+ "https://api.crossref.org/works/10.1080%2F09553002.2026.2730060": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "reference-count": 32,
+    "publisher": "Informa UK Limited",
+    "short-container-title": [
+     "International Journal of Radiation Biology"
+    ],
+    "DOI": "10.1080/09553002.2026.2730060",
+    "type": "journal-article",
+    "created": {
+     "date-parts": [
+      [
+       2026,
+       9,
+       11
+      ]
+     ],
+     "date-time": "2026-09-11T16:47:27Z",
+     "timestamp": 1789145247000
+    },
+    "page": "1-12",
+    "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+    "source": "Crossref",
+    "title": [
+     "Ionizing radiation induces bidirectional transcriptomic reprogramming and dynamic NOS2/TREM2 regulation in triple-negative breast cancer cells"
+    ],
+    "prefix": "10.1080",
+    "author": [
+     {
+      "given": "Jing",
+      "family": "Li",
+      "sequence": "first",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Xin",
+      "family": "Bai",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Wanjia",
+      "family": "Qiao",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Yong",
+      "family": "Yang",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Zhaobing",
+      "family": "Gao",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Haiwen",
+      "family": "Liang",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Lingfang",
+      "family": "Zhang",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Biaofeng",
+      "family": "Shan",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Jianming",
+      "family": "Tang",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "member": "301",
+    "published-online": {
+     "date-parts": [
+      [
+       2026,
+       9,
+       11
+      ]
+     ]
+    },
+    "container-title": [
+     "International Journal of Radiation Biology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2026,
+       9,
+       11
+      ]
+     ]
+    },
+    "alternative-id": [
+     "10.1080/09553002.2026.2730060"
+    ],
+    "URL": "https://doi.org/10.1080/09553002.2026.2730060",
+    "relation": {},
+    "ISSN": [
+     "0955-3002",
+     "1362-3095"
+    ],
+    "issn-type": [
+     {
+      "value": "0955-3002",
+      "type": "print"
+     },
+     {
+      "value": "1362-3095",
+      "type": "electronic"
+     }
+    ],
+    "published": {
+     "date-parts": [
+      [
+       2026,
+       9,
+       11
+      ]
+     ]
+    }
+   }
+  }
+ },
+ "https://api.crossref.org/works/10.1084%2Fjem.20232192": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "reference-count": 83,
+    "publisher": "Rockefeller University Press",
+    "issue": "6",
+    "short-container-title": [],
+    "published-print": {
+     "date-parts": [
+      [
+       2024,
+       6,
+       3
+      ]
+     ]
+    },
+    "DOI": "10.1084/jem.20232192",
+    "type": "journal-article",
+    "created": {
+     "date-parts": [
+      [
+       2024,
+       3,
+       5
+      ]
+     ],
+     "date-time": "2024-03-05T02:21:12Z",
+     "timestamp": 1709605272000
+    },
+    "update-policy": "https://doi.org/10.1084/jem.crossmarkpolicy",
+    "source": "Crossref",
+    "title": [
+     "Interstitial macrophages are a focus of viral takeover and inflammation in COVID-19 initiation in human lung"
+    ],
+    "prefix": "10.1084",
+    "volume": "221",
+    "author": [
+     {
+      "given": "Timothy Ting-Hsuan",
+      "family": "Wu",
+      "sequence": "first",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Kyle J.",
+      "family": "Travaglini",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Arjun",
+      "family": "Rustagi",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Duo",
+      "family": "Xu",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Yue",
+      "family": "Zhang",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Leonid",
+      "family": "Andronov",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "SoRi",
+      "family": "Jang",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Astrid",
+      "family": "Gillich",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Roozbeh",
+      "family": "Dehghannasiri",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Giovanny J.",
+      "family": "Martínez-Colón",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Aimee",
+      "family": "Beck",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Daniel Dan",
+      "family": "Liu",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Aaron J.",
+      "family": "Wilk",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Maurizio",
+      "family": "Morri",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Winston L.",
+      "family": "Trope",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Rob",
+      "family": "Bierman",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Irving L.",
+      "family": "Weissman",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Joseph B.",
+      "family": "Shrager",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Stephen R.",
+      "family": "Quake",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Christin S.",
+      "family": "Kuo",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Julia",
+      "family": "Salzman",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "W.E.",
+      "family": "Moerner",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Peter S.",
+      "family": "Kim",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Catherine A.",
+      "family": "Blish",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Mark A.",
+      "family": "Krasnow",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "member": "291",
+    "published-online": {
+     "date-parts": [
+      [
+       2024,
+       4,
+       10
+      ]
+     ]
+    },
+    "container-title": [
+     "Journal of Experimental Medicine"
+    ],
+    "original-title": [],
+    "language": "en",
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2024,
+       4,
+       10
+      ]
+     ]
+    },
+    "journal-issue": {
+     "issue": "6",
+     "published-print": {
+      "date-parts": [
+       [
+        2024,
+        6,
+        3
+       ]
+      ]
+     }
+    },
+    "URL": "https://doi.org/10.1084/jem.20232192",
+    "relation": {},
+    "ISSN": [
+     "0022-1007",
+     "1540-9538"
+    ],
+    "issn-type": [
+     {
+      "value": "0022-1007",
+      "type": "print"
+     },
+     {
+      "value": "1540-9538",
+      "type": "electronic"
+     }
+    ],
+    "published": {
+     "date-parts": [
+      [
+       2024,
+       4,
+       10
+      ]
+     ]
+    },
+    "article-number": "e20232192"
+   }
+  }
+ },
+ "https://api.crossref.org/works/10.1101%2F2025.10.06.680693": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "posted": {
+     "date-parts": [
+      [
+       2025,
+       10,
+       6
+      ]
+     ]
+    },
+    "group-title": "Cell Biology",
+    "reference-count": 96,
+    "publisher": "openRxiv",
+    "short-container-title": [],
+    "accepted": {
+     "date-parts": [
+      [
+       2025,
+       10,
+       6
+      ]
+     ]
+    },
+    "DOI": "10.1101/2025.10.06.680693",
+    "type": "posted-content",
+    "created": {
+     "date-parts": [
+      [
+       2025,
+       10,
+       7
+      ]
+     ],
+     "date-time": "2025-10-07T02:00:11Z",
+     "timestamp": 1759802411000
+    },
+    "source": "Crossref",
+    "title": [
+     "Structural remodeling of the mitochondrial protein biogenesis machinery under proteostatic stress"
+    ],
+    "prefix": "10.64898",
+    "author": [
+     {
+      "given": "Kenneth",
+      "family": "Ehses",
+      "sequence": "first",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Jorge P.",
+      "family": "López-Alonso",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Odetta",
+      "family": "Antico",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Abdussalam",
+      "family": "Azem",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Miratul M.K.",
+      "family": "Muqit",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Iban",
+      "family": "Ubarretxena-Belandia",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Rubén",
+      "family": "Fernández-Busnadiego",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "member": "54368",
+    "container-title": [],
+    "original-title": [],
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2025,
+       10,
+       6
+      ]
+     ]
+    },
+    "URL": "https://doi.org/10.1101/2025.10.06.680693",
+    "relation": {
+     "is-preprint-of": [
+      {
+       "id-type": "doi",
+       "id": "10.1126/sciadv.aed3579",
+       "asserted-by": "subject"
+      }
+     ]
+    },
+    "published": {
+     "date-parts": [
+      [
+       2025,
+       10,
+       6
+      ]
+     ]
+    },
+    "subtype": "preprint"
+   }
+  }
+ },
+ "https://api.crossref.org/works/10.1186%2Fs13059-019-1906-x": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "reference-count": 54,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "short-container-title": [
+     "Genome Biol"
+    ],
+    "published-print": {
+     "date-parts": [
+      [
+       2020,
+       12
+      ]
+     ]
+    },
+    "DOI": "10.1186/s13059-019-1906-x",
+    "type": "journal-article",
+    "created": {
+     "date-parts": [
+      [
+       2019,
+       12,
+       31
+      ]
+     ],
+     "date-time": "2019-12-31T03:02:43Z",
+     "timestamp": 1577761363000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "title": [
+     "scRNA-seq assessment of the human lung, spleen, and esophagus tissue stability after cold preservation"
+    ],
+    "prefix": "10.1186",
+    "volume": "21",
+    "author": [
+     {
+      "given": "E.",
+      "family": "Madissoon",
+      "sequence": "first",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "A.",
+      "family": "Wilbrey-Clark",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "R. J.",
+      "family": "Miragaia",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "K.",
+      "family": "Saeb-Parsy",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "K. T.",
+      "family": "Mahbubani",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "N.",
+      "family": "Georgakopoulos",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "P.",
+      "family": "Harding",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "K.",
+      "family": "Polanski",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "N.",
+      "family": "Huang",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "K.",
+      "family": "Nowicki-Osuch",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "R. C.",
+      "family": "Fitzgerald",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "K. W.",
+      "family": "Loudon",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "J. R.",
+      "family": "Ferdinand",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "M. R.",
+      "family": "Clatworthy",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "A.",
+      "family": "Tsingene",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "S.",
+      "family": "van Dongen",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "M.",
+      "family": "Dabrowska",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "M.",
+      "family": "Patel",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "M. J. T.",
+      "family": "Stubbington",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "S. A.",
+      "family": "Teichmann",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "O.",
+      "family": "Stegle",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "K. B.",
+      "family": "Meyer",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "member": "297",
+    "published-online": {
+     "date-parts": [
+      [
+       2019,
+       12,
+       31
+      ]
+     ]
+    },
+    "container-title": [
+     "Genome Biology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2019,
+       12,
+       31
+      ]
+     ]
+    },
+    "journal-issue": {
+     "issue": "1",
+     "published-print": {
+      "date-parts": [
+       [
+        2020,
+        12
+       ]
+      ]
+     }
+    },
+    "alternative-id": [
+     "1906"
+    ],
+    "URL": "https://doi.org/10.1186/s13059-019-1906-x",
+    "relation": {},
+    "ISSN": [
+     "1474-760X"
+    ],
+    "issn-type": [
+     {
+      "value": "1474-760X",
+      "type": "electronic"
+     }
+    ],
+    "published": {
+     "date-parts": [
+      [
+       2019,
+       12,
+       31
+      ]
+     ]
+    },
+    "article-number": "1"
+   }
+  }
+ },
+ "https://api.crossref.org/works/10.15252%2Fembj.2019104063": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "reference-count": 90,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "19",
+    "short-container-title": [
+     "EMBO J"
+    ],
+    "published-print": {
+     "date-parts": [
+      [
+       2020,
+       10,
+       1
+      ]
+     ]
+    },
+    "DOI": "10.15252/embj.2019104063",
+    "type": "journal-article",
+    "created": {
+     "date-parts": [
+      [
+       2020,
+       8,
+       13
+      ]
+     ],
+     "date-time": "2020-08-13T09:35:12Z",
+     "timestamp": 1597311312000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "title": [
+     "Stromal cell diversity associated with immune evasion in human triple‐negative breast cancer"
+    ],
+    "prefix": "10.1038",
+    "volume": "39",
+    "author": [
+     {
+      "given": "Sunny Z",
+      "family": "Wu",
+      "sequence": "first",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Daniel L",
+      "family": "Roden",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Chenfei",
+      "family": "Wang",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Holly",
+      "family": "Holliday",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Kate",
+      "family": "Harvey",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Aurélie S",
+      "family": "Cazet",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Kendelle J",
+      "family": "Murphy",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Brooke",
+      "family": "Pereira",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Ghamdan",
+      "family": "Al‐Eryani",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Nenad",
+      "family": "Bartonicek",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Rui",
+      "family": "Hou",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "James R",
+      "family": "Torpy",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Simon",
+      "family": "Junankar",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Chia‐Ling",
+      "family": "Chan",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Chuan En",
+      "family": "Lam",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Mun N",
+      "family": "Hui",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Laurence",
+      "family": "Gluch",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Jane",
+      "family": "Beith",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Andrew",
+      "family": "Parker",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Elizabeth",
+      "family": "Robbins",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Davendra",
+      "family": "Segara",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Cindy",
+      "family": "Mak",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Caroline",
+      "family": "Cooper",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Sanjay",
+      "family": "Warrier",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Alistair",
+      "family": "Forrest",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Joseph",
+      "family": "Powell",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Sandra",
+      "family": "O'Toole",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Thomas R",
+      "family": "Cox",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Paul",
+      "family": "Timpson",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Elgene",
+      "family": "Lim",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "X Shirley",
+      "family": "Liu",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Alexander",
+      "family": "Swarbrick",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "member": "297",
+    "published-online": {
+     "date-parts": [
+      [
+       2020,
+       8,
+       13
+      ]
+     ]
+    },
+    "container-title": [
+     "The EMBO Journal"
+    ],
+    "original-title": [],
+    "language": "en",
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2020,
+       8,
+       13
+      ]
+     ]
+    },
+    "journal-issue": {
+     "issue": "19",
+     "published-print": {
+      "date-parts": [
+       [
+        2020,
+        10,
+        1
+       ]
+      ]
+     }
+    },
+    "alternative-id": [
+     "BFEMBJ2019104063"
+    ],
+    "URL": "https://doi.org/10.15252/embj.2019104063",
+    "relation": {
+     "has-preprint": [
+      {
+       "id-type": "doi",
+       "id": "10.1101/2020.06.04.135327",
+       "asserted-by": "object"
+      }
+     ]
+    },
+    "ISSN": [
+     "0261-4189",
+     "1460-2075"
+    ],
+    "issn-type": [
+     {
+      "value": "0261-4189",
+      "type": "print"
+     },
+     {
+      "value": "1460-2075",
+      "type": "electronic"
+     }
+    ],
+    "published": {
+     "date-parts": [
+      [
+       2020,
+       8,
+       13
+      ]
+     ]
+    },
+    "article-number": "EMBJ2019104063"
+   }
+  }
+ },
+ "https://api.crossref.org/works/10.64898%2F2026.05.01.721633": {
+  "status": 200,
+  "body": {
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+    "posted": {
+     "date-parts": [
+      [
+       2026,
+       5,
+       10
+      ]
+     ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 20,
+    "publisher": "openRxiv",
+    "short-container-title": [],
+    "accepted": {
+     "date-parts": [
+      [
+       2026,
+       5,
+       10
+      ]
+     ]
+    },
+    "DOI": "10.64898/2026.05.01.721633",
+    "type": "posted-content",
+    "created": {
+     "date-parts": [
+      [
+       2026,
+       5,
+       10
+      ]
+     ],
+     "date-time": "2026-05-10T15:00:14Z",
+     "timestamp": 1778425214000
+    },
+    "source": "Crossref",
+    "title": [
+     "LIVIA: a browser-based tool for assessing and visualizing predicted protein interactions"
+    ],
+    "prefix": "10.64898",
+    "author": [
+     {
+      "given": "Ah-Ram",
+      "family": "Kim",
+      "sequence": "first",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Norbert",
+      "family": "Perrimon",
+      "sequence": "additional",
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "member": "54368",
+    "container-title": [],
+    "original-title": [],
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+     "date-parts": [
+      [
+       2026,
+       5,
+       10
+      ]
+     ]
+    },
+    "URL": "https://doi.org/10.64898/2026.05.01.721633",
+    "relation": {},
+    "published": {
+     "date-parts": [
+      [
+       2026,
+       5,
+       10
+      ]
+     ]
+    },
+    "subtype": "preprint"
+   }
+  }
+ }
+}

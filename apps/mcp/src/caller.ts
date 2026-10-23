@@ -21,6 +21,8 @@ export interface Caller {
   client: string;
   /** `user` once a Phở account token was verified; the subject is then per account, not per network. */
   auth: 'anon' | 'user';
+  /** A signed-in account on a paid Phở plan (Pro, Founder Lifetime, legacy paid plans). */
+  paid?: boolean;
 }
 
 const CLIENT_PATTERNS: [RegExp, string][] = [
@@ -96,7 +98,7 @@ export function identifyCaller(headers: Headers, opts: { salt: string; trustProx
 }
 
 /** A signed-in caller: one allowance per Phở account, wherever it connects from. */
-export function signedInCaller(anon: Caller, userId: string, salt: string): Caller {
+export function signedInCaller(anon: Caller, userId: string, salt: string, paid = false): Caller {
   const subject = createHash('sha256').update(`${salt}|user|${userId}`).digest('hex').slice(0, 32);
-  return { subject, client: anon.client, auth: 'user' };
+  return { subject, client: anon.client, auth: 'user', paid };
 }
