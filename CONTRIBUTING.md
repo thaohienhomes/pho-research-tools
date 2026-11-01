@@ -23,4 +23,11 @@ pnpm dev         # MCP server on http://localhost:8787/mcp
   `pnpm --filter @pho/scholar-core record` and commit the cassette.
 - Keep pull requests focused, with a short description of what changes for a user.
 
+## Adding a dataset repository
+
+`load_dataset` opens datasets from Zenodo, Figshare, Dryad, Hugging Face and
+OpenML. Each repository is one adapter file. To add another (Dataverse, OSF,
+PANGAEA, a national data portal…), follow
+[packages/scholar-core/CONTRIBUTING-datasets.md](packages/scholar-core/CONTRIBUTING-datasets.md).
+
 For bigger ideas, open an issue or a discussion first.
