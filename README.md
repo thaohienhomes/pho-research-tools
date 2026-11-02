@@ -41,6 +41,22 @@ No account is needed. Anonymous use has a daily allowance; a free account at
 [pho.chat](https://pho.chat) raises it. Prefer a web page? The same tools run at
 [pho.chat/tools](https://pho.chat/tools/).
 
+## Hand a whole research question to Phở's agent
+
+With a Phở API key (`pho_sk_…`, from [pho.chat/settings](https://pho.chat/settings) → API keys)
+sent as the header `X-Pho-Api-Key`, the same server adds `run_research`, `get_research_run`
+and `cancel_research_run`: your agent starts a full Phở research run (several rounds of
+PubMed search, retraction checks, evidence grading, a cited report), follows it, and gets
+the report back as Markdown. It runs on your Phở account (Pro or Founder plan; 0 credits
+when you saved your own model provider key in Phở).
+
+```bash
+claude mcp add --transport http pho-research https://mcp.pho.chat/mcp --header "X-Pho-Api-Key: $PHO_API_KEY"
+```
+
+Setup for Claude Code, Codex, Cursor, the OpenAI Agents SDK, LangGraph and plain REST:
+[`apps/mcp/examples/agents/`](apps/mcp/examples/agents/).
+
 ## Verified Citations skill
 
 This repository also ships **Verified Citations**, an Agent Skill that makes an assistant
